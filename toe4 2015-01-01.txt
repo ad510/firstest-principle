@@ -1,0 +1,39 @@
+- (wild speculation warning)
+- when you execute program, what stays the same?
+- functional-imperative boundary is you-environment boundary
+- can you measure entropy of state of running program?
+- copies of same thing within short distance at same time means more likely to reach that output
+- can only reduce entropy of a system a finite amount, but can try to reduce entropy of larger system with higher initial entropy
+  - is that when measurement occurs?
+- reduce entropy = making copies = reproduction = life
+- if time is entropy reduction then most "distances" are negative (forward vs backward)?
+- if don't know contents of i/o function being called then some programs better at reproducing than others
+- how to interpret temporary entropy spikes?
+- if program copies something, then that something can't tell which of the environments it's in and guaranteed to behave the same way in both (measurement)
+- if program copies self, then if swap environments then they can't tell
+- making lots of copies of something that's good at making copies of stuff makes its smartness faster (i.e. perceives more time relative to environment)
+  - e.g. cpu caches, dna, cells
+- black hole = randomness (high entropy) so pure that it breaks apart atoms
+  - experiences so little time that forwards/backwards loses meaning
+    - small time -> small distance
+    - if event horizon related to uncertainty principle, maybe if get too close to something then can't tell if it's matter or antimatter, inverse would be baryogenesis
+  - pure randomness simple to model
+  - some random i/o good b/c more opportunities/luckiness to copy self, but don't want to turn into it b/c that means you die, so stay safe distance/time away from it
+  - event horizon = you will die if you go in that region
+    - outsiders can't measure inside it, b/c if could then would imply that can reduce its entropy w/ larger system
+      - hard to measure how people die in bomb blast b/c risk dying yourself
+      - don't want to be so close to failing organ that it's your organ that's failing
+      - possible to generalize to uncertainty principle?
+    - but if inside, then what happens does affect your time perception so it does matter
+      - people behave differently if know they will die, since instead of not trying to die they just try to perceive longest possible remaining time
+      - can't tell exactly where/when that will happen, have to guess
+  - singularity = you die here
+    - when any input to program can't reduce its entropy then it doesn't matter (to time perception) what the input is
+      - when atoms in body can't communicate w/ each other anymore, doesn't matter if they mainly experience "normal" forces, so they experience progressively more exotic ones
+  - since it doesn't matter what happens to dead stuff, they emit a bunch of randomness that is short term luck to living things
+    - purest is hawking radiation
+    - so feed on byproducts of dead stuff some time/distance after they die (food, sunlight)
+    - smartest aliens are probably all congregated around black holes
+- so general life process is program runs that tries to surround itself with a bunch of copies of itself given arbitrary input, lowering its entropy, but when can't lower its entropy any longer it dies (can't perceive time) so random stuff happens to it that feeds larger system containing the copies
+  - when system that lowers entropy (perceives time) changes, that's measurement
+- can I apply https://en.wikipedia.org/wiki/Statistical_mechanics to computer programs?

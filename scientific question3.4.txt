@@ -1,0 +1,123 @@
+Background
+
+In January 2013 I started working on a terrible real-time strategy (RTS) game that lets you cheat with plausible deniability. (I think it is a terrible game because 100% of the gamers I've shown it to think it's a stupid toy, and quite frankly, I agree with them.) When I say that it lets you cheat with plausible deniability, I mean that if you play a multiplayer game and cheat, then even after the opponent watches the replay and compares it to what they saw while they played, it is impossible for them to prove that you cheated (short of hacking into the game or replay file). An example of cheating with plausible deniability is a map hack (seeing the entire map). An example of cheating *without* plausible deniability is giving yourself extra resources, since opponents can notice that when they watch the replay. But surely map hacks cannot be the only way to cheat with plausible deniability?
+
+My stupid toy game (which you can download at https://github.com/ad510/plausible-deniability) lets you cheat using map hacks, but it also lets you cheat with plausible deniability using an entirely different class of techniques that take advantage of the fact that you don't really have to make up your mind about what your units do until another player sees them. For example, it lets you move your units along multiple paths when other players aren't looking, but the moment another player sees your unit moving along a path, the path they see is the one that is taken.
+
+Now the weird thing about this game is that every time I add a new way to cheat, sometime later I'd be reading or listening to something about quantum mechanics and thinking that what they were describing about quantum mechanics sounds awfully similar to the feature I put in the game. (For example, the probability of a photon of light bouncing off a piece of glass depends on the thickness of the glass in a way that can only be reasonably explained if the photon didn't have to "decide" whether it bounced off the glass until it is seen.) And it isn't just me; multiple people have commented that what the game does sounds very similar to quantum mechanics, even when I explained the game solely in terms of cheating and not in terms of physics.
+
+Since then, I think I've figured out what the connection is. Early in the history of discovering quantum mechanics, people represented quantum states using obtuse notations involving either matrices or wave equations. Some time later, Richard Feynman noticed another way to represent a single way a quantum mechanical event could have happened. These are now called Feynman diagrams, and they look like this:
+
+(note: insert feynman diagram)
+
+This is read left to right, and indicates that there are 2 electrons, and one of them emits a photon.
+
+Now of course the particles that you draw on a Feynman diagram don't have to be ones from nature. Here's another Feynman diagram:
+
+(note: insert same Feynman diagram)
+
+This one indicates that there are 2 buildings, and one of them makes a worker.
+
+Since we are now in the 21st century, we now have more high tech ways of representing this event. One of them is the replay of an RTS game. For example, the above Feynman diagram would be represented in an RTS replay by displaying a pictures of 2 buildings, then animating a worker walking out of one of them.
+
+In fact, I think it is reasonable to say that any RTS replay can have a corresponding Feynman diagram drawn for it with practically no loss of information except for one of the spatial dimensions, and any Feynman diagram can respectively be represented in a (possibly rather strange-looking) RTS replay with no loss of information at all.
+
+Of course, Feynman diagrams alone don't make for a complete scientific theory because there is no way to make predictions with them without using additional techniques. In a similar way, playing RTS games isn't doing physics. But it is possible to describe a lot of cool tricks that quantum mechanics plays on us in terms of Feynman diagrams (such as showing multiple ways that the same event could have happened), and what I suspect I am finding is that a lot of cool tricks that quantum mechanics plays on us can also be played by RTS players on other RTS players. Of course many of the details would be different in an RTS game compared to real life (such as particle/unit types and what they're allowed to do), but the basic ideas behind the tricks seem to be the same.
+
+There are a lot of things in quantum mechanics that didn't used to make much sense to me before I worked on this game, but that seemed to "click" when I figured out what was the corresponding trick that you can play on unsuspecting RTS players. I could go on about that, but that's not what this paper is about. What this paper is about is that I've had a lot of trouble figuring out exactly how the game (and thus Feynman diagrams) are related to the real world, and it never seemed to "click" in place like everything else in quantum mechanics that I tried to understand. Instead, over several months, trying to understand this gradually led my stupid, crazy intuition down a stupid, crazy train of thought that is probably wrong, or worse, so vague that it's what's called "not even wrong." So I tried writing down the thought process that my stupid, crazy intuition went through, and I still don't see what's wrong (and in fact the logical progression seems better than ever). Of course, the easiest person for me to fool is myself, so I'm probably just fooling myself about this, but the thought that I can't trust my own intuition anymore about something as basic as this drives me completely insane. So I'm working on polishing what I wrote about what my stupid intuition is thinking for other people to look at, and it'd make my life so much better if you can successfully explain to me what my stupid intuition is doing wrong.
+
+One more thing. For a physicist, most of the paper below this point consists of what Paul Graham calls "what you can't say." (See http://www.paulgraham.com/say.html.) In other words, anyone who even shows a *hint* of thinking any of this will immediately lose all credibility they may or may not have once had and be regarded as a crackpot, *regardless of whether or not they are right*. Therefore, I respectfully ask that if you are capable of doing so, that you suspend your disbelief starting now. (I wrote this in Comic Sans to make it easier for you.) You can resume your disbelief later if, with a full understanding of how my stupid, untrustworthy intuition got to this point, you either agree or disagree with it on the answer to a question I'm about to ask, which if all goes well should happen over the next several pages.
+
+We are going to try to answer a yes-no question. I'm pretty sure that there are only 2 valid answers to it, and there isn't some third option I haven't thought of (though I could be wrong). One of these answers is obviously the right answer. The other one is absolutely ridiculous. My stupid intuition somehow managed to fool itself into thinking that the absolutely ridiculous one is the real right answer. I think that my stupid intuition is probably fooling itself. This is what's driving me nuts:
+
+We all have a sense of identity. For example, you think that you're you (and you're not me), and I think that I'm me (and not you). We can keep track of our identity over time, and no one would expect to go to bed one day and wake up in someone else's body, for example. So, then, would it be a scientific question to ask given who you are now, who will you be at some specified time in the future?
+
+By the way, as scientists, we're supposed to worry a lot about scientific questions and not at all about unscientific ones. So if I run into a question and I don't know whether it's scientific, I don't know whether I should worry about it, and as a result it drives me completely insane until I know the answer. As of today, I am still completely insane.
+
+So here's what we'll do. First, we will explore why my stupid intuition is answering this in the way that it is. Then, assuming it's correct (which it probably isn't), we'll do some wild-eyed speculation about some of the consequences.
+
+How I Don't Think My Game Is Related to the Real World
+
+As I wrote earlier, I was having trouble figuring out the relation between my game (and thus Feynman diagrams) and the real world. I actually came up with a relation that I think is pretty close, but you won't ever hear physicists say anything like this. That's because I don't think it can possibly be correct, and I think physicists know that too.
+
+Before I get into that, I'll use the terms "RTS game" and "RTS replay" in specific ways, so I better clarify what I mean by them. In an RTS game, I assume that players are allowed to cheat with plausible deniability (as described at the beginning of the "Background" section), since after all they can get away with it without other players being able to prove that they did it. A replay shows one way that the game could have taken place that is consistent with all players' views of what happened, but does not show any cheating.
+
+So here's what I came up with:
+
+Suppose there is an RTS game with one player running in free build mode with perfect information (i.e., a map hack). It is three-dimensional, has very strange unit types with very strange rules about what they are allowed to do (for example they can move as fast or slow as they want and the player can make as many particles as desired as long as certain rules are followed), and space and time behave kind of funny. Also, the player never has to make up their mind about what their units did and can do things like keep track of multiple possibilities of what might be happening. Now it turns out that some of these units are the particles that we are made out of, and this "game" is being played in our universe! So what we perceive is essentially a replay of what the "units" (particles) in our body do during our lifetime. Now we can look out into the rest of the world and imagine that we are living in part of a beautiful replay. But this "replay" that we imagine is just a figment of our imaginations, and what is really happening is . . . well, let's just say it's too damn awesome for me to be able to describe in words. Maybe you should go play my terrible RTS game.
+
+If you don't see what's wrong with that paragraph, I suggest reading it again, and instead of trying to looking for something wrong with it, try to convince yourself that it is correct. I happen to think that this description sounds nice, but there is a little niggling detail that simply doesn't fit with what the game is about, which is that you don't really have to make up your mind about what your units do until someone else sees them. So before you continue, please try to convince yourself that the description above is correct, and see if you spot anything that doesn't seem quite right.
+
+What Isn't Quite Right About It
+
+If you think the problem with the description is that it isn't scientific, you might be right, but that's not what my stupid intuition is thinking of. I think there is a deeper, logical contradiction between that description and what we know about how the world works. If you didn't at least get an uneasy feeling about that description, please read it again.
+
+If you ignored most of that description because you think understanding measurement in quantum mechanics is a solved problem and that it occurs through a process called "decoherence" (which is nothing like what I described), my stupid intuition happens to disagree with you. Decoherence explains why even though in theory particles never have to make up their mind about what they're doing, in practice it's safe to assume that they eventually do. But it doesn't really explain how that process of particles eventually deciding what they do actually happens (in theory). Sorry if that's a little vague; please take my word for it that I'll address this later in the paper after I can put it in better context. If that's what you thought of, I apologize, but please read the description above again and see if you notice anything else that might not be quite right.
+
+Here's what I think is wrong with the description:
+
+The description above has this concept of "us," or in other words it has a concept of the identities of "you" and "me." But who are you?
+
+According to this interpretation, you can take some set of units (particles) in the universe and call that "you." Then what you'll perceive is a single replay (or Feynman diagram) of what those units are doing, implying that this set of particles will appear to you to have always made up their mind about what they're doing at every point in time.
+
+But didn't we just say that units don't have to make up their mind about what they're doing until someone else sees them? So doesn't that happen in your own body, too? For example, how can the particles on one side of your brain know exactly what is (or was) happening on the other side of your brain, which this interpretation seems to imply is possible, when the particles on the other side of your brain haven't yet decided what they're doing?
+
+Experimentally, we've determined that for all practical purposes, this isn't possible. People have done experiments involving pairs of particles that have shown beyond a reasonable doubt that (note: type here, give link and point out lottery)
+
+so this can't possibly be right
+so then what is right?
+try relaxing restriction to knowing *anything* about your body (is that not even wrong?), what would that imply?
+would imply that you can figure out who you are, here's how:
+...
+(except wouldn't be true if know exactly same amount of info about particles at every place in universe, but I think safe to say from personal experience that I know more about what's happening in own body than far away galaxy even though galaxy is bigger)
+gosh, we based this on a vague, not even wrong (?) thing, is this even scientific?
+how do we do experiments? this is what my stupid intuition says:
+...
+now go reread how to figure out who you are, don't these sound awfully similar?
+similarity would seem to suggest that in QM, scientific question = who am I, if that correct then...
+so should you now believe that X is a scientific question?
+of course not, I never defined what it means to ask who am I or gave specific experiment (apart from which body wake up in), so for all you know intuition might have stupidly fooled itself into defining perspective as experiment result when they're used to refer to different things (sad how much of scientific problems is being in agreement about what terminology means)
+will try to address that later, but in meantime, let's suppose for a moment that what it means to do an experiment in QM does in fact closely match with our intuitive concept of knowing who we are
+if so, why is it that people use QM to predict results of experiments w/ great accuracy, but haven't used it to predict whose body we'll wake up in next day (beautiful hack, decoherence (there are also other closely related terms to describe the same phenomenon, such as entanglement), but doesn't say how we got to know what happened to particles in first place)
+thing about virtual reality simulations
+
+(note: explain better that if possible to measure anything, then can say something about which versions of replay could or could not have happened, so possible to figure out who you are)
+
+The problem with this interpretation is that it doesn't provide a satisfactory way (note: I don't think I explain this) for us to tell which particles are part of our body, or, in other words, who we are. That is a problem because according to this interpretation, who we are determines what each of us can know about the universe.
+
+Or maybe that isn't a problem because who we are isn't a scientific question, so it isn't a problem that this interpretation doesn't give a satisfactory way to answer it. But let's play along with this train of thought for now and come back to that later.
+
+How do we go about figuring out who each of us is? The particles in our bodies might not have to make up their minds right away about what they're doing, but obviously we have some sort of idea about what they (and the rest of the universe) are doing. So first, we collect together what we know about what just happened. Based on what we know, we can figure out something about which version of the replay of us happened. We'll know more about some parts of that "replay" than others. So we take the part of the replay that we know best and call that collection of particles "myself."
+
+Now I think that is roughly how the process works (I could be wrong), but even if we think we know who we are right now, that doesn't give us a way to predict who we will be in the future. It might not be clear what I mean by that, so let's give an example. The right half of your brain processes what you see to the left, and the left half of your brain processes what you see to the right. (http://www.sumanasinc.com/webcontent/animations/content/visualpathways.html slide 8, but I can cite BISC 230) For most people, the left half of the brain also handles speech production. The 2 halves of your brain are connected by this bundle of neurons called the corpus callopsum. Now a few unlucky people have had surgeries that severed their corpus callopsum, and we've done experiments on them and determined that they couldn't verbally tell us what they see in their left visual field. (But they could draw it with their left hand, because the right half of the brain controls the left half of the body.)
+
+So let's say we sever your corpus callopsum. If "you" end up on the right side of your brain, from your perspective you will be able to see what's happening to your left but you won't be able to tell anyone. If "you" end up on the left side of your brain, from your perpective you won't be able to see what's happening to your left but you'll know how to talk. Before we sever your corpus callopsum, how can you figure out the probabilities that you'll end up with each of these perspectives?
+
+Now suppose instead of just severing your corpus callopsum, we knock you out, cut off one of your brain halves entirely and incinerate it, then restore your consciousness. Would the probabilities that you'll end up on each half of your brain be different then?
+
+There is a huge class of questions along these lines, but perhaps we should return now to a point mentioned earlier, which is are these questions (which are really just different ways of asking "who am I") scientific questions? After all, if a question can't be answered by experiment, then it isn't a scientific question. And if you ask people "who are you," you will get a different answer from everyone you ask, making it rather difficult (to say the least) to come up with an experiment to answer this question with reproducible results.
+
+Speaking of which, how do we go about measuring the results of experiments?
+
+Knowing the result of an experiment requires being able to distinguish that some possibilities happened but that others did not. (note: brain experiment above didn't really emphasize this vs earlier one) However, in quantum mechanics, anything you do is in theory reversible, so even if you think you got a certain result, someone else might not be able to tell. But what you can do is go around and ask a bunch of people what they thought the result of the experiment was, and what everyone agrees on is considered the agreed upon result of the experiment.
+
+In other words, this is essentially the same process that we use to figure out which version of the replay of us happened. And if that's correct, then it seems to imply that in quantum mechanics, every single experiment we've ever done is really just answering a form of the question "who am I?"
+
+Now if *that* is correct, then if "who am I" isn't considered a scientific question, then every single question we've asked about the universe can't be scientific questions either. Which seems to imply that unless I made a terrible mistake somewhere (which I almost definitely did), the question "who am I" ought to be considered a scientific question.
+
+My understanding is that quantum mechanics in its purest form does not really predict probabilities that different results will happen, but rather outputs "amplitudes" (which are really just arrows) for every possible event that could happen in the future. So what we do is pick certain events that we think are representative of the possible final results of the experiment, and use an ugly (or perhaps beautiful) hack to turn the amplitudes for these results into probabilities. This has worked well for every small scale experiment we've ever been able to reproduce, but I don't think it's helpful in determining who we are and who we will be in the future.
+
+General relativity can't even represent the idea of having multiple possibilities that might occur in the future, so I don't think it will be much help either.
+
+And if there's a scientific question that both quantum mechanics and general relativity are unable to answer, then...
+
+Before we get into that, I should reiterate that since no scientist seems to believe it, I am almost definitely fooling myself with the idea that "who am I" should be considered a scientific question. And it drive me completely nuts that I can't trust my intuition anymore with something as basic as how the universe works. It doesn't really help that the train of thought above is rather informal and relies on an understanding of measurement in quantum mechanics that is probably a misinterpretation of what physicists say. However, what I find is that if the problem is worded in a different way that isn't dependent on that interpretation of measurement in quantum mechanics, then believing that "who am I" isn't a scientific question seems to run into more serious issues.
+
+A Different Way Of Looking At It
+
+We're going to be talking virtual reality simulations. So, naturally, if you've done any sort of physics research into virtual reality simulations, you're going to have 2 questions for me:
+
+1. Are the computers running these virtual reality simulations *so powerful* that even if we had access to all of the energy in the visible universe, that wouldn't be enough to build and run them?
+2. Are the computers running these virtual reality simulations *so powerful* that they can solve problems that the founding fathers of computing deemed to be uncomputable, such as solving the halting problem?
+
+And, naturally, my answer to both of these questions is that when it comes to what we'll be discussing about virtual reality simulations, how you answer either of these questions won't matter very much. However, I'll be sure to address both of them at a later point.

@@ -1,0 +1,15 @@
+very act of copying the data between the computers changes the simulation state in such a way that the people inside can tell that it was done
+
+So let's suppose that this isn't a scientific question, but we do the "experiment" anyway. (update: keep not even wrong explanation, and suppose we have theory of everything that answers every scientific question but not prob of "jumping" computers b/c that's assumed unscientific) Before putting the person in the computer, we tell them that it will not answer any question about physics that has not been answered already. If virtual people can tell which computer they're in, then there is no problem.
+if can't tell and can "jump" computers, people running simulation won't learn anything about probabilities
+but to person inside simulation, this meets all conditions of experiment, they'll realize that nothing we told them would let them accurately predict what will happen to them, call bluff on general relativity and the standard model (update: now TOE), and likely keep doing experiments until they find a way to predict what will happen to them that works
+suppose they take same attitude as us that whether can tell which computer person is in isn't a scientific question
+then if they build their own simulation that works differently and upload themself into that, then they'll have to relearn physics again
+if continue this process with assumption that this isn't a scientific question to people running simulation, then we'd essentially have situation where there appear to be many parallel universes with own laws of physics, and we can go between them but would have to relearn physics laws each time
+explain why that's unscientific
+update: if can go in virtual reality simulation and multiverse is unscientific then this must be scientific question (or if you prefer you can invent 3rd category of questions that can be answered by experiment but not for everyone)
+
+address hypercomputers:
+only need to list all possibilities, not check if they meet certain conditions
+are these possibilities that would need a hypercomputer to list? (in algorithms class we talked about programs that list every program, so I don't think so)
+about physical memory limitations, consider alien computers in past & future, computers made out of virtual particles

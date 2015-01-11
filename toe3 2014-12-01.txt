@@ -1,0 +1,7 @@
+- (wild speculation warning)
+- time and space are whatever we think they are
+- time = amount that you remember between 2 different states
+- distance = time that it would take to go to a different state (i.e. become something else), if for whatever reason that is the "right thing" to do
+  - note that different state includes (memory of) how you get there
+  - corresponds to colloquial use of "close" and "far away"
+  - Feynman diagrams rotated any way would still be valid, but space and time axes are what they are for a reason

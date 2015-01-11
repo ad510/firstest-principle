@@ -1,0 +1,17 @@
+problem is who's we
+explanation above doesn't directly answer it, and every interpretation of QM I've seen seems to handwave the problem away as an unscientific question
+answering "who am I" involves figuring out what we know about what happened, and based on what we know we can figure out which version of the replay of "me" happened, and the part of the replay you know best is "myself"
+but that still doesn't answer who exactly is "me"
+if define "myself" as collection of particles, then get problem where some part of myself could behave in multiple ways that would be indistinguishable for rest of myself
+easy way around this is to define "myself" as a single particle, but then why don't we think of ourselves that way and how can we experience the world the way we do?
+but perhaps more important to address whether "who am I" is a scientific question, b/c if it isn't answered by experiment then it isn't a scientific question
+if you ask anyone "who am I", you get different answer from everyone you ask, hard to get reproducible result
+how do real experiments work?
+knowing result of experiment requires being able to distinguish that something happened vs another possibility
+in QM, anything you do is reversible, so even if you think you got a certain result someone else might not be able to tell
+so you ask a bunch of people what they think the result was, and what everyone agrees on is considered the agreed upon result of the experiment
+which is really answering what part of the "replay" am I part of
+in other words, seems to imply that every single experiment we've ever done is to answer a form of the question "who am I"
+if that is correct, then if "who am I" isn't considered a scientific question, then every question we've asked about the universe can't be scientific questions either
+admittedly that argument is rather informal and relies on an understanding of QM measurement that is probably a misinterpration of what physicists say, but if you phrase the problem in a different way then seems to run into more serious issues...
+(note in advance objections about computability and whether enough info in universe)
