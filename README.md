@@ -21,3 +21,7 @@ Since Git doesn't store timestamps:
 - scientific question4.1.txt - modified 6/20/2014
 - scientific question zach.txt - modified 12/20/2014
 - toe2.txt - modified 3/31/2011 (!)
+
+Copying
+-------
+To the extent possible under law, Andrew Downing has waived all copyright and related or neighboring rights to his wild physics speculations. These works are published from the United States.
