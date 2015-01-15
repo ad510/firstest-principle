@@ -1,0 +1,7 @@
+- Curry-Howard correspondence: generally proof=program, formula=type
+- what you're making copies of is instances of types?
+- try again to look for mapping btwn Feynman diagrams & programs?
+  - Feynman diagram ops are split & merge, lambda calculus ops are make function & call function (but sometimes need parentheses)
+  - but can't be that simple b/c make function takes variable & expression while call function takes 2 expressions, and Feynman diagrams include space & time
+  - ooh... http://dkeenan.com/Lambda/
+- relational programming incorporates running programs in reverse: https://igor.io/2014/08/06/reasoned-php.html
