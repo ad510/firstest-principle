@@ -1,0 +1,45 @@
+- use http://scholarpedia.org/article/Algorithmic_probability to get probabilities
+  - wow, is that really TOE?
+- this is universal enough to be able to calculate probability of starting state, but in practice you'd want to start with probability distribution of what you know (in form of computer programs) and figure out how it evolves
+  - this is really just finding conditional probability of the parts you don't know
+- strings in this def can be interpreted as programs (or memory that computer is executing on)
+- now I just need to get formal physics defs in this framework
+  - time = local entropy reduction (see https://en.wikipedia.org/wiki/Kolmogorov_complexity)
+    - do I need to remove log scale in entropy def?
+  - space: see https://en.wikipedia.org/wiki/Information_geometry
+  - dying: if program halts then know entropy reduction from start to finish, if program goes in infinite loop then point of minimum entropy is "death" point b/c can't experience time beyond that
+    - can this be applied in reverse to derive birth? see e.g. https://igor.io/2014/08/06/reasoned-php.html
+  - todo: black hole, measurement, feynman diagrams (some ideas in speculation4)
+
+stuff I've been thinking about but haven't written down:
+- experiments supporting my definition of time: http://eagleman.com/blog/item/6-brain-time
+- point of scientific question3 is that every experiment in quantum mechanics only answers questions in the form of scientific question1.txt, where some observers see both possibilities but others can distinguish them
+  - so it's a scientific question even if your perspective can see both possibilities, since not seeing both possibilities is also a valid perspective
+  - QM doesn't have a concept of which perspective you have (i.e. who you are), so you have to guess => QM prediction always a little wrong since using wrong perspective
+
+I told Zach these over winter break (as wild speculation after scientific question stuff) but was too lazy to write down:
+- time/space guesses in speculation3
+- when random stuff happens to you, if it's good you perceive time but if it's bad you don't (this is what I meant by randomness being "luck" in speculation4)
+  - take VR sim splitting off in scientific question.txt
+    - splitting off equivalent to unknown bits in memory
+    - may split off into alien computer, virtual particle computer, etc, not just the ones you purposely make
+  - suppose it splits off many times, and in one we feed in input that makes something "reasonable" happen and in the rest we overwrite the memory with random gobbledygook
+  - so in the reasonable one you live and in the random ones you die. simple, right?
+  - not so fast!
+  - let's randomly evolve the random ones for a while
+  - after a long time, by pure chance they momentarily set their memory exactly the same as the "reasonable" one
+  - so now you could've gotten to the reasonable situation directly or by random evolution, but since they're the same you can't tell which way you got there
+  - if you got there randomly, how much time do you think passed?
+    - people who almost die say they didn't perceive any time between almost dying and waking up in hospital
+    - so if you die then become alive again (like in the randomly evolving computer) you basically don't think much/any time passed
+  - how about some virtual particles? :)
+- braid "super ring"
+  - btw braid did the ring wrong, if tim goes near ring then his brain slows down too so he should go at normal speed and stuff outside should go faster
+  - imagine ring in braid game, but a super powerful one where time perceived near ring divided by time perceived outside circle of influence proportional to distance to ring
+  - ...and you decide to walk straight through ring to the other side
+  - person outside sees you asymtotically slow down approaching fixed position where ring is, but never sees you get to other side
+  - you see everything outside speed up until you've seen entire evolution of universe by the time you reach super ring ... and then what?
+    - if it's a game, it would say "game over" (or in braid's case pause & let you rewind)
+  - isn't it so cool that you can kill someone solely by time manipulation? (by having them perceive lifetime of universe in finite amount of time)
+    - can extend concept to birth (perceive past lifetime of universe in finite amount of time)
+  - speaking of which, there's these nasty vile things you find at the center of galaxies (no, the braid super ring isn't one of them)
