@@ -1,5 +1,9 @@
 - use http://scholarpedia.org/article/Algorithmic_probability to get probabilities
   - wow, is that really TOE?
+  - edited to add: also has nice properties I was looking for
+    - can calculate probability of finding yourself in any state w/o any prior assumptions of a starting state
+    - uncomputable, meaning you can't predict what you'll do in the future to some degree of accuracy then decide to do something different (analogous to doing opposite of what fortune teller predicts)
+      - except you can apparently get a lower bound of the probability, so I might be wrong about that
 - this is universal enough to be able to calculate probability of starting state, but in practice you'd want to start with probability distribution of what you know (in form of computer programs) and figure out how it evolves
   - this is really just finding conditional probability of the parts you don't know
 - strings in this def can be interpreted as programs (or memory that computer is executing on)
