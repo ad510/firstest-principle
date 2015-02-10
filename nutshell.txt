@@ -1,0 +1,19 @@
+in a nutshell (if I'm not fooling myself):
+- theory of everything is algorithmic probability
+- how to interpret it
+  - time = entropy reduction = copying stuff (specifically making lambda calculus terms of the same type) = measurement = how much you remember = lifetime
+    - might need to remove log scale when defining time in terms of entropy reduction
+    - substitute entropy with "shit" and all the connotations work
+  - space = entropy reducer = stuff (lambda calculus types) that is copied = what you measure = memories = life
+- you want to maximize time you perceive in your lifetime
+  - lots of goodies in speculation4 & speculation6, read speculation6 first
+- 2 steps to living
+  1. pick something to copy that's good at making copies of itself
+  2. turn random stuff into copies of that
+  - biology: 1 = don't get sick, 2 = reproduce
+  - business: 1 = idea, 2 = execution
+  - products: 1 = design, 2 = manufacturing
+  - software: 1 = programming, 2 = distribution
+  - cpu: 1 = caching algorithm, 2 = act of caching
+    - I find it so fascinating that key to making computers fast is making copies of data (i.e. caching) rather than anything else
+  - generally right brain good at 1, left brain good at 2
