@@ -1,10 +1,10 @@
 in a nutshell (if I'm not fooling myself):
 - theory of everything is algorithmic probability
 - how to interpret it
-  - time = entropy reduction = copying stuff (specifically making lambda calculus terms of the same type) = measurement = how much you remember = lifetime
+  - time = entropy reduction = copying stuff = how much you measure = how much you remember = lifetime
     - might need to remove log scale when defining time in terms of entropy reduction
     - substitute entropy with "shit" and all the connotations work
-  - space = entropy reducer = stuff (lambda calculus types) that is copied = what you measure = memories = life
+  - space = entropy reducer = stuff that is copied = measurements = memories = life
 - you want to maximize time you perceive in your lifetime
   - lots of goodies in speculation4 & speculation6, read speculation6 first
 - 2 steps to living
