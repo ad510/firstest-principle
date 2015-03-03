@@ -2,6 +2,8 @@ The branch of Plausible Deniability in which my stupid, untrustworthy intuition 
 
 (added 2/5/2015) ...And whew, I'm [not the first person](https://www.google.com/search?q=algorithmic+probability+theory+of+everything) to suggest this. So maybe I'm not going insane after all.
 
+(added 3/2/2015) Though just to clarify, even if I'm not going insane, my intuition is still probably fooling itself.
+
 WTF is my intuition thinking?
 -----------------------------
 
