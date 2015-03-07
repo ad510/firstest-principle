@@ -1,0 +1,20 @@
+is it scientific question to ask whether very act of copying the data between the computers changes the simulation state in such a way that the people inside can tell that it was done?
+
+So let's suppose that this isn't a scientific question (consequences of that explained in scientific question.txt), but we do the "experiment" anyway. In addition, suppose we know the theory of everything that answers every scientific question, but not the probability of "jumping" computers because we're assuming that's unscientific. Before putting the person in the computer, we teach them the theory of everything and what the computer is programmed to do. After putting person in computer we copy simulation state into 2 different computers, destroy the first computer, and start feeding different simulation inputs into the 2 remaining computers. We occasionally repeat this process with the new computers. If virtual people can tell which computer they're in, then there is no problem.
+if can't tell and can "jump" computers, people outside simulation see both simulation outcomes and won't learn anything about probabilities
+but to person inside simulation, this meets all conditions of experiment, they'll realize nothing we told them would let them accurately predict what will happen to them and that the theory of everything doesn't apply here, and likely keep doing experiments until they find a way to predict what will happen to them that works, and maybe eventually come up with new theory of everything that applies to them
+suppose they take same attitude as us that whether can tell which computer person is in isn't a scientific question
+then if they build their own simulation that works differently and upload themself into that, then they'll have to relearn physics again
+if continue this process with assumption that this isn't a scientific question to people running simulation, then we'd essentially have situation where there appear to be many parallel universes with own laws of physics, and we can go between them but would have to relearn physics laws each time
+explain why that's unscientific
+if can go in virtual reality simulation and multiverse is unscientific, then either this must be scientific question or there is 3rd category of questions that can be answered by experiment but not for everyone
+if we pick 2nd option then which questions are scientific depends on observer, so I think better to say that this is scientific question, period
+	btw I think quantum mechanics only answers questions of this sort (see scientific question3-4)
+
+address hypercomputers:
+only need to list all possibilities, not check if they meet certain conditions
+are these possibilities that would need a hypercomputer to list? (in algorithms class we talked about programs that list every program, so I don't think so)
+
+address physical memory limitations:
+we already have technology to simulate human brain (https://www.humanbrainproject.eu/), will only become easier in future
+consider alien computers in past & future, computers made out of virtual particles?
