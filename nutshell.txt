@@ -1,5 +1,6 @@
 in a nutshell (if I'm not fooling myself):
 - theory of everything is algorithmic probability
+- what it answers that QM & GR don't: see scientific question1-2
 - how to interpret it
   - time = entropy reduction = copying stuff = how much you measure = how much you remember = lifetime
     - might need to remove log scale when defining time in terms of entropy reduction
