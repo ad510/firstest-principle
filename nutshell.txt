@@ -14,9 +14,10 @@ in a nutshell (if I'm not fooling myself):
   - biology: 1 = don't get sick, 2 = reproduce
   - business: 1 = idea, 2 = execution
   - products: 1 = design, 2 = manufacturing
-  - software: 1 = programming, 2 = distribution
+  - programming: 1 = functions (on values), 2 = i/o (on places)
   - cpu: 1 = caching algorithm, 2 = act of caching
     - I find it so fascinating that key to making computers fast is making copies of data (i.e. caching) rather than anything else
+  - social: 1 = thought, 2 = communication
   - generally right brain good at 1, left brain good at 2
 - gravity = sum of infinitely many fundamental forces (kind of unrelated, but whatever)
   - might want to model with superset of general relativity that doesn't obey equivalence principle
