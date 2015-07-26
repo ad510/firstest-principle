@@ -1,0 +1,25 @@
+nutshull is a little vague, let's try to be more rigorous:
+- present you = type
+- your life = program
+- by def, present you doesn't know your specific value or what the larger program is
+  - lambda calculus: if program transforms value of present you into output containing >=1 values of same type, then you can't tell which of the values you are
+- mass/energy = entropy that is part of you
+  - good way of understanding is past/future chapter of character of physical law
+
+- or can talk about different functions that do the same thing
+  - but doesn't matter if the inputs that produce different outputs aren't the ones you're called with
+
+(* is best so far, but there's probably multiple ways to say the same thing)
+* or can say present you = bitstring and prob of you is prob that univ turing machine outputs you given random input (a.k.a. alg prob)
+  - present you is program in this case since is input to univ turing machine
+  - time def works here: time passed = input entropy - your entropy, where entropy is length of shortest program that produces that output
+  - space = present you
+  - string multiple present you's together to make your life
+  - types aren't fundamental, but useful to represent prior knowledge
+- if you fed to many programs in a row that output you, can make a symmetry law (type) of you
+  - type is also same as which inputs to univ turing machine produce you
+  - same thing as above: present you = type, your life = program that is composition of these programs
+
+- entropy of universe perceived to increase over time b/c more likely types better at reducing entropy of more inputs?
+- still skeptical about the * sub-defs (e.g. accidental halting is easy, not clear what measurement is)
+- still need better understanding of you-environment boundary, measurement, derived physics concepts like energy (but I'm getting tired)

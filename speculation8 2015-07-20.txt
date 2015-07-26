@@ -1,0 +1,9 @@
+- time = length of (shortest version of) program seems to work
+  - if type (life form) is "good" then possible evolutions should be same as those of many (longer) random programs
+- so updated nutshell is:
+  - space = type = formula
+  - spacetime = program = proof
+  - time = length of shortest program equivalent to the spacetime
+  - use algorithmic probability to find probability that you're in a given spacetime
+- still need to figure out what is mass/energy and how relates to entropy & time
+  - understand spacetime curvature first? GR rule that objs move st time btwn end conditions is max already makes sense

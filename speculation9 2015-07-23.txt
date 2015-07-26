@@ -1,0 +1,20 @@
+- I used gut feeling over logic in previous speculation and my biases confused me
+- spacetime is program itself, nothing to do with bits because numbers by themselves don't have any meaning
+  - only reason for bits is people like to define "computable function" equivalence by whether the outputs are the same, but this has nothing to do with interpreting what the programs do (use types for that)
+- probability distribution of programs is random (fair coin flips on input tape), due to math principles you will make the same predictions no matter which Turing complete programming language you use
+- space and time are derived concepts, so defining them well depends on your situation and is really an art
+- at most basic level, space is type, time is length of program
+  - time is entropy if infinitely long program
+  - value is just another way of saying type
+- distance is even more derived concept, reasonable definition is probably length of hypothetical program between 2 types
+  - matches well with colloquial use of close and far away
+  - can estimate expected (most likely) length of program or use shortest one
+  - same definition works for time interval
+- then can estimate things like:
+  - program distribution given type
+  - distribution of past/future types given current type and time before/after it
+  - distance between 2 types
+- study through types instead of program bits because types let you make claims about what the program does
+  - e.g. calculating virtual coin flip probability by looking at bits in memory can be influenced by running in virtual machine where 00 -> 0, other 2 bit combinations -> 1, so instead need to make a type system to represent the 2 situations then calculate what percentage of programs have each type
+- sphere means all points a given distance from a given point, might help for defining mass
+- is mass a measure of how many programs have a given type? (probably not, this is wild guess)
