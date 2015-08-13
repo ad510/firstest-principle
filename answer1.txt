@@ -1,3 +1,5 @@
+update: I misunderstood some stuff, see speculation9
+
 (This continues from scientific question1.1 and scientific question2.1, both of which I need to finish drafting.)
 
 If we consider this to be a scientific question, there it raises another question. Do either of the 2 best physics theories that we know of so far, general relativity and the standard model, predict the probability you will end up in each computer after the simulations diverge?

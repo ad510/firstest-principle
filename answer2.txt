@@ -1,3 +1,5 @@
+update: I misunderstood some stuff, see speculation9
+
 alg prob in itself not very interesting (brain already runs optimized bayes' thm), interesting part is interpreting what it means
 people doing compilers obsessed about static types (something you can know about program at compile time)
 types are formulas: void, sum, product types

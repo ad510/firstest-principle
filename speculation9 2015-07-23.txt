@@ -2,6 +2,7 @@
 - spacetime is program itself, nothing to do with bits because numbers by themselves don't have any meaning
   - only reason for bits is people like to define "computable function" equivalence by whether the outputs are the same, but this has nothing to do with interpreting what the programs do (use types for that)
 - probability distribution of programs is random (fair coin flips on input tape), due to math principles you will make the same predictions no matter which Turing complete programming language you use
+  - update: predictions are "same" only to the limit but they are all optimal, see http://www.philos.rug.nl/~tom/talk/1504kent.pdf
 - space and time are derived concepts, so defining them well depends on your situation and is really an art
 - at most basic level, space is type, time is length of program
   - time is entropy if infinitely long program

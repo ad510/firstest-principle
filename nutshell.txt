@@ -1,6 +1,6 @@
 in a nutshell (if I'm not fooling myself):
 - theory of everything is that probability distribution of programs is that of fair coin flips on input tape
-  - you will make the same predictions no matter which programming language you use (see algorithmic probability)
+  - makes optimal predictions no matter which Turing complete programming language is used (see algorithmic probability)
 - experiment it answers that quantum mechanics & general relativity don't: see scientific question1-2
 - how to interpret it
   - space = type = formula = idea
