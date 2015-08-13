@@ -1,8 +1,6 @@
 The branch of Plausible Deniability in which my stupid, untrustworthy intuition proceeds to fool itself with not-even-wrong wild physics speculations. But in the highly unlikely case that my intuition is not fooling itself, this could potentially be a [big deal](https://en.wikipedia.org/wiki/Quantum_gravity).
 
-(added 2/5/2015) ...And whew, I'm [not the first person](https://www.google.com/search?q=algorithmic+probability+theory+of+everything) to suggest this. So maybe I'm not going insane after all.
-
-(added 3/2/2015) Though just to clarify, even if I'm not going insane, my intuition is still probably fooling itself.
+Note that I often realize that previous speculation is wrong and use corrected info in future speculation without going back to fix previous notes, so these notes will probably make little sense to anyone but me. If you insist on reading them anyway, nutshell.txt is probably the best place to start.
 
 WTF is my intuition thinking?
 -----------------------------
