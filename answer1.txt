@@ -1,0 +1,45 @@
+(This continues from scientific question1.1 and scientific question2.1, both of which I need to finish drafting.)
+
+If we consider this to be a scientific question, there it raises another question. Do either of the 2 best physics theories that we know of so far, general relativity and the standard model, predict the probability you will end up in each computer after the simulations diverge?
+
+[clarify only if person can't tell which computer they're in]
+
+The answer is no! Neither of these theories allow one to take the perspective of someone in a computer simulation; they only allow taking the perspective of someone outside watching the computers run. And such an outside observer would see all of the simulations run simultaneously and be unable to assign a probability of being in each one.
+
+In other words, if this is a scientific question, then the scientific community does not have an agreed upon prediction of what the answer to it is! And as someone who is likely to see these super-powerful computers exist in my lifetime, I feel we have an obligation to try to answer it, or at least participate in wild-eyed speculation of what the consequences would be. Indeed, if we can guess how to answer this question, it may also be possible to describe our universe in terms of living in a computer simulation, and derive general relativity and the standard model from that guess!
+
+As it turns out, there is already a concept that seems well suited to answer this question. But in order to use it, it helps to rephrase the question somewhat.
+
+Computers operate on long sequences of 1's and 0's. The individual 0's and 1's are called bits, and the entire sequence of bits is called the computer's memory.
+
+Most modern computers do all their communication with the outside world using a method called memory-mapped I/O. What this means is that certain bits in memory are special, and that rather than storing the current state of calculation, they are set to values corresponding to outside input such as key presses or mouse interactions.
+
+When we clone the simulation to a second computer, what we essentially do is set up 2 computers with the same kinds of components such that their state of memory are exactly the same before resuming the simulation. After resuming the simulation on both computers, the easiest way to make them diverge is by making the simulation take I/O-mapped memory as additional input, and to set the I/O-mapped memory to different values on each computer. [would help to have more specific example such as virtual coin flip]
+
+To us outside observers, these bits of memory are completely separate, running on separate computers using separate hardware. But if a person inside the simulation can't tell which computer they're in, then everything he/she perceives directly corresponds to what the bits in memory are set to. And if the experiment was arranged appropriately, by this point the person would be able to determine everything about the state of the memory by knowing what program the simulation runs, except for which of 2 values the memory-mapped I/O will take when read by the simulation.
+
+So what we've done is transformed this problem into one in which the sequence of bits in memory can take either one of two values, and we need to determine the probability of it being each of these values. [there may be a shorter way to get here]
+
+While it may seem that we need more information to determine this, there is actually a widely accepted solution in the mathematical community to this exact problem. It is called algorithmic probability, and it is a way to assign a probability to any series of 1's and 0's (such as the values stored in computer memory) without using any other knowledge whatsoever. And it involves running computer programs. Here's how it works:
+
+Suppose we have a computer that can simulate any other computer given unlimited memory and time, like the computers we use. But unlike the physical computers we use, this one is in fact free to use as much memory and time as it likes to finish its computation, without worries of being shut off, damaged, or ever running out of memory. Furthermore, this computer has separate read only and write only memories, both of which are limitless, and is designed to stop computation under certain conditions without ever needing to read the entire read only memory, since that would literally take forever. (The technical term for this is a prefix universal Turing machine.) Then, the algorithmic probability of a bit string is the probability that it is equal to the output of this computer when the read only memory is initialized as if with fair coin flips and the write only memory is initialized to 0's (so that it can be compared to the bit string like they are numbers). [http://scholarpedia.org/article/Algorithmic_probability]
+
+[give link to continuous algorithmic probability when discussing state of computer being infinite memory]
+
+This is a powerful concept. Conventionally, the way we make physics predictions is by starting with a known state and calculating how we expect it to change over time. But using algorithmic probability, it is possible to make predictions about the probability that the state you're in has various properties, regardless of whatever state you were in previously. (Whether those predictions would be correct is another question, and that would have to be tested using the experiment previously described.)
+
+That said, usually we do know something about the current state and want to be able to take advantage of that when making predictions. The way to do that would be to calculate the probability of existing in a state with the known properties, then calculate the probability of existing in a state with both the known properties and something else, then divide the 2nd number by the 1st one. For example, in the case above in which we know that the sequence of bits in memory can take either one of two values, to get the probability that it is one of those values, you'd determine the probability of it being each of those values separately, then divide one of those probabilities by the sum of both. [virtual coin flip example would help here also]
+
+Algorithmic probability has many interesting theoretical properties. But even if algorithmic probability is the most accurate way to predict what someone who put him/herself in a computer simulation would perceive, I don't think knowing that alone would be very useful. For one thing, calculating algorithmic probability directly is somewhere between very difficult and impossible. Indeed, mathematicians have proven it impossible to use computers as we know them to calculate algorithmic probability precisely, or even compute an upper bound for it. In practice, a far more useful way to make predictions than calculating algorithmic probability directly is by using a process called Bayesian inference, which our brains have evolved over millions of years to be very good at.
+
+But if it is indeed possible for us to put ourselves in any computer simulation of our choosing and be unable to tell which computer our simulation is running in, then it would raise many other questions in addition to how to determine the probability of ending up in each computer. For example, we currently define a second as how long it takes light emitted a certain way from a cesium atom to travel a number of periods, and we define a meter as a certain fraction of a second. [cite wikipedia] But computer simulations that we put ourselves in might not have either light or cesium atoms! So one would naturally wonder what would be a convenient way to define space and time in a computer simulation, and indeed whether those concepts would be applicable in the first place.
+
+useful links:
+http://scholarpedia.org/article/Algorithmic_probability
+http://demonstrations.wolfram.com/InfiniteMonkeyTheorem/
+https://en.wikipedia.org/wiki/Universal_Turing_machine
+https://en.wikipedia.org/wiki/Chaitin%27s_constant#Background
+	computable function is what it sounds like (https://en.wikipedia.org/wiki/Computable_function)
+	https://en.wikipedia.org/wiki/Prefix_code
+	https://stackoverflow.com/questions/11912282/confused-about-prefix-free-and-uniquely-decodable-with-respect-to-binary-code
+monotone = have a one-way write-only output tape (http://people.idsia.ch/~juergen/toesv2/node6.html)

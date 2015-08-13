@@ -1,0 +1,20 @@
+alg prob in itself not very interesting (brain already runs optimized bayes' thm), interesting part is interpreting what it means
+people doing compilers obsessed about static types (something you can know about program at compile time)
+types are formulas: void, sum, product types
+in acadamia, type systems are like automated proof checkers
+but why people obsessed about it outside acadamia? b/c knowing what you're doing helps do it faster
+if can't tell whether living in computer sim then idea=type, execution=program
+shit=entropy=min program length needed to know something about universe
+  only varies btwn programming langs by constant amount b/c can write a compiler
+total shit in universe goes up, but in little pockets it goes down
+what's happening in those pockets? copies of stuff being made
+  decreases program length b/c can store value in var or fn
+shit decreases linearly if copy random stuff, exponentially if copy self
+shit reducers experience curious phenomenon called time, which is a local reduction of shit (can't rely on si def in computer sim)
+  something that's copied can't tell which of the copies it is
+  if random bad thing happens then can't tell but if random good happens then can (see speculation6), having more copies in different environments increases opportunities for good things to happen
+  btw I wish I could figure out exactly what time means in math sense so can calculate it (don't know what I mean by local)
+you die when shit in you (as shit reducer) can't get any lower
+how to maximize how long you perceive to live? avoid black holes (speculation4)
+how to make best use of time? 2 steps to living (what idea & execution mean in practice, see nutshell)
+be a shit reducer
