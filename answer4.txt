@@ -6,6 +6,7 @@ prob dist of programs/spacetime
 space = type
 	what is type
 	incompleteness thm
+	you might find it disturbing that in order to make useful predictions, your type system must consider bit configurations that aren't in the physical computer
 time = entropy
 	psychology experiments
 relating to QM
