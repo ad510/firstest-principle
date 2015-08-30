@@ -1,0 +1,13 @@
+prob dist of programs/spacetime
+	summarize experiment
+	reformulate as unknown bits
+	alg prob
+	why that's not enough (what do bits mean)
+space = type
+	what is type
+	incompleteness thm
+time = entropy
+	psychology experiments
+relating to QM
+relating to math & startups
+thinking, communicating, traveling, lifetime goal
