@@ -1,0 +1,12 @@
+- algorithmic probability seems to work as TOE after all even though it isn't unique
+  - encode sequence of outcomes (e.g. red/green flash) as bits, use algorithmic probability to predict future outcomes given past ones
+  - represent prior knowledge as type restrictions (e.g. only consider outputs compatible with past outcomes)
+  - more generally, can use to find subtype probability given supertype as long as inferring subtype from supertype is turing complete
+  - by def probability, ok for initial guesses to wildly vary based on choice of programming language/prior knowledge as long as becomes accurate over time (with more prior knowledge)
+    - if 2 people independently roll dice at same time, both will make equally accurate (but different) predictions to what sum is
+  - how to encode prior knowledge & outcomes is subjective, but that's true of all experiments
+- simple to complex order comes from time def
+- distance between 2 bitstrings of approximately same entropy (type = all programs that output given bitstring)
+  - length of shortest function that takes A and returns B
+  - length of shortest program that reads A from std in and prints B to std out
+  - length of shortest program that prints A to std out and B to std err - length of shortest program that prints A to std out
