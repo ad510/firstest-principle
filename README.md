@@ -1,6 +1,6 @@
 The branch of Plausible Deniability in which my stupid, untrustworthy intuition proceeds to fool itself with not-even-wrong wild physics speculations. But in the highly unlikely case that my intuition is not fooling itself, this could potentially be a [big deal](https://en.wikipedia.org/wiki/Quantum_gravity).
 
-Note that I often realize that previous speculation is wrong and use corrected info in future speculation without going back to fix previous notes, so these notes will probably make little sense to anyone but me. If you insist on reading them anyway, nutshell.txt is probably the best place to start.
+Note that I often realize that previous speculation is wrong and use corrected info in future speculation without going back to fix previous notes, so these notes will probably make little sense to anyone but me. If you insist on reading them anyway, scientific question1.1.txt is probably the best place to start.
 
 WTF is my intuition thinking?
 -----------------------------
