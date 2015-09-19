@@ -1,21 +1,13 @@
-Why I'm Writing This
+There is a field of study called "digital physics" that concerns itself with the possibility that we might be living in a computer simulation.
 
-Ask a physicist what it would be like to live in a computer simulation, and you will likely be asked some variation of the following:
+So far, we do not have any experimental evidence of that being the case. So that's not what this writeup is about. Instead, this writeup is about what might happen to us if we *put* ourselves in a computer simulation. On the surface, that seems like a very simple question to answer: just look at the code that the computer is running! But on closer examination, I think there are some very practical aspects to this question that make it just as interesting, if not more interesting, than the possibility that the universe we're living in might be running in a computer simulation.
+
+Now if you've done any sort of physics research into virtual reality simulations, you're going to have 2 questions for me:
 
 1. Are the computers running these virtual reality simulations *so powerful* that even if we had access to all of the energy in the visible universe, that wouldn't be enough to build and run them?
 2. Are the computers running these virtual reality simulations *so powerful* that they can solve problems that the founding fathers of computing deemed to be uncomputable, such as solving the halting problem?
 
-They'd have good reasons to be skeptical. While a considerable amount of research has been done under the name "digital physics," much of it has focused on fairly pointless philosophical questions such as the ones above. This is made worse by the fact that the people most vocal about publicizing the concept often associate it with the idea that we might live in a "multiverse" in which many possible physics theories are valid, so we should give up on making testable predictions altogether. Such an idea is the opposite of what science should be about. So even though there are decades-old theorems in algorithmic information theory that should probably be genuinely exciting to anyone wanting to make new predictions about fundamental physics, the wider physics community seems to be (for good reason) lumping digital physics along with string theory and other attempts at "theories of everything" that have failed to come up with useful testable predictions, and appear to have little chance of doing so in the near future. [that's not quite right, 2nd question is testable]
-
-Which is a shame, because there are some very practical issues raised by the possibility of putting people in computer simulations that no one seems to be asking. And since our current rate of technological progress may enable this possibility much sooner than many people expect [link] (perhaps even in our lifetimes), I think [type here].
-
-Or I could just be fooling myself about this entire thing, since the easiest person for me to fool is myself, and as a newcomer to the field I'm probably fooling myself if I think I have an important idea that everyone else somehow missed. If I recognize why I am fooling myself (which can sometimes be challenging for newbies, I'm afraid), I will shut up and apologize for further contributing to digital physics' current reputation among physicists.
-
-On the other hand, this is something I've been discussing with my friends for a while, and rather than them pointing out some obvious issue that I missed (which I expected), our conversations have been surprisingly helpful in fitting the pieces together. Additionally, the angle I'll be approaching this from is quite different from the descriptions of digital physics that I've read online. So I think the right thing to do at this point is assemble my thoughts together for broader feedback.
-
-So what does it mean to put someone in a computer simulation in the first place? Good question.
-
-
+And, naturally, my answer to both of these questions is no, otherwise we wouldn't be able to build them with our current understanding of physics. I'll explain why this is the case after explaining a bit more about what this writeup is about.
 
 For the last several decades, computing power has essentially grown at an exponential rate, and it always looked as if in about 10 years into the future we would run into some seemingly unsurmountable problem that would prevent computing power from significantly increasing beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most everyone who's done that ended up with a number around a consistent timeframe from about 2040 to 2060. That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
 
