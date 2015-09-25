@@ -1,0 +1,22 @@
+energy speculation over past couple months:
+- want type that is restrictive about past (so remember most) but open about future (so will learn most)
+- time is related to flow of shit
+- so mass related to how easily types change
+- you change the mass so you can't tell what it is (i.e. changing the type)
+  - but you also measure it first
+- does energy measure rate of change of types? (2015-08-29)
+- hard part is defining energy of part of system
+  - maybe it's energy of system with respect to current space
+- most important thing about defining terms is whether it's convenient (like whether 1 is prime)
+- forgetting means getting into state where it takes a long time to relearn something
+  - as you learn more, does it put ideas further apart?
+  - relative rate at which this happens relates to energy
+  - sometime after I understand energy I should try to understand black hole
+- when I try to remember if I wrote something in notes, I use Bayes theorem like process of did taking notes leave traces in my memory
+- translation in time symmetry: if input suddenly measures something unrelated, algorithmic probability will behave same way independent of time passed, just with different prior (like choice of programming language)
+- from https://www.math.columbia.edu/~woit/wordpress/?p=4385: "Quantum mechanics describes the possible states of the world by vectors, and observable quantities by operators that act on these vectors"
+- I'm describing possible states of the world by programs, and observable quantities by types
+  - and type system as program (operator) that converts program bitstring to output bitstring
+- so there should be an "energy operator" that does time translations, but I'm too tired to think of it right now
+- funny that you can (almost) define a programming language by a probability distribution of its types
+  - hypothesis = programming language = axiomatic system = knowledge?
