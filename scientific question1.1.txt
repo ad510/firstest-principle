@@ -63,4 +63,20 @@ Below I will describe what happens when I try to answer whether that particular 
 
 Let's start by assuming that this is not a scientific question. That would mean that this question really has nothing to do with how the universe behaves, and that it is impossible to experimentally prove someone wrong one way or the other about what the answer to the question is. That would mean that from a scientific perspective, it is perfectly valid for someone to believe that people inside virtual reality simulations can tell which computer their simulation is running in. It would also be perfectly valid for someone to believe that such people can't tell. Asking whether someone believes this would be like asking someone which interpretation of quantum mechanics they believe in. Since they all predict the same experimental results, all of these interpretations are valid.
 
-...
+So now we wait until the 2060s and proceed to put you from the real world into a virtual reality world. But suppose that before we do so, we tell you something very special. Not only do we explain to you how the simulation is programmed to behave, but we also teach you the theory of everything, the hypothetical physics theory that can predict to the maximum extent possible the outcome of any experiment that can possibly be performed. Of course, since we're assuming for the time being that the concept of a probability of virtual people "jumping" between computers is unscientific, this theory of everything doesn't have to answer that question.
+
+At this point we do that thing where we copy the simulation onto 2 more computers, blow up the first (original) computer, and flash red in the second computer and green in the third computer. Since we're assuming that it's unscientific to ask whether or not people in simulations can tell which computer they're in, it should be possible for us to hold logical beliefs if we accept either interpretation.
+
+If we accept the interpretation that people in simulations *can* tell which computer they're in, then it'd mean that you'll die when we blow up the first computer, and that the virtual people in the second and third computers are different people that happen to inherit your memories. If you can somehow explain how the copies of you can tell that they're copies even though the bits in computer memory representing their thoughts are the same as yours until the simulations diverge, I suppose that's a perfectly logical thing to believe.
+
+[I'm in the 1st/2nd/3rd computer, so I will die or see a red/green flash]
+
+If we accept the also-valid interpretation that people in simulations *cannot* tell which computer they're in, then it'd mean that you won't die when the first computer blows up, and that you're either going to see a red flash (if you "jump" to the second computer) or a green flash (if you "jump" to the third computer). For those of us watching the computers from outside, that's fine because we see both possibilities. But what are you supposed to think? Even though we taught you the theory of everything, you can't use that to calculate the probability of yourself seeing a red or green flash because we're assuming such a question is unscientific. So you think, "Fine! Maybe the theory of everything doesn't apply here!" And if you're a good scientist, you make your own hypothesis of whether you'll see a red or green flash, and after the flash occurs you continue life as normal.
+
+[Damn it! The theory of everything won't help me predict whether I'll see a red or green flash!]
+
+Hopefully you see at this point that something is not quite right if you can make a hypothesis about what you'll see that the theory of everything won't answer [fix wording], but let's continue the hypothetical.
+
+Well, we successfully messed with your head once. So do you think we're going to stop there? Of course not! Because the next time you
+
+[this doesn't work if people consider it unscientific to ask if possible to put person in computer in the first place, which relies on similar kinds of things of can't tell which is your body]
