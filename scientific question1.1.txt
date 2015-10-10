@@ -1,17 +1,4 @@
-This isn't about digital physics
-
-There is a field of study called "digital physics" that concerns itself with the possibility that we might be living in a computer simulation.
-
-So far, we do not have any experimental evidence of that being the case. So that's not what this writeup is about. Instead, this writeup is about what might happen to us if we *put* ourselves in a computer simulation. On the surface, that seems like a very simple question to answer: just look at the code that the computer is running! But on closer examination, I think there are some very practical aspects to this question that make it just as interesting, if not more interesting, than the possibility that the universe we're living in might be running in a computer simulation.
-
-Now if you've done any sort of physics research into virtual reality simulations, you're going to have 2 questions for me:
-
-1. Are the computers running these virtual reality simulations *so powerful* that even if we had access to all of the energy in the visible universe, that wouldn't be enough to build and run them?
-2. Are the computers running these virtual reality simulations *so powerful* that they can solve problems that the founding fathers of computing deemed to be uncomputable, such as solving the halting problem?
-
-And, naturally, my answer to both of these questions is no, otherwise we wouldn't be able to build them with our current understanding of physics. I'll explain what these questions mean and why I'm answering them that way after explaining a bit more about what this writeup is about.
-
-Putting someone in virtual reality
+Intro: putting someone in virtual reality
 
 For the last several decades, computing power has essentially grown at an exponential rate, and it always looked as if in about 10 years into the future we would run into some seemingly unsurmountable problem that would prevent computing power from significantly increasing beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
 
