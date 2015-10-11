@@ -1,6 +1,0 @@
-given any TOE we can make VR sim that does something else
-die when 1st computer blows up -> can tell which computer you're in -> scientific question
-
-more assumptions:
-there's a TOE
-there *is* enough energy in universe to make these sims

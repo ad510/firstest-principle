@@ -21,7 +21,6 @@ Since Git doesn't store timestamps:
 - scientific question3.4.txt - modified 7/15/2014
 - scientific question4.txt - modified 6/10/2014
 - scientific question4.1.txt - modified 6/20/2014
-- scientific question zach.txt - modified 12/20/2014
 - speculation2.txt - modified 3/31/2011 (!)
 
 Copying
