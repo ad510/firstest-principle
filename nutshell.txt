@@ -1,14 +1,13 @@
 in a nutshell (if I'm not fooling myself):
-- theory of everything is that probability distribution of programs is that of fair coin flips on input tape
-  - makes optimal predictions no matter which Turing complete programming language is used (see algorithmic probability)
-- experiment it answers that quantum mechanics & general relativity don't: see scientific question1-2
+- theory of everything is Solomonoff induction
+- experiment it answers that quantum mechanics & general relativity don't: see scientific question1.1
 - how to interpret it
-  - space = type = formula = idea
-  - spacetime = program = proof = execution
-  - time = length of program = entropy
-  - distance (between 2 types) = length of shortest program that transforms values from one type to another
-  - "shit" that people (especially startup founders & CEOs) deal with is a valid form of energy
-    - I don't yet know how this relates to space or time
+  - space     = type    = formula = idea      = ... (if the concepts are generalized sufficiently)
+  - spacetime = program = proof   = execution = ...
+  - time = entropy = (approximately) length of program
+  - distance (between 2 types) = expected length of program (distributed using algorithmic probability) that transforms values from one type to another
+
+more speculative ideas:
 - I suspect speculation6 & speculation4 are onto something, but they're wrong/incomplete in a few key ways that I don't fully understand yet
 - gravity = sum of infinitely many fundamental forces (kind of unrelated, but whatever)
   - might want to model with superset of general relativity that doesn't obey equivalence principle
