@@ -1,4 +1,5 @@
 [stuff at top of answer1 should go in scientific question1.1]
+[if people can tell which computer they're in then it'd be no fun, so let's speculate about what if they can't; also consider how wrong diagram looks if people can tell which computer they're in]
 
 So here's the problem. If we consider this to be a scientific question, then basically no one has a clue to what the answer to it is. Worse, the question is so general that it's difficult to find something that all situations like this have in common, and even if we came up with a guess of how to answer it, the people able to measure the answer a few decades from now would be unable to tell the rest of us the answer in a way that is helpful to us! So given that, what approaches can we take to try to answer this problem?
 
@@ -39,3 +40,5 @@ I know what you're thinking. "See, algorithmic probability isn't unique. So even
 Well, not so fast. No matter which programming language you pick, all these different choices of algorithmic probability have more in common than you might expect, and here's why. Since there's a 50% chance that each new bit we write will be the end of the bitstring, the shortest programs that print a given color flashing sequence will have by far the biggest contribution to its probability. For short color sequences, the shortest program that prints it just prints it directly. For long but predictable color sequences, the shortest program that prints it may use a simple algorithm. For example, to print 1000 'A' characters, it is shorter to write a loop to print 'A' 1000 times than to print a string of 1000 'A's. But if the color sequence is both complicated and highly compressible,
 
 [non-unique probabilities, converging (and why), only way to get result faster would be by overfitting, classifying result that doesn't fit, lead in to prior info]
+[this is basically a mathematical theory that if we do the scientific method in a certain idealized way then our process of learning will always have certain characteristics, what's testable about it is whether that idealized process of learning is representative of how we do it in real world?]
+[relationship to category theory]
