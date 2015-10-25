@@ -14,7 +14,7 @@ more rigorous:
 - quantum mechanics: 1 = state, 2 = process
 
 more intuitive:
-- business/daily life: 1 = idea, 2 = execution
+- problem solving: 1 = idea, 2 = execution
 - hiring: 1 = smart, 2 = gets stuff done
 - social: 1 = information, 2 = communication
 - education: 1 = learn, 2 = teach
