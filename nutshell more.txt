@@ -1,0 +1,28 @@
+If I'm not fooling myself, these equivalences mean that knowledge or experience (or learning algorithms such as Solomonoff induction) in any one of these fields is often directly applicable to all of them.
+
+1. something you know: pick something that's likely to copy stuff and/or be copied
+2. something you do: turn random stuff into copies of that
+
+more rigorous:
+- math: 1 = formula, 2 = proof
+- computer science: 1 = type, 2 = program
+  - math-computer science relationship is called Curry-Howard correspondence
+- category theory: 1 = object, 2 = morphism
+  - math-computer science-category theory relationship is called Curry-Howard-Lambek correspondence
+- relativity: 1 = space, 2 = spacetime
+  - FYI: http://arxiv.org/abs/quant-ph/0404040
+- quantum mechanics: 1 = state, 2 = process
+
+more intuitive:
+- business/daily life: 1 = idea, 2 = execution
+- hiring: 1 = smart, 2 = gets stuff done
+- social: 1 = information, 2 = communication
+- education: 1 = learn, 2 = teach
+- products: 1 = design, 2 = manufacturing
+- biology: 1 = genes, 2 = reproduction
+- procrastination: instant gratification monkey (right brain) good at 1, rational decision maker (left brain) good at 2
+  - see http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html
+- computer abstraction: 1 = functions (on values), 2 = i/o (on places)
+  - see http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey
+- performance optimization: 1 = caching procedure, 2 = act of caching
+  - I find it so fascinating that key to making computers fast is making copies of data (i.e. caching) rather than anything else
