@@ -5,7 +5,7 @@ In theory, a prior probability distribution of programs is that of fair coin fli
 In practice, we just use our brains.
 
 additionally:
-- experiment that Solomonoff induction answers that quantum mechanics & general relativity don't: see scientific question1.1
+- experiment that Solomonoff induction answers that quantum mechanics & general relativity don't: see scientific question1.2
 - more equivalences: see nutshell more
 - perceived time = entropy = (approximately) length of program
 - perceived distance (between 2 types) = expected length of program (distributed using algorithmic probability) that transforms values from one type to another
