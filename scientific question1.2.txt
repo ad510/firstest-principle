@@ -100,9 +100,32 @@ Please tell me I made a mistake somewhere. I'd be really surprised if I'm the fi
 
 If this is scientific, then what else is?
 
-I'm still probably fooling myself, but if I'm not then we have an obligation to do wild-eyed speculation about the consequences (see wording in scientific question3.4 and answer1)
-key thing is non-experimenters seeing every result
-brain splitting
-quantum mechanics
+If the thought process above is correct, it could potentially have serious implications for anyone trying to find a theory of everything in physics. The most fundamental physics theories we know of today are the standard model and general relativity. The standard model makes extremely accurate predictions at small scales, but obviously wrong predictions at large scales. General relativity makes extremely accurate predictions at large scales, but obviously wrong predictions at small scales. The conventional wisdom is that if we discover a theory of "quantum gravity" that makes accurate predictions at both small and large scales, it would very likely be a theory of everything.
+
+But if the 2 questions listed above are scientific, then it would change all that. Not only would a physics theory have to unify the standard model and general relativity to be a candidate for a theory of everything, but it would also have to either predict the probability of people in virtual reality simulations "jumping" between computers or explain why such a situation is impossible. But I've never seen that mentioned in discussions of theories of everything.
+
+I want to emphasize again that *I am almost definitely making a serious logic error in my thought process*, and I expect that physicists have a very good reason for not answering those questions, either because they are actually unscientific (and I am fooling myself into thinking they're scientific) or because there is a good theoretical reason that those situations cannot happen. But I've been discussing this for a while with friends, and for the life of me I cannot see where I went wrong. And if I'm not fooling myself, then as someone who is likely to see these super-powerful computers exist in my lifetime, I feel we have an obligation to try to answer these questions!
+
+The rest of this writeup is wild-eyed speculation about what the consequences would be if the 2 questions above are scientific. In the very likely case that I am fooling myself, the rest of this writeup is completely irrelevant. I hope I'll find out whether I am fooling myself in the not too distant future!
+
+The reason that the color flashing experiment is a corner case of the definition of experiment is that some observers see a single outcome (either red or green) but all other observers see all possible outcomes (red in one computer and green in another computer). Since "all other observers" includes the entire scientific community on Earth, I suspect that is why most people do not consider it to be an experiment. But if we must expand the definition of experiments to include the color flashing experiment, then we should also ask ourselves if there are any other experiments in which some observers see a single outcome but the entire scientific community on Earth sees all possible outcomes, since the theory of everything would have to predict the outcomes of these experiments as well.
+
+As it turns out, there is an entire class of such experiments! Here's one [two?] of them:
+
+The brain splitting "experiment"
+
+The right half of your brain processes what you see to the left, and the left half of your brain processes what you see to the right. [http://www.sumanasinc.com/webcontent/animations/content/visualpathways.html slide 8, but I can cite BISC 230] For most people, the left half of the brain also handles speech production. The 2 halves of your brain are connected by this bundle of neurons called the corpus callopsum. Now a few unlucky people have had surgeries that severed their corpus callopsum, and we've done experiments on them and determined that they couldn't verbally tell us what they see in their left visual field. (But they could draw it with their left hand, because the right half of the brain controls the left half of the body.)
+
+So let's say we sever your corpus callopsum. If you find yourself on the right side of your brain, from your perspective you will be able to see what's happening to your left but you won't be able to tell anyone. If you find yourself on the left side of your brain, from your perpective you won't be able to see what's happening to your left but you'll know how to talk. The question is: before we sever your corpus callopsum, how can you figure out the probabilities that you'll end up with each of these perspectives?
+
+If you are the person whose brain is split in half, then afterwards you will find yourself either in the left half or right half of your brain, but not both. But everyone else will see both versions of you: the "you" on the left half of your brain and the "you" on the right half. Suppose that the theory of everything unifies quantum mechanics and general relativity but does not predict the probability that you will find yourself on each half of your brain. If my previous logic is correct, we would then be forced to accept the ridiculous claim that we live in a "multiverse" where different laws of physics apply to people whose brains are split in half versus people whose brains are not split in half. So if the colored flashing experiment is a real experiment, then this should be considered an experiment too.
+
+[Damn it! The theory of everything won't tell me the chances of ending up on the left or right side of my brain!]
+
+If you think this is an easy question to answer, suppose instead of just severing your corpus callopsum, we knock you out, cut off one of your brain halves entirely and incinerate it, then restore your consciousness. Would the probabilities that you'll end up on each half of your brain be different then?
+
+How does measurement work in quantum mechanics?
+
+[type here]
 
 (continued in answer1.1.txt)
