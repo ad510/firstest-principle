@@ -1,3 +1,14 @@
+matthew 2015-11-27:
+- compare to being blindfolded and taken to numbered room (don't know how it's picked), number is revealed gradually
+- if identical people taken to every room and you're one of them, wouldn't that make all rooms same probability?
+- no and I suspect reason why has to do with identical people, how does that affect algorithmic probability?
+- he prefers wording of "consciousnesses with identical past memories" (you can't tell which one you are) over "your identity over time"
+- roadmap of topics helps
+- use learning algorithm to guess subjective probabilities when underlying process generating probabilities is unknown
+- algorithmic probability motivation is less random bit strings seem more likely
+- clearly distinguish input, program, console output bit strings
+- describe how it is learning algorithm before explaining why it converges
+
 zucchinize 2015-10-05:
 - pointed out how many assumptions I made to get to point of putting person in computer (which I already knew, but worth emphasizing)
 
