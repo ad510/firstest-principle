@@ -1,0 +1,22 @@
+secrecy, privacy, cheating with plausible deniability, etc
+
+- expected result is good idea in short term, bad idea in long term
+- if I rigorously derive this then I can likely derive QM concepts too
+- normal case (see nutshell)
+  - idea: pick something that's likely to copy stuff and/or be copied
+  - execution: turn random stuff into copies of that
+- secrecy = prevent copying something or being measured (remember copying = measurement)
+  - people assume simplest idea unless they have reason to believe otherwise
+  - so make something that looks simple but is actually complicated
+    - other people partially measure it and act on it as if it's the simple thing
+  - the more complicated thing proceeds to copy stuff without other people knowing (otherwise they'd know it isn't the simple thing)
+  - the copied stuff is measured, now the universe is more complicated but people don't yet know that it's due to our complicated thing
+  - case: people ignore it -> then no point hiding it in the first place
+  - case: people try to copy it -> people associate it with complicated thing & you so they try to copy those too
+    - useful if you want more control over what they copy or you want extra (usually negative) attention, but that's generally unnecessary
+  - case: people try to destroy it (by "people" I mean overall environment, so the "destroying" isn't necessarily intentional) -> rational responses are either destroy them first, or ensure copying finishes before copiers are destroyed
+- so hiding something is generally only a good idea if you think it'll otherwise be destroyed before it finishes its job
+- key (see nutshell for why)
+  - people = learning algorithm
+  - result of other people's actions = future space
+  - destroy = put big distance between stuff inside something, so the full something takes longer to measure
