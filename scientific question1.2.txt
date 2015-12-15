@@ -32,7 +32,7 @@ So, then, how should the person predict the probability of seeing a red or green
 
 As far as I am aware, as of 2015 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? That sounds like it can't possibly be correct, doesn't it? But hopefully by now you have noticed a very serious problem with this "experiment." Is it really an experiment?
 
-[maybe this is the wrong way to approach it, I think physicists would respond to "here is the problem, here is the answer" better than "here is the problem" followed by 5 pages of philosophizing why someone should answer it]
+[maybe this is the wrong way to approach it, I think people would respond to "here is the problem, here is the answer" better than "here is the problem" followed by 5 pages of philosophizing why someone should answer it]
 [better approach might be admit that yes scientists on earth won't be able to experimentally confirm the right answer, but I really want to know the answer anyway since this might be possible in my lifetime, so here's how to do it]
 [more applications of solomonoff induction (brain splitting, measurement in quantum mechanics) can be separate post]
 

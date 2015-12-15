@@ -32,7 +32,7 @@ So, then, how should the person predict the probability of seeing a red or green
 
 As far as I am aware, as of 2015 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? That sounds like it can't possibly be correct, doesn't it? But hopefully by now you have noticed a very serious problem with this "experiment." Is it really an experiment?
 
-[I think physicists would respond to "here is the problem, here is the answer" better than "here is the problem" followed by 5 pages of philosophizing why someone should answer it]
+[I think people would respond to "here is the problem, here is the answer" better than "here is the problem" followed by 5 pages of philosophizing why someone should answer it]
 [better approach might be admit that yes scientists on earth won't be able to experimentally confirm the right answer, but I really want to know the answer anyway since this might be possible in my lifetime, so here's how to do it]
 [more applications of solomonoff induction (brain splitting, measurement in quantum mechanics) can be separate post]
 
@@ -45,6 +45,8 @@ Well, consider what you would do if you were in that situation. Since we probabl
 
 So what would be the most useful thing to tell you if you were to be put in that situation? As for me personally, I'd imagine that a lot of what would happen to you would depend on the specific simulation you're put in, though a 50% chance of seeing a red flash and a 50% chance of seeing a green flash seems like a reasonable initial guess for the situation described previously. But if I were you, I wouldn't put much weight on that because I haven't experimentally verified that. [I just said the same thing 3 times] Indeed, since that would be the case for everyone else predicting what you would perceive happening the first time you're in that situation, it almost seems like the most useful thing to tell you would not be people's initial guesses of the probability of you seeing a red or green flash, but rather how you can quickly learn from the results once you start measuring them.
 
+[we need to estimate subjective probabilities when underlying process picking flash color is unknown]
+
 As it turns out, there is an entire field of study dedicated to studying processes that can be used to predict future outcomes from past ones. An important result that these people have mathematically proven is that there is one such way of doing this called algorithmic probability that is, in an important theoretical sense, "optimal!" The trouble is that it is impossible to calculate algorithmic probability with computers as we know them today because any computer program that tries to calculate it would run forever without ever producing a result, so there is an entire field of machine learning dedicated to finding more approximate learning algorithms that are practical to run on computers. But even though algorithmic probability is more or less impossible to use in practice, I think it is good to know it anyway because it's relatively simple and because it's pretty much the gold standard for inductive inference as long as you're not concerned about actually calculating it. So if we could hypothetically calculate it, how could it be applied to predict whether you'll see a red or green flash?
 
 First of all, it's worth noting that even if we could calculate algorithmic probability, it would only be useful if we ran the color flashing experiment many times because the first few probabilities we'd come up with would be gibberish. Only when we have prior knowledge of previous outcomes can we take that knowledge into account in our predictions. So let's modify the setup accordingly. After putting the test subject (which might be you or me) in a computer simulation using the process described earlier, we pause the simulation, copy it onto a second computer, resume it on both computers, then flash red in the first computer and green in the second computer. (Or we could do the variation where we copy the simulation to 2 more computers, blow up the original computer, then flash red in the second computer and green in the third computer.) But this time we don't stop there. Next, we do the same thing to both computers. In other words, if we flashed red in computer A and green in computer B, we copy computer A's state to a new computer C, copy computer B's state into a new computer D, flash red in computers A and B, and flash green in computers C and D. Then we keep repeating this process of copying the simulation states into new computers, flashing red in the originals and flashing green in the copies, until we run out of computers or funding or whatever.
@@ -52,6 +54,8 @@ First of all, it's worth noting that even if we could calculate algorithmic prob
 [picture]
 
 Now in order to bring algorithmic probability into the picture, we first need to introduce the concept of bitstrings. When you have a string of text, that text is stored in the computer as a sequence of 1's and 0's called a bitstring. To convert the bitstring to characters, you apply something called a character encoding. One common encoding is called ASCII, and to convert a bitstring to ASCII characters, you separate the bitstring into 8 bit chunks called bytes, and use a table to find the character corresponding to each byte.
+
+[motivation is less random bitstrings seem more likely]
 
 So here's how to determine the algorithmic probability that the person in the simulation will see a particular sequence of colored flashes. Suppose we make a bitstring by repeatedly flipping a fair coin, writing 0 each time we get heads and 1 each time we get tails. (By fair coin, I mean that each flip has a 50% chance of being heads or tails and every flip is independent of the others.) After writing down each result, we decide whether to continue by flipping a second coin. When we stop flipping, we make a binary file with the bits we wrote down, then use a C compiler to *try to compile it*. If we get a compile error (which we almost definitely will), we keep repeating this procedure to generate random C files until one of them compiles successfully. When that finally happens, we run the resulting program in a deterministic way with access to unlimited memory and see what it prints out to the console. Now this console output can be considered a bitstring too, so we take 0 to mean "red flash" and 1 to mean "green flash." Then the algorithmic probability that the person in the simulation will see a particular sequence of colored flashes is the probability that a console output bitstring generated this way begins with that particular sequence. [reword last sentence, redirect std out to file so don't need bitstring explanation]
 
@@ -71,6 +75,11 @@ But it's worth mentioning a few things about using algorithmic probability this 
 
 [is this actually a semi measure? yes according to http://scholarpedia.org/article/Algorithmic_probability, no according to https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference]
 
+[how to use as learning algorithm]
+[can use other info to predict flash colors by e.g. videotaping everything you see and using it to predict what you'll see next]
+
+for next post:
+
 For one, you could do the same procedure with a different Turing complete language than C and get different resulting probabilities, and that would still be considered "algorithmic probability."
 
 I know what you're thinking. "See, algorithmic probability isn't unique. So even if these probabilities can be determined by experiment in the first place, algorithmic probability can't even tell me what are the 'right' probabilities to expect. So this isn't scientific."
@@ -87,6 +96,8 @@ int main(void) {
     run_my_picolisp_code(code); // FYI, this isn't actually how you run PicoLisp code [check how to actually do it]
     return 0;
 }
+
+[AI for games: "minischeme is less than 2500 lines of C code for the complete system, although it lacks some of the more exotic features of a full scheme implementation"]
 
 This crazy-sounding strategy of embedding one programming language in another is actually pretty common. For example, many popular languages do not have good built-in syntax to handle string matching or database queries. A common workaround is to import a regular expression or SQL library, then pass regular expressions or SQL code into the library functions as a string, just like we did with PicoLisp in the example above.
 

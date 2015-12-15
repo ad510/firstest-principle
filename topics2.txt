@@ -1,0 +1,9 @@
+- living in sim experiment, solomonoff induction
+- time perception when living in a sim
+  - end with if entropy def of time behaves anything like QM then it should be possible to derive energy operator & conservation of energy, but my math skills are too bad to do this
+- physical interpretation of types
+- my firstest principle
+- how we intuitively do physics
+  - I think we all do this, I just wish I understood what instant gratification monkeys tell me
+- plausible deniability
+- tech singularity

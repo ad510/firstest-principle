@@ -1,0 +1,22 @@
+energy operator
+todo: clean this up
+
+input: bitstring B, delta time T
+output: probability distribution of bitstrings at future time T from now
+
+- time(bitstring B) = expected length of programs that output bitstring beginning with B
+- future_observables(bitstring B, delta time T) = set containing every bitstring B1 where
+  - B1 begins with B
+  - time(B1) >= time(B) + T
+- note that returning set of bitstrings is sufficient to get its probability distribution (using algorithmic probability)
+
+what if output bitstring is shorter?
+I don't know if I can force an expected length, but this might relate to uncertainty principle
+
+which probability distributions of programs are valid?
+oh shoot, probability distribution of programs is fair coin flips and we previously had probability distribution of types as what varied
+  sounds more like heisenberg picture to me, maybe I should derive that first?
+  as we got more specific types, we could rule out programs that didn't have that type
+in the interpretation where we measure the output 1 bit at a time, time is discrete
+  do we get gobbledygook if we try to make time continuous?
+  should we force time to be *at least* a certain amount? still weighted towards lower times, I think
