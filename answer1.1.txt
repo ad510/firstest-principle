@@ -50,6 +50,8 @@ int main(void) {
     return 0;
 }
 
+[AI for games: "minischeme is less than 2500 lines of C code for the complete system, although it lacks some of the more exotic features of a full scheme implementation"]
+
 This crazy-sounding strategy of embedding one programming language in another is actually pretty common. For example, many popular languages do not have good built-in syntax to handle string matching or database queries. A common workaround is to import a regular expression or SQL library, then pass regular expressions or SQL code into the library functions as a string, just like we did with PicoLisp in the example above.
 
 [non-unique probabilities, converging (and why), only way to get result faster would be by overfitting, classifying result that doesn't fit, lead in to prior info]

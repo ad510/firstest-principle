@@ -81,38 +81,7 @@ Now of course, you may wonder, is that *really* the probability of what might ha
 
 Honestly, I don't know. The only reason I bring up this possibility is because if it's possible to answer that question by experiment, then as far as I can tell the scientific community does not have an agreed upon prediction of what the answer to it is. And as someone who is likely to see these super-powerful computers exist in my lifetime, I feel we have an obligation to try to answer it, or at least participate in wild-eyed speculation of what the consequences would be. I am just trying to start that discussion. So please do not consider me to be an authority or representative of the scientific community on this subject (because I'm not), and if you want to add to this discussion, I'm more than happy to hear what your thoughts are.
 
-But it's worth mentioning a few things about using algorithmic probability this way.
-
-[is this actually a semi measure? yes according to http://scholarpedia.org/article/Algorithmic_probability, no according to https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference]
-
 [how to use as learning algorithm]
 [can use other info to predict flash colors by e.g. videotaping everything you see and using it to predict what you'll see next (can do that in real world too)]
 [why single out solomonoff induction instead of other learning algorithms? several theoretical reasons for this, but to make long story short it is arguably the best learning algorithm theoretically possible if you have unlimited computing power, give links to more info]
 [speculation: output of program is in a sense a "type" because it's something we know about the program, so wondering if possible to relate to gr & qm using shared relationship with category theory]
-
-for next post:
-
-For one, you could do the same procedure with a different Turing complete language than C and get different resulting probabilities, and that would still be considered "algorithmic probability."
-
-I know what you're thinking. "See, algorithmic probability isn't unique. So even if these probabilities can be determined by experiment in the first place, algorithmic probability can't even tell me what are the 'right' probabilities to expect. So this isn't scientific."
-
-Well, not so fast. No matter which programming language you pick, all these different choices of algorithmic probability have more in common than you might expect, and here's why. Since there's a 50% chance that each new bit we write will be the end of the bitstring, the shortest programs that print a given color flashing sequence will have by far the biggest contribution to its probability. For short color sequences, the shortest program that prints it just prints it directly. For long but predictable color sequences, the shortest program that prints it may use a simple algorithm. For example, to print 1000 'A' characters, it is shorter to write a loop to print 'A' 1000 times than to print a string of 1000 'A's. But if the color sequence is both complicated and highly compressible, the shortest program in a given language that prints it may not be completely written in that language!
-
-What do I mean by that? If you've ever taken a program written in one language and rewritten it in a different language, you may have noticed that the length of a program can wildly vary depending on which language it's written in. For example, if a C program is rewritten in Lisp or Python, it is not uncommon for the Lisp or Python program to be several times shorter than the original C program, even though both programs do the same thing. So how can we take advantage of that to write shorter code?
-
-One of the fascinating properties about a Turing complete language like C is that it is possible to write a program called an interpreter to simulate any other programming language that a computer can run. These interpreters can be surprisingly short; for example the interpreter for a language called PicoLisp is written in less than 16,000 lines of C. So suppose we have a 500,000 line C program that we want to rewrite using the least code we can. We know that the same program can be written in, say, 50,000 lines of PicoLisp, but there is a requirement that our code is written in C. If we're feeling clever, we can simply write a C program that includes the PicoLisp headers, stores the 50,000 lines of PicoLisp in a string constant, then runs the PicoLisp code in the interpreter. Our new program would then be approximately 16,000 + 50,000 = 66,000 lines of code, much shorter than the original 500,000 line program, and it would still technically be written in C even though most of its code is actually written in PicoLisp!
-
-#include "pico.h"
-char* code = "50,000 lines of PicoLisp";
-int main(void) {
-    run_my_picolisp_code(code); // FYI, this isn't actually how you run PicoLisp code [check how to actually do it]
-    return 0;
-}
-
-[AI for games: "minischeme is less than 2500 lines of C code for the complete system, although it lacks some of the more exotic features of a full scheme implementation"]
-
-This crazy-sounding strategy of embedding one programming language in another is actually pretty common. For example, many popular languages do not have good built-in syntax to handle string matching or database queries. A common workaround is to import a regular expression or SQL library, then pass regular expressions or SQL code into the library functions as a string, just like we did with PicoLisp in the example above.
-
-[non-unique probabilities, converging (and why), only way to get result faster would be by overfitting, classifying result that doesn't fit, lead in to prior info]
-[this is basically a mathematical theory that if we do the scientific method in a certain idealized way then our process of learning will always have certain characteristics, what's testable about it is whether that idealized process of learning is representative of how we do it in real world?]
-[relationship to category theory: http://math.ucr.edu/home/baez/rosetta_fresno.pdf]

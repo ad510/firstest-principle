@@ -1,4 +1,6 @@
 - living in sim experiment, solomonoff induction
+- evaluating solomonoff induction as a TOE (later parts of answer1.1)
+- more applications of solomonoff induction (brain splitting, measurement in quantum mechanics)
 - time perception when living in a sim
   - end with if entropy def of time behaves anything like QM then it should be possible to derive energy operator & conservation of energy, but my math skills are too bad to do this
 - physical interpretation of types
