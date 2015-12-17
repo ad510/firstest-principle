@@ -46,8 +46,25 @@ But if the hypotheticals above are considered experiments, then it would change 
 
 I've had long discussions with friends about whether these should be considered experiments, but like many philosophical discussions, it tended to turn into a meaningless debate about what words such as "you" and "identity" mean. I'd love to hear what physicists think of this, and I wouldn't be surprised if they have thought of these hypotheticals but don't consider them to be experiments. [email link] But even though people who don't try to put themselves in simulations may never be able to experimentally confirm the outcomes of these hypotheticals, I think that giving up on predicting them would be unfair to people who do try to put themselves in simulations. And if our technology progresses quickly enough that I find myself inside a simulation in my lifetime, then I really want to have at least an educated guess of what I'd sense happening to me!
 
-[if can't go into sim or "jump" probability is 0 then can still use gr+sm]
-[if people can tell which computer they're in then it'd be no fun, so let's speculate about what if they can't; also consider how wrong diagram looks if people can tell which computer they're in]
+Approaching the problem
+
+In order to predict what would happen from the perspective of someone who tries to go into into a simulation, we'd have to answer the following questions:
+
+1. Is it possible for us to put ourselves in virtual reality simulations?
+2. If the answer to 1 is yes, is it possible for people inside virtual reality simulations to "jump" between computers that run the same simulation?
+3. If the answers to both 1 and 2 are yes, how can we predict the probability of "jumping" between computers?
+
+For reasons stated near the beginning of this post, I think it is reasonable to suspect that the answer to #1 is yes. And if I'm wrong about that (which is entirely possible), then this entire writeup was a pointless exercise.
+
+If the answer to #2 is no, then it means that people in virtual reality simulations who know enough about the outside world can always predict what will happen to them in terms of the standard model and general relativity. It would also mean that if you copied a deterministic simulation onto a second computer, the people in the second computer could still tell that they were copies even though the bits in computer memory representing their thoughts are the same as those in the original computer!
+
+I mean, doesn't the diagram below just look wrong, considering that both the first and second computer are running the same deterministic simulation?
+
+[I'm in the 1st/2nd computer, so I will die/survive]
+
+I don't know about you, but if we can put ourselves from the real world into virtual reality simulations, I'd be very surprised if we couldn't also "jump" between computers that run the same simulation. But it's entirely possible that I'm wrong about that too.
+
+So let's spend the rest of this post speculating about how we might answer #3. And please remember that I am not an authority or representative of the scientific community on this subject. I am just trying to start this discussion because I think this sort of thing might be possible in my lifetime, and if you want to add to the discussion, I'm more than happy to hear what your thoughts are. [email link]
 
 So here's the problem. If we consider this to be a scientific question, then basically no one has a clue to what the answer to it is. Worse, the question is so general that it's difficult to find something that all situations like this have in common, and even if we came up with a guess of how to answer it, the people able to measure the answer a few decades from now would be unable to tell the rest of us the answer in a way that is helpful to us! So given that, what approaches can we take to try to answer this problem?
 
@@ -79,7 +96,7 @@ Isn't that procedure ridiculous? In essence, the algorithmic probability of a bi
 
 Now of course, you may wonder, is that *really* the probability of what might happen to us if we put ourselves in a computer simulation and couldn't tell which computer we were in?
 
-Honestly, I don't know. The only reason I bring up this possibility is because if it's possible to answer that question by experiment, then as far as I can tell the scientific community does not have an agreed upon prediction of what the answer to it is. And as someone who is likely to see these super-powerful computers exist in my lifetime, I feel we have an obligation to try to answer it, or at least participate in wild-eyed speculation of what the consequences would be. I am just trying to start that discussion. So please do not consider me to be an authority or representative of the scientific community on this subject (because I'm not), and if you want to add to this discussion, I'm more than happy to hear what your thoughts are.
+Honestly, I don't know. The only reason I bring up this possibility is because if it's possible to answer that question by experiment, then as far as I can tell the scientific community does not have an agreed upon prediction of what the answer to it is. And as someone who is likely to see these super-powerful computers exist in my lifetime, I feel we have an obligation to try to answer it, or at least participate in wild-eyed speculation of what the consequences would be. I am just trying to start that discussion. So please do not consider me to be an authority or representative of the scientific community on this subject (because I'm not), and if you want to add to this discussion, I'm more than happy to hear what your thoughts are. [this paragraph is now redundant]
 
 [how to use as learning algorithm]
 [can use other info to predict flash colors by e.g. videotaping everything you see and using it to predict what you'll see next (can do that in real world too)]
