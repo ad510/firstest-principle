@@ -9,6 +9,7 @@ output: probability distribution of bitstrings at future time T from now
   - B1 begins with B
   - time(B1) >= time(B) + T
 - note that returning set of bitstrings is sufficient to get its probability distribution (using algorithmic probability)
+  - state = output bitstring, mixed state = set of output bitstrings
 
 what if output bitstring is shorter?
 I don't know if I can force an expected length, but this might relate to uncertainty principle
