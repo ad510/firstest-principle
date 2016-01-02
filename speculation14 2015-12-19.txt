@@ -1,0 +1,32 @@
+Time translation on mixed states
+
+Non working ideas:
+- state = output bitstring
+- mixed state = probability distribution of output bitstrings
+- time(state B) = expected length of programs that output bitstring beginning with B
+- time_translation(state B, delta time T) = set containing every state B1 where
+  - B1 begins with B
+  - time(B1) >= time(B) + T
+  # returning set of bitstrings is sufficient to get its probability distribution (using algorithmic probability)
+- time_translation(mixed state S, delta time T) = 
+
+Time is discrete when we measure 1 bit at a time (speculation13), so we need a continuous model if we want continuous time translation
+  Worth it if it lets me figure out what energy is
+State = number between 0 and 1
+  When written in binary, corresponding (infinite) output bitstring is digits after the decimal point
+Mixed state = probability density function of a state
+  Damn, is this still discrete? E.g. All 0s can be printed by finite program
+  Maybe this actually isn't PDF but can be combined with algorithmic probability to get actual probability distribution
+
+Working idea (I think):
+We actually want to turn a prior probability distribution into another prior probability distribution
+After a time interval, for each possible bitstring we expect to have measured a certain number of bits. So chop off those bits and return the same probability but for the remaining bits.
+  If expect to have measured more bits than length of bitstring, then ignore that bitstring. This is ok because this is output bitstring (not program bitstring) and 1 bit at a time Solomonoff induction has similar behavior.
+This helps analyze different paths to the same state
+  If a bunch of "random gobbledygook" happens then a lot of time passes but afterward you don't think so (speculation6 virtual particles)
+  But if you gradually turn into random gobbledygook then reverse time operator actually loses information
+  Related to forgetting = put big distance between stuff
+  Perceived lifetime = when you run time operator in reverse, how much time do you think passed
+I should define "reverse time operator" more precisely
+  In statistical physics, entropy = known unknown = info stored in environment (not in system)
+  Can do Solomonoff induction in reverse by reversing long bitstring and predicting next bits. So reverse time translation likely possible too.

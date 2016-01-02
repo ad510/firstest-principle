@@ -1,0 +1,41 @@
+Todo/reminders from Matthew conversation:
+Problem solving as unknown unknown -> known known -> known unknown
+Does increasing entropy = copying stuff, why
+Maximize entropy by making lots of copies by picking something simple and self replicating because?
+Complexity comes from environment not self
+
+Measure something = being an identical copy then learning which one you are (but that isn't making copies)
+Problem solving above requires learning then selectively forgetting (a.k.a. caching)
+Environment mutation needs something like monads or lazy sequences
+Maybe making copies involves something like Hotelling's law (assume other rational things in environment will do something similar to me)
+Might need outputs in Solomonoff induction to express concept of copying stuff
+Would picking outputs to maximize expected input entropy do the right thing?
+  Babies have same weaknesses that young "Solomonoff's mad scientist" would have
+  Do non functioning sensors have low or high entropy as time->infinity?
+  Even if a non functioning sensor has high entropy, choice of output would not affect input from that sensor (but wouldn't want it to learn to break other sensors)
+  Can feed it 0s when no new data available to make it impatient. People who get stuff done are lazy and impatient. Finding/making sources of randomness to fill it with (hard to do at scale) is reward like TV or internet is for us.
+  If things get predictable, copying self to extend sensory reach and only share what's important would make it unpredictable again
+  I wonder what a neuron does, including dopamine pathways
+If time=entropy then likely to spend a lot of time living in something "smart"?
+  Most likely input/output is what Solomonoff inductor predicts, so if interpreting output to "cause" input then output must get credit for inputs being random
+
+2015-12-23
+Can make a Solomonoff inductor to predict any probability for any finite bitstring
+So if separate bits by input and output, can interpret it as a chat between Solomonoff inductors or Solomonoff mad scientists
+Solomonoff inductors become more similar as length of input bitstring increases
+Solomonoff inductor with prefix in front of input bitstring == a different Solomonoff inductor
+Chatting Solomonoff inductors can't copy their programming language into the other Solomonoff inductor, but they can "copy" their "knowledge" by sharing their input bitstring with the other Solomonoff inductor
+  But that is just Solomonoff mad scientist saying how to copy stuff. How does the other Solomonoff inductor actually make the copies?
+Passing that input into a Solomonoff inductor = entanglement = measurement, sort of
+  Then what is cheating with plausible deniability?
+Expected entropy of bitstring distributed using algorithmic probability is finite. Does that predict your lifetime to be finite?
+
+2015-12-24
+Beauty about defining knowledge of "you" as amplitude vector or output bitstring (as opposed to quantum process or computer program) is it lets you say something about who you are without ruling out any possibilities of what you might do in future
+Solomonoff inductor (optimal predictor) with output bitstring prefix is just another Solomonoff inductor (another optimal predictor)
+  So it doesn't really matter if "knowledge" of self or "measurements" of past are wrong
+Even if you ignore Solomonoff induction's probabilities of what "you" will do and pick whatever you want, it will still get the right probabilities in the long run
+  Hopefully that addresses the "free will" question
+Since all scientific questions are really just "who am I", uncertainty of environment is really just uncertainty of self
+
+Copies of stuff need to be a distance away from you, so I think I'd need to understand space better first. Maybe go back to trying to define energy?
