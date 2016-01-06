@@ -74,27 +74,30 @@ The most badass learning algorithm ever invented
 
 Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Most of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. I think it is the most badass learning algorithm ever invented, and mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can be approximately compute using known physics.
 
-Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating an infinite sequence of 1's and 0's (also known as a bitstring [not necessarily infinite]) and you want to guess the rest of the sequence. The 1's and 0's can represent anything you want, such as whether each flash is red or green, or perhaps English text (by splitting up the bitstring into blocks that each correspond to a letter of the alphabet).
+Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating a sequence of 1's and 0's (also known as a bitstring) and you want to guess the next bits in the sequence. The 1's and 0's can represent anything you want, such as whether each flash is red or green, or perhaps English text (by splitting up the bitstring into blocks that each correspond to a letter of the alphabet).
 
 So knowing how the bitstring begins, how can you try to guess the unknown bits that follow? Intuitively you'd think that they probably continue the same pattern as the previous bits, rather than being something "random." But how can you tell how "random" a bitstring is? A subjective but really effective way of doing that is by figuring out what are the lengths of the shortest computer programs that output that bitstring. So let's use this idea to assign a probability to every bitstring.
 
 First we need a way to randomly generate computer programs that produces shorter programs more often than longer programs. Easy! Take 2 fair coins and flip them. If the first coin is heads then write a 0; otherwise write a 1. If the second coin is heads then flip both coins again; otherwise stop. The resulting bitstring is our *computer program*. (Remember that text such as computer code is really just a bitstring.)
 
-Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps C or JavaScript or Lisp. (It doesn't matter which language, as long as it's Turing complete and has something like printf or console.log that prints to the console. Also you should let the program use unlimited time and memory.) As for the text, I mean bitstring, that the program prints to console, how about we call it the *console output*.
+Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps C or JavaScript or Lisp. (It doesn't matter which language, as long as it's Turing complete and has something like printf or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text, I mean bitstring, that the program prints to console, how about we call it the *console output*.
 
-Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and an eternity beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity).
+Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity).
 
 [are there any issues caused by finite console outputs?]
 
 Isn't that procedure ridiculous? If you like, here's a flowchart:
 
-[the divine being's guide to calculating algorithmic probability]
+[how to compute algorithmic probability (slooowwly)]
 
-Now that we've done the hard part, how can we use that to deal with the more down-to-earth question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far. (You can use 0 for red and 1 for green.) Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of that bitstring followed by an extra 0 at the end, divided by the algorithmic probability of that bitstring alone (without the extra 0). The probability of seeing a green flash next is just one minus the probability of seeing a red flash next. [finite console outputs cause issues]
+Now that we've done the hard part, how can we use that to deal with the more practical question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far. (You can use 0 for red and 1 for green.) Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of that bitstring followed by an extra 0 at the end, divided by the algorithmic probability of that bitstring alone (without the extra 0). Similarly, the probability of seeing a green flash next is the algorithmic probability of that bitstring followed by an extra 1 at the end, divided by the algorithmic probability of that bitstring alone.
 
 Take that, standard model and general relativity!
 
-If you want to read more about Solomonoff induction, see here... [links]
+If you want to read more about Solomonoff induction, see here, here, and here.
+[http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
+[http://scholarpedia.org/article/Algorithmic_probability]
+[http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist]
 
 Can we do better?
 [taking into account more info and other possible outcomes]
