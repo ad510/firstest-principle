@@ -94,7 +94,7 @@ Now that we've done the hard part, how can we use that to deal with the more pra
 
 Take that, standard model and general relativity!
 
-If you want to read more about Solomonoff induction, see here, here, and here.
+To learn more about Solomonoff induction and why it is so badass, see here, here, and here.
 [http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
 [http://scholarpedia.org/article/Algorithmic_probability]
 [http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist]
@@ -107,7 +107,13 @@ But even ignoring that, there is another issue which is that the procedure only 
 
 Yes we can! Instead of writing down a bitstring corresponding to the sequence of flashes so far and using Solomonoff induction to predict just the color of the next flash, you can write down a bitstring corresponding to everything you've seen, heard, or otherwise measured so far (kind of like how YouTube encodes videos so that it can send them to your computer, but encoding your senses instead) [maybe videotaping everything you see would be easier to explain], and use Solomonoff induction to try to predict everything you will see, hear, or otherwise measure in the future, including which colors future flashes will be. In fact, there's an added bonus of doing it this way (if you can ignore the even worse performance issues). When the bitstring only contains the sequence of flashes, Solomonoff induction would not predict other things you will perceive in the simulation and you would need a separate way of doing that, such as knowing how the simulation is programmed. But if you use Solomonoff induction to predict *everything* you will sense in the future, you would no longer need to rely on someone telling you how the simulation behaves before you put yourself in the simulation.
 
-Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Though no one does that in practice because it would take far more computing power than we dream of having, that this is even theoretically possible raises a new question...
+Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Which raises the question of whether learning algorithms should be considered physics theories in their own right. (More on that in future blog posts.)
+
+What's the point?
+
+I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this stuff matter?
+
+[write intro first, don't need stuff below]
 
 Is Solomonoff induction a theory of everything?
 
