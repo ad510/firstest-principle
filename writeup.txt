@@ -100,8 +100,16 @@ If you want to read more about Solomonoff induction, see here, here, and here.
 [http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist]
 
 Can we do better?
-[taking into account more info and other possible outcomes]
-[can use other info to predict flash colors by e.g. videotaping everything you see and using it to predict what you'll see next (can do that in real world too)]
+
+Even though the procedure I just described uses the most badass learning algorithm ever invented, it still has some issues. One obvious issue is that it assumes you have unlimited computing power and patience, but if that is a problem, you can just use a different learning algorithm that has better performance than Solomonoff induction. (Machine learning researchers would know better than me about which learning algorithms might be good choices here. Perhaps your brain?)
+
+But even ignoring that, there is another issue which is that the procedure only makes predictions using knowledge of past flashes, ignoring knowledge of other stuff. For example, suppose that for some really weird reason, whenever you raise your hands and shout "I will see a red flash," it increases your chances of seeing a red flash next. (You never know when the flash colors are chosen by an unknown process.) That would be a good thing to know, but the procedure above would not learn to take that into account. Could we modify it to take into account information like that?
+
+Yes we can! Instead of writing down a bitstring corresponding to the sequence of flashes so far and using Solomonoff induction to predict just the color of the next flash, you can write down a bitstring corresponding to everything you've seen, heard, or otherwise measured so far (kind of like how YouTube encodes videos so that it can send them to your computer, but encoding your senses instead), and use Solomonoff induction to try to predict everything you will see, hear, or otherwise measure in the future, including which colors future flashes will be. In fact, there's an added bonus of doing it this way (if you can ignore the even worse performance issues). When the bitstring only contains the sequence of flashes, Solomonoff induction would not predict other things you will perceive in the simulation and you would need a separate way of doing that, such as knowing how the simulation is programmed. But if you use Solomonoff induction to predict *everything* you will sense in the future, you would no longer need to rely on someone telling you how the simulation behaves before you put yourself in the simulation.
+
+Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Though no one does that in practice because it would take far more computing power than we dream of having, that this is even theoretically possible raises a new question...
 
 Is Solomonoff induction a theory of everything?
+[even if we have a case #1 or #2, SI does what SM & GR do better than SM & GR do it]
+[only way to get result faster would be by overfitting, more in future posts]
 [speculation: output of program is in a sense a "type" because it's something we know about the program, so wondering if possible to relate to gr & qm using shared relationship with category theory]
