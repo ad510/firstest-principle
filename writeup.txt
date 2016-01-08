@@ -88,9 +88,9 @@ Finally we can assign a probability to every bitstring. If you generate and run 
 
 Isn't that procedure ridiculous? If you like, here's a flowchart:
 
-[how to compute algorithmic probability (slooowwly)]
+[the extremely patient person's guide to calculating algorithmic probability (actually, "extremely patient" is a big understatement)]
 
-Now that we've done the hard part, how can we use that to deal with the more practical question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far. (You can use 0 for red and 1 for green.) Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of that bitstring followed by an extra 0 at the end, divided by the algorithmic probability of that bitstring alone (without the extra 0). Similarly, the probability of seeing a green flash next is the algorithmic probability of that bitstring followed by an extra 1 at the end, divided by the algorithmic probability of that bitstring alone.
+Now that we've done the hard part, how can we use that to deal with the more practical question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far (you can use 0 for red and 1 for green), followed by an extra 0 at the end. I'll call that bitstring R. Also write down a bitstring corresponding to the flashes you've seen so far, followed by an extra 1 at the end, which I'll call bitstring G. Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of bitstring R, divided by the sum of the algorithmic probability of bitstring R and the algorithmic probability of bitstring G. The probability of seeing a green flash next is just one minus the probability of seeing a red flash next.
 
 Take that, standard model and general relativity!
 
