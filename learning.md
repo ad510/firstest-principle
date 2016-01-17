@@ -1,12 +1,12 @@
-What learning algorithms can predict that our physics theories cannot
+# What learning algorithms can predict that our physics theories cannot
 
-Putting someone in virtual reality
+## Putting someone in virtual reality
 
-For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
+For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have [tried to predict](http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI) how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
 
 Virtual reality simulations are already pretty good these days. I'd imagine that virtual reality simulations around 2060 would be *really* good, possibly so good that to a virtual person living in one, it would look pretty convincingly like a real universe.
 
-Wouldn't it be fun to live in one of these simulations? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the Internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to suppose that by around 2060, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
+Wouldn't it be fun to live in one of these simulations? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the Internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to suppose that by around 2060, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
 
 [I'm him!]
 
@@ -20,11 +20,11 @@ So let's say someone does that and they are now a single person that lives in bo
 
 [blowing up real world brain]
 
-By the way, I made another assumption there, which is that when the real world part of the brain got blasted into a million pieces, the person still lived on in the virtual reality world instead of just dying. I think this is a realistic assumption because people have done surgeries where they removed half of someone's brain and they still lived on OK. [https://en.wikipedia.org/wiki/Hemispherectomy] If this turns out not to hold true with part of the brain in the real world and part of the brain in a virtual reality world, then the rest of this writeup is completely irrelevant. I hope we'll find out about that in the not too distant future as well!
+By the way, I made another assumption there, which is that when the real world part of the brain got blasted into a million pieces, the person still lived on in the virtual reality world instead of just dying. I think this is a realistic assumption because people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. If this turns out not to hold true with part of the brain in the real world and part of the brain in a virtual reality world, then the rest of this writeup is completely irrelevant. I hope we'll find out about that in the not too distant future as well!
 
 If these assumptions are correct, we now succeeded in getting someone from living completely in the real world to living to the greatest extent possible in a virtual reality world. If our technology progresses fast enough, that person may very well be you or me! And even though that person knows that they really live in a bigger universe that follows general relativity and the standard model, the virtual reality simulation sure *feels* convincing.
 
-The problem
+## The problem
 
 Now there's something that you can do with virtual reality simulations that I find really fascinating. I don't know how computers will work in 2060, but computers right now have dedicated places where they store their current state, such as memory and hard disks. It's possible to hibernate the computer so that its current state is frozen onto disk, copy the data on the disk to a second computer with the same specs, then start up both computers. If both computers operate correctly and the simulation is completely deterministic, then when the simulation resumes, it will behave the same way on both computers.
 
@@ -46,9 +46,9 @@ So, then, how should the person predict the probability of seeing a red or green
 
 As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so if they haven't predicted its outcome then they probably have a good reason for doing so. Off the top of my head, I can think of one potential reason: is it really an experiment?
 
-Is this really an experiment?
+## Is this really an experiment?
 
-In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. (In this case, it's that people inside virtual reality simulations can "jump" between computers that run the same simulation.) Then, you figure out the consequences of the guess. (In this case, it's that people who go in virtual reality simulations can "survive" in a second computer if the original computer they go in is destroyed.) Then, you check whether those consequences are correct by comparing them to experience or experiment. (In this case, by putting yourself in a virtual reality simulation, having some friends copy the simulation to a second computer and destroy the original computer, and seeing if you survive when this happens.) If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
+In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. (In this case, it's that people inside virtual reality simulations can "jump" between computers that run the same simulation.) Then, you figure out the consequences of the guess. (In this case, it's that people who go in virtual reality simulations can "survive" in a second computer if the original computer they go in is destroyed.) Then, you check whether those consequences are correct by comparing them to experience or experiment. (In this case, by putting yourself in a virtual reality simulation, having some friends copy the simulation to a second computer and destroy the original computer, and seeing if you survive when this happens.) If the predictions aren't consistent with the real world then the guess is wrong.
 
 If it is possible for people to put themselves in virtual reality worlds, then for people who do that, this appears to be a completely valid experiment. But what about for people who watch the computers from outside? Normally, after people do an experiment, they announce the result to the rest of the world so that everyone else can know whether their guesses about the universe are wrong. But in this case, people watching from outside will see both the person that "dies" in the original computer and the copy of the person that "lives on" in the second computer, and won't be able to tell which outcome a person in the simulation would perceive! So is this really an experiment?
 
@@ -56,7 +56,7 @@ There is a similar issue with the possibility of putting a person's identity in 
 
 I've had long discussions with friends about whether these should be considered experiments, but like many philosophical discussions, they tended to turn into meaningless debates about what words such as "you" and "identity" mean. I'd love to hear what physicists think of this, and I wouldn't be surprised if they have thought of these hypotheticals but don't consider them to be experiments. [email link] But even though people who don't try to put themselves in simulations may never be able to experimentally confirm the outcomes of these hypotheticals, I think that giving up on predicting them would be unfair to people who do try to put themselves in simulations. And if our technology progresses quickly enough that I find myself inside a simulation in my lifetime, then I really want to have at least an educated guess of what I'd sense happening to me!
 
-Approaching the problem
+## Approaching the problem
 
 There are actually multiple questions we're considering here:
 
@@ -108,12 +108,9 @@ Now that we've done the hard part, how can we use that to deal with the more pra
 
 Take that, standard model and general relativity!
 
-To learn more about Solomonoff induction and why it is so badass, see here, here, and here.
-[http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
-[http://scholarpedia.org/article/Algorithmic_probability]
-[http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist]
+To learn more about Solomonoff induction and why it is so badass, see [here](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/), [here](http://scholarpedia.org/article/Algorithmic_probability), and [here](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist).
 
-Can we do better?
+## Can we do better?
 
 Even though the procedure I just described uses the most badass learning algorithm ever invented, it still has some issues. One obvious issue is that it assumes you have unlimited computing power and patience, but if that is a problem, you can just use a different learning algorithm that has better performance than Solomonoff induction. (Machine learning researchers would know better than me about which learning algorithms might be good choices here. Perhaps your brain?)
 
@@ -123,6 +120,6 @@ Yes we can! Instead of writing down a bitstring corresponding to the sequence of
 
 Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Which raises the question of whether learning algorithms should be considered physics theories in their own right. (More on that in future blog posts.)
 
-What's the point?
+## What's the point?
 
 I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this stuff matter?
