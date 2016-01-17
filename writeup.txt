@@ -1,3 +1,5 @@
+What learning algorithms can predict that our physics theories cannot
+
 Putting someone in virtual reality
 
 For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
