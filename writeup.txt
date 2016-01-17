@@ -1,0 +1,128 @@
+What learning algorithms can predict that our physics theories cannot
+
+Putting someone in virtual reality
+
+For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
+
+Virtual reality simulations are already pretty good these days. I'd imagine that virtual reality simulations around 2060 would be *really* good, possibly so good that to a virtual person living in one, it would look pretty convincingly like a real universe.
+
+Wouldn't it be fun to live in one of these simulations? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the Internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to suppose that by around 2060, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
+
+[I'm him!]
+
+Better yet, what if we hooked up one of our brains to the brain of someone in a computer simulation? Would we collectively feel like a single person then?
+
+[I'm him!]
+
+We won't know that until we actually try it. I think it is reasonable to suspect that the answer might be yes, and if the answer is no then the rest of this writeup is completely irrelevant. I hope we'll find out in the not too distant future!
+
+So let's say someone does that and they are now a single person that lives in both the real world and a virtual reality world. And then the part of the person living in the real world gets into a tragic accident and gets their brain blasted into a million pieces, and no more nondeterministic data (such as what the real world side of the person is thinking) is fed into the simulation. How unfortunate. But now they completely live in a virtual reality world that doesn't have to behave anything like our own! How awesome is that? Of course, the part of the person that was in the real world also happened to program the virtual reality simulation, and they transferred their knowledge to the virtual reality part of their brain when they got hooked up. Since the computer running the simulation must obey the laws of physics, the remaining virtual reality part of the person can still ultimately predict what will happen to him or her in terms of physics theories such as the standard model and general relativity. So in a sense they still really live in our universe.
+
+[blowing up real world brain]
+
+By the way, I made another assumption there, which is that when the real world part of the brain got blasted into a million pieces, the person still lived on in the virtual reality world instead of just dying. I think this is a realistic assumption because people have done surgeries where they removed half of someone's brain and they still lived on OK. [https://en.wikipedia.org/wiki/Hemispherectomy] If this turns out not to hold true with part of the brain in the real world and part of the brain in a virtual reality world, then the rest of this writeup is completely irrelevant. I hope we'll find out about that in the not too distant future as well!
+
+If these assumptions are correct, we now succeeded in getting someone from living completely in the real world to living to the greatest extent possible in a virtual reality world. If our technology progresses fast enough, that person may very well be you or me! And even though that person knows that they really live in a bigger universe that follows general relativity and the standard model, the virtual reality simulation sure *feels* convincing.
+
+The problem
+
+Now there's something that you can do with virtual reality simulations that I find really fascinating. I don't know how computers will work in 2060, but computers right now have dedicated places where they store their current state, such as memory and hard disks. It's possible to hibernate the computer so that its current state is frozen onto disk, copy the data on the disk to a second computer with the same specs, then start up both computers. If both computers operate correctly and the simulation is completely deterministic, then when the simulation resumes, it will behave the same way on both computers.
+
+So suppose we do the following in our 2060-era hypothetical. In the virtual reality world, we put a clock on the wall. After disconnecting the real world part of the person, we copy the simulation to the second computer, then wait until the clock in the virtual world hits a certain time communicated in advance to the person inside (say, 12:00 midnight). From the time that we copy the simulation to the second computer until 12:00 midnight in the virtual world, both computers run the same deterministic simulation. Then at that moment the simulated clock hits 12:00 midnight, we destroy the computer with the original copy of the simulation, but leave the simulation running in the second computer.
+
+[drawing]
+
+From the perspective of the person we put in the simulation, there are 2 obvious possibilities that could happen when the clock strikes 12. If the person's identity is somehow tied to which physical computer he or she is in, then he or she "dies" and won't be able to perceive anything after that moment. On the other hand, if the person's identity is somehow tied to which simulation he or she is in in a way that has nothing to do with which computer is running it, then there is a possibility that he or she continues to "live on" because the same simulation is still running in the second computer.
+
+If we do this and the person in the simulation "dies," then this doesn't raise any issues with our understanding of the universe. But the reason that I find this question so fascinating is the possibility that such people might "live on" in the second computer.
+
+Suppose we do things a little differently, and we copy the simulation state into 2 other computers (instead of just 1) before destroying the original computer. If the person still finds that he/she is still alive after the virtual clock passes 12 midnight, then the person will know that he/she is in one of the two remaining computers, but will not know which one they're in because both computers are running the same simulation. So at this point, we give the person a way to tell which computer they're in by flashing a color in the virtual world, flashing red in one computer and green in the other. (The choice of which computer flashes which color can be delayed as long as possible to ensure that both computers have the same simulation state until that point.) If the plan to do this is communicated in advance to the person in the simulation, then this raises a new question for that person: how can he/she predict the probabilities of seeing a red flash or a green flash before it occurs?
+
+[drawing]
+
+Of course, he/she could predict that there's a 50% chance of seeing a red flash and a 50% chance of seeing a green one, but just because there's two possibilities doesn't necessarily mean that each possibility has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
+
+So, then, how should the person predict the probability of seeing a red or green flash? The most fundamental physics theories we know of today are the standard model of particle physics and general relativity. But if it is possible for people to go into computer simulations (a very big if, of course), then even if the poor souls know both theories and could somehow calculate in real-time how the individual subatomic particles in the computers would behave, they still could only predict in advance what each of the computers would do, not which of the computers they would personally find themselves in. So if it turns out that the person "survives" when the original computer is destroyed, our state-of-the-art physics theories would provide no guidance on predicting the probabilities of seeing a red or green flash, since this would require predicting which computer his or her identity "jumps" to.
+
+As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so if they haven't predicted its outcome then they probably have a good reason for doing so. Off the top of my head, I can think of one potential reason: is it really an experiment?
+
+Is this really an experiment?
+
+In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. (In this case, it's that people inside virtual reality simulations can "jump" between computers that run the same simulation.) Then, you figure out the consequences of the guess. (In this case, it's that people who go in virtual reality simulations can "survive" in a second computer if the original computer they go in is destroyed.) Then, you check whether those consequences are correct by comparing them to experience or experiment. (In this case, by putting yourself in a virtual reality simulation, having some friends copy the simulation to a second computer and destroy the original computer, and seeing if you survive when this happens.) If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
+
+If it is possible for people to put themselves in virtual reality worlds, then for people who do that, this appears to be a completely valid experiment. But what about for people who watch the computers from outside? Normally, after people do an experiment, they announce the result to the rest of the world so that everyone else can know whether their guesses about the universe are wrong. But in this case, people watching from outside will see both the person that "dies" in the original computer and the copy of the person that "lives on" in the second computer, and won't be able to tell which outcome a person in the simulation would perceive! So is this really an experiment?
+
+There is a similar issue with the possibility of putting a person's identity in a virtual reality simulation in the first place. If we hook up your brain with a simulated person's brain then blow up your real world brain, it would be obvious to you whether you survived in the virtual world. Those of us watching from outside could then try to figure out whether you felt like you went from the real world to the virtual world by asking the simulated person if he or she is you. But does questioning the simulated person count as measuring the result of an experiment?
+
+I've had long discussions with friends about whether these should be considered experiments, but like many philosophical discussions, they tended to turn into meaningless debates about what words such as "you" and "identity" mean. I'd love to hear what physicists think of this, and I wouldn't be surprised if they have thought of these hypotheticals but don't consider them to be experiments. [email link] But even though people who don't try to put themselves in simulations may never be able to experimentally confirm the outcomes of these hypotheticals, I think that giving up on predicting them would be unfair to people who do try to put themselves in simulations. And if our technology progresses quickly enough that I find myself inside a simulation in my lifetime, then I really want to have at least an educated guess of what I'd sense happening to me!
+
+Approaching the problem
+
+There are actually multiple questions we're considering here:
+
+1. Is it possible for us to put ourselves in virtual reality simulations?
+2. If so, then suppose you put yourself into a simulation, then have some friends copy the simulation to a second computer and blow up the original computer. Could you survive in the second computer?
+3. If the answers to both 1 and 2 are yes, then suppose you put yourself into a simulation then have some friends copy the simulation onto 2 more computers, blow up the first (original) computer, and flash red in the second computer and green in the third computer. How should you predict the probabilities of seeing a red flash or a green flash before it occurs?
+
+I think it is reasonable to suspect that the answer to #1 is yes, as explained near the beginning of the post. And if I'm wrong about that (which is entirely possible), then the rest of this writeup is unnecessary.
+
+If the answer to #2 is no, then it means that people in virtual reality simulations who know enough about the outside world can always predict what will happen to them in terms of known physics. It would also mean that if you copied a deterministic simulation onto a second computer, the people in the second computer could still tell that they were copies even though the bits in computer memory representing their thoughts are the same as those in the original computer!
+
+I mean, doesn't the drawing below just look wrong, considering that both the first and second computer are running the same deterministic simulation?
+
+[I'm in the 1st/2nd computer, so I will die/survive]
+
+I don't know about you, but if we can put ourselves from the real world into virtual reality simulations, I'd be very surprised if we couldn't also "jump" between computers that run the same simulation. But it's entirely possible that I'm wrong about that too.
+
+So now let's speculate about how we might answer #3. This one is trickier, so let's start by pretending that you or I are in that situation a few decades from now. By then, scientists may or may not have a pretty good guess of how to predict the probability of seeing a red or green flash, depending on whether they think it can be answered by experiment. But in either case, they wouldn't be able to tell us if their guesses are correct because even if they've done the experiment before, they would've seen both the red flash in the second computer *and* the green flash in the third computer! Since the first time you'll be able to compare their predictions to observations will be when you're in the simulation yourself, you should be very open to the possibility that their guesses will be wrong. So how could you check whether they are wrong?
+
+Seeing a single flash would not really be enough to check their predictions, so let's modify the setup. Similar to before, we put you in a computer simulation, pause the simulation, copy it onto a second computer, resume it on both computers, then flash red in the first computer and green in the second computer. (Previously I described a variation that used 3 computers and destroyed the original computer, but I don't think that's necessary here.) But this time we don't stop there. Next, we do the same thing to both computers. In other words, if we flashed red in computer A and green in computer B, we copy computer A's state to a new computer C, copy computer B's state into a new computer D, flash red in computers A and B, and flash green in computers C and D. Then we keep repeating this process of copying the simulation states into new computers, flashing red in the originals and flashing green in the copies, until we run out of computers or funding or whatever.
+
+[picture]
+
+If the scientists tell you a way to predict the probabilities of seeing a red flash or green flash, you can use that to make predictions and check them as you see each flash. If the sequence of flashes you see is consistent with your predictions, then great! But if not (which is likely considering that scientists that didn't put themselves in simulations could not have checked the predictions themselves), then if you believe in the scientific method, you should come up with a new way to predict the color of each flash, and if your new predictions are wrong, you should keep refining your theory until you have one that seems to work.
+
+But wait a moment! If the scientists' original way of predicting flashes is so likely to be wrong, then why even learn it in the first place? It almost seems like the most useful thing to teach you in this situation would not people's initial guesses of how you can predict whether you'll see a red or green flash, but rather how you can quickly learn from the results once you start measuring them.
+
+The most badass learning algorithm ever invented
+
+Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Most of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. I think it is the most badass learning algorithm ever invented, and mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can be approximately compute using known physics.
+
+Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating a sequence of 1's and 0's (also known as a bitstring) and you want to guess the next bits in the sequence. The 1's and 0's can represent anything you want, such as whether each flash is red or green, or perhaps English text (by splitting up the bitstring into blocks that each correspond to a letter of the alphabet).
+
+So knowing how the bitstring begins, how can you try to guess the unknown bits that follow? Intuitively you'd think that they probably continue the same pattern as the previous bits, rather than being something "random." But how can you tell how "random" a bitstring is? A subjective but really effective way of doing that is by figuring out what are the lengths of the shortest computer programs that output that bitstring. So let's use this idea to assign a probability to every bitstring.
+
+First we need a way to randomly generate computer programs that produces shorter programs more often than longer programs. Easy! Take 2 fair coins and flip them. If the first coin is heads then write a 0; otherwise write a 1. If the second coin is heads then flip both coins again; otherwise stop. The resulting bitstring is our *computer program*. (Remember that text such as computer code is really just a bitstring.)
+
+Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps C or JavaScript or Lisp. (It doesn't matter which language, as long as it's Turing complete and has something like printf or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text, I mean bitstring, that the program prints to console, how about we call it the *console output*.
+
+Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity).
+
+[are there any issues caused by finite console outputs?]
+
+Isn't that procedure ridiculous? If you like, here's a flowchart:
+
+[the extremely patient person's guide to calculating algorithmic probability (actually, "extremely patient" is a big understatement)]
+
+Now that we've done the hard part, how can we use that to deal with the more practical question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far (you can use 0 for red and 1 for green), followed by an extra 0 at the end. I'll call that bitstring R. Also write down a bitstring corresponding to the flashes you've seen so far, followed by an extra 1 at the end, which I'll call bitstring G. Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of bitstring R, divided by the sum of the algorithmic probability of bitstring R and the algorithmic probability of bitstring G. The probability of seeing a green flash next is just one minus the probability of seeing a red flash next.
+
+Take that, standard model and general relativity!
+
+To learn more about Solomonoff induction and why it is so badass, see here, here, and here.
+[http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
+[http://scholarpedia.org/article/Algorithmic_probability]
+[http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist]
+
+Can we do better?
+
+Even though the procedure I just described uses the most badass learning algorithm ever invented, it still has some issues. One obvious issue is that it assumes you have unlimited computing power and patience, but if that is a problem, you can just use a different learning algorithm that has better performance than Solomonoff induction. (Machine learning researchers would know better than me about which learning algorithms might be good choices here. Perhaps your brain?)
+
+But even ignoring that, there is another issue which is that the procedure only makes predictions using knowledge of past flashes, ignoring knowledge of other stuff. For example, suppose that for some really weird reason, whenever you raise your hands and shout "I will see a red flash," it increases your chances of seeing a red flash next. (You never know when the flash colors are chosen by an unknown process.) That would be a good thing to know, but the procedure above would not learn to take that into account. Could we modify it to take into account information like that?
+
+Yes we can! Instead of writing down a bitstring corresponding to the sequence of flashes so far and using Solomonoff induction to predict just the color of the next flash, you can write down a bitstring corresponding to everything you've seen, heard, or otherwise measured so far (kind of like how YouTube encodes videos so that it can send them to your computer, but encoding your senses instead) [maybe videotaping everything you see would be easier to explain], and use Solomonoff induction to try to predict everything you will see, hear, or otherwise measure in the future, including which colors future flashes will be. In fact, there's an added bonus of doing it this way (if you can ignore the even worse performance issues). When the bitstring only contains the sequence of flashes, Solomonoff induction would not predict other things you will perceive in the simulation and you would need a separate way of doing that, such as knowing how the simulation is programmed. But if you use Solomonoff induction to predict *everything* you will sense in the future, you would no longer need to rely on someone telling you how the simulation behaves before you put yourself in the simulation.
+
+Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Which raises the question of whether learning algorithms should be considered physics theories in their own right. (More on that in future blog posts.)
+
+What's the point?
+
+I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this stuff matter?
