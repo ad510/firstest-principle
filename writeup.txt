@@ -126,25 +126,3 @@ Heck, in theory you could do that to predict what will happen to you right now i
 What's the point?
 
 I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this stuff matter?
-
-[write intro first, don't need stuff below]
-
-Is Solomonoff induction a theory of everything?
-
-Let's recap what we have so far. Previously we were trying to answer 3 questions:
-
-1. Is it possible for us to put ourselves in virtual reality simulations?
-2. If so, then suppose you put yourself into a simulation, then have some friends copy the simulation to a second computer and blow up the original computer. Could you survive in the second computer?
-3. If the answers to both 1 and 2 are yes, then suppose you put yourself into a simulation then have some friends copy the simulation onto 2 more computers, blow up the first (original) computer, and flash red in the second computer and green in the third computer. How should you predict the probabilities of seeing a red flash or a green flash before it occurs?
-
-If the answers to either 1 or 2 are no, then someone trying to put themself in a simulation could predict what would happen to them in terms of known physics. But if the answers to both 1 and 2 are yes, then such a person would also need to use a learning algorithm such as Solomonoff induction in order to answer questions such as #3.
-
-If both #1 and #2 are yes, it would have serious implications for physics because to the best of my knowledge, the only candidate theories of everything [link] that could answer questions similar to #3 in a useful and general way would be learning algorithms. (If I missed another possibility, please email me [link] because I'm really curious about this.) But even if either #1 or #2 are no, Solomonoff induction would still be at least as good (ignoring performance issues) at predicting the world we live in as the standard model and general relativity, the most fundamental physics theories we have today.
-
-Why is that? Because it has a neat statistics trick up it's sleeve.
-
-I'm planning to explain this better in a future blog post, but here's the gist of it. Suppose you make a claim that [this is too hairy to explain in a few sentences, should save for future post]
-
-[even if we have a case #1 or #2, SI does what SM & GR do better than SM & GR do it]
-[only way to get result faster would be by overfitting, more in future posts]
-[speculation: output of program is in a sense a "type" because it's something we know about the program, so wondering if possible to relate to gr & qm using shared relationship with category theory]
