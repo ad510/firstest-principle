@@ -8,17 +8,17 @@ Virtual reality simulations are already pretty good these days. I'd imagine that
 
 Wouldn't it be fun to live in one of these simulations? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the Internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to suppose that by around 2060, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
 
-<img src="learning/im_him.png" width="247" height="462"/>
+![](learning/im_him_sml.png)
 
 Better yet, what if we hooked up one of our brains to the brain of someone in a computer simulation? Would we collectively feel like a single person then?
 
-<img src="learning/im_him2.png" width="375" height="471"/>
+![](learning/im_him2_sml.png)
 
 We won't know that until we actually try it. I think it is reasonable to suspect that the answer might be yes, and if the answer is no then the rest of this writeup is completely irrelevant. I hope we'll find out in the not too distant future!
 
 So let's say someone does that and they are now a single person that lives in both the real world and a virtual reality world. And then the part of the person living in the real world gets into a tragic accident and gets their brain blasted into a million pieces, and no more nondeterministic data (such as what the real world side of the person is thinking) is fed into the simulation. How unfortunate. But now they completely live in a virtual reality world that doesn't have to behave anything like our own! How awesome is that? Of course, the part of the person that was in the real world also happened to program the virtual reality simulation, and they transferred their knowledge to the virtual reality part of their brain when they got hooked up. Since the computer running the simulation must obey the laws of physics, the remaining virtual reality part of the person can still ultimately predict what will happen to him or her in terms of physics theories such as the standard model and general relativity. So in a sense they still really live in our universe.
 
-<img src="learning/im_virtual.png" width="447" height="373"/>
+![](learning/im_virtual_sml.png)
 
 By the way, I made another assumption there, which is that when the real world part of the brain got blasted into a million pieces, the person still lived on in the virtual reality world instead of just dying. I think this is a realistic assumption because people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. If this turns out not to hold true with part of the brain in the real world and part of the brain in a virtual reality world, then the rest of this writeup is completely irrelevant. I hope we'll find out about that in the not too distant future as well!
 
