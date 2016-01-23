@@ -1,4 +1,4 @@
-# What learning algorithms can predict that our physics theories cannot
+# What learning algorithms can predict that our physics theories might not
 
 ## Putting someone in virtual reality
 
