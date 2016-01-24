@@ -1,0 +1,11 @@
+matter antimatter imbalance speculation from a few months ago that I should probably write down:
+- conventional thinking is it is unnatural for universe to start with different amounts of matter & antimatter, so universe probably started with equal of both then it got knocked out of balance
+- but actually since we can't measure the entire universe, there is always uncertainty in estimate of amount of matter vs antimatter
+  - like guessing opponent vs your army size in RTS game, when you can't see entire opponent army due to fog of war
+  - current quantum field theories don't seem to include this uncertainty because in practice this isn't an issue in controlled environments
+- another "natural" alternative is at beginning of universe there's complete uncertainty of matter-antimatter balance, but as you see more particles you can better estimate probability of finding matter or antimatter at edge of visible universe
+  - different from saying that universe always had more matter because visible universe is bubble expanding at speed of light, and universe doesn't have to decide what particles exist outside that bubble until you measure them
+    - pathological example is level on Plausible Deniability scenario branch where it looks like opponent only has 1 worker, but actually they are building base around you and hiding it by deleting units from history just before you'd see them
+- maybe model that by including amplitudes to account for possibility of particles that existed since big bang but you've never measured
+  - as you more precisely measure inside a region, this amplitude would get very small because it's hard for particle to have existed since big bang w/o interacting with particles you've measured
+- if no natural way to do that, another way to model might be binary serializing a sequence of quantum states (as measured over time) and using solomonoff induction to guess how the sequence continues
