@@ -102,7 +102,42 @@ Finally we can assign a probability to every bitstring. If you generate and run 
 
 Isn't that procedure ridiculous? If you like, here's a flowchart:
 
-[the extremely patient person's guide to calculating algorithmic probability (actually, "extremely patient" is a big understatement)]
+the
+extremely patient* person's
+guide to
+calculating algorithmic probability
+
+* actually, "extremely patient" is a big understatement
+
+  Start
+    |
+    v
+*Flip* 2 coins <---  <----------
+    |              |            |
+    v              |            |
+If first coin is:  |            |
+[heads] -> write 0 |            |
+[tails] -> write 1 |            |
+    |           ---             |
+    |    Second coin is [heads] |
+    | Second coin is [tails]    |
+    v                           | Do until the end of time
+Save bits as a *binary file*    |
+100101 -> random_program.py ------------------
+    |                                         | When time ends
+    v                                         |
+*Execute* it as a computer program            |
+(Use a Turing complete interpreter,           |
+ and let it use unlimited time and memory)    |
+python random_program.py > console_output.txt |
+SyntaxError: invalid syntax                   |
+                                              v
+Given a bitstring *B*:
+                          # of console outputs* that begin with *B*
+algorithmic probability = -----------------------------------------
+                          total # of console outputs*
+
+* counting duplicates
 
 Now that we've done the hard part, how can we use that to deal with the more practical question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far (you can use 0 for red and 1 for green), followed by an extra 0 at the end. I'll call that bitstring R. Also write down a bitstring corresponding to the flashes you've seen so far, followed by an extra 1 at the end, which I'll call bitstring G. Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of bitstring R, divided by the sum of the algorithmic probability of bitstring R and the algorithmic probability of bitstring G. The probability of seeing a green flash next is just one minus the probability of seeing a red flash next.
 
