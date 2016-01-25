@@ -44,11 +44,28 @@ Of course, he/she could predict that there's a 50% chance of seeing a red flash 
 
 So, then, how should the person predict the probability of seeing a red or green flash? The most fundamental physics theories we know of today are the standard model of particle physics and general relativity. But if it is possible for people to go into computer simulations (a very big if, of course), then even if the poor souls know both theories and could somehow calculate in real-time how the individual subatomic particles in the computers would behave, they still could only predict in advance what each of the computers would do, not which of the computers they would personally find themselves in. So if it turns out that the person "survives" when the original computer is destroyed, our state-of-the-art physics theories would provide no guidance on predicting the probabilities of seeing a red or green flash, since this would require predicting which computer his or her identity "jumps" to.
 
-As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so if they haven't predicted its outcome then they probably have a good reason for doing so. Off the top of my head, I can think of one potential reason: is it really an experiment?
+As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so there must be a good reason they haven't predicted its outcome.
 
-Is this really an experiment?
+Applying the scientific method
 
-In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. (In this case, it's that people inside virtual reality simulations can "jump" between computers that run the same simulation.) Then, you figure out the consequences of the guess. (In this case, it's that people who go in virtual reality simulations can "survive" in a second computer if the original computer they go in is destroyed.) Then, you check whether those consequences are correct by comparing them to experience or experiment. (In this case, by putting yourself in a virtual reality simulation, having some friends copy the simulation to a second computer and destroy the original computer, and seeing if you survive when this happens.) If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
+In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. Then, you figure out the consequences of the guess. Then, you check whether those consequences are correct by comparing them to experience or experiment. If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
+
+So let's say you're a budding scientist in the 2060s and you've just developed an awesome theory of what people perceive when they go in computer simulations. Everyone is so excited to find out whether it is correct, so they decide to put you in a computer simulation and do the red-green color flashing experiment described above.
+
+By the end of the experiment, you will have experienced one of these four possible outcomes:
+
+1. You die when your real world body is destroyed.
+2. You survive in the virtual body when your real world body is destroyed, but you die when the original computer simulating the virtual body is destroyed.
+3. You survive both times and see a red flash.
+4. You survive both times and see a green flash.
+
+So the plan is once you know which outcome you experienced, you shout out what happened to the outside world. Sounds good? Here's what everyone watching outside will see at the end of the experiment:
+
+[2x I'm dead so I can't talk]
+[I saw a red flash]
+[I saw a green flash]
+
+[type here and delete stuff below]
 
 If it is possible for people to put themselves in virtual reality worlds, then for people who do that, this appears to be a completely valid experiment. But what about for people who watch the computers from outside? Normally, after people do an experiment, they announce the result to the rest of the world so that everyone else can know whether their guesses about the universe are wrong. But in this case, people watching from outside will see both the person that "dies" in the original computer and the copy of the person that "lives on" in the second computer, and won't be able to tell which outcome a person in the simulation would perceive! So is this really an experiment?
 
