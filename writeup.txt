@@ -105,7 +105,7 @@ But wait a moment! If the scientists' original way of predicting flashes is so l
 
 The most badass learning algorithm ever invented
 
-Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Most of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. I think it is the most badass learning algorithm ever invented, and mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can be approximately compute using known physics.
+Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Most of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. Mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can be approximately compute using known physics, and I think it is the most badass learning algorithm ever invented.
 
 Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating a sequence of 1's and 0's (also known as a bitstring) and you want to guess the next bits in the sequence. The 1's and 0's can represent anything you want, such as whether each flash is red or green, or perhaps English text (by splitting up the bitstring into blocks that each correspond to a letter of the alphabet).
 
@@ -115,18 +115,22 @@ First we need a way to randomly generate computer programs that produces shorter
 
 Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps C or JavaScript or Lisp. (It doesn't matter which language, as long as it's Turing complete and has something like printf or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text, I mean bitstring, that the program prints to console, how about we call it the *console output*.
 
-Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity).
+Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity). Since a sequence of colors can be represented as a bitstring, you can use this formula to calculate the probability that you will see any sequence of red and green flashes when you put yourself in a 2060-era virtual reality simulation!
 
 [are there any issues caused by finite console outputs?]
 
-Isn't that procedure ridiculous? If you like, here's a flowchart:
+Now that's cool, but what we really want to do is predict which colored flash you'll see *next*. To do that, first write down a bitstring corresponding to the sequence of flashes you've seen so far (you can use 0 for red and 1 for green), followed by an extra 0 at the end. I'll call that bitstring R. Also write down a bitstring corresponding to the flashes you've seen so far, followed by an extra 1 at the end, which I'll call bitstring G. Then according to *Solomonoff induction*, the probability of seeing a red flash next is just the algorithmic probability of bitstring R, divided by the sum of the algorithmic probability of bitstring R and the algorithmic probability of bitstring G. The probability of seeing a green flash next is just one minus the probability of seeing a red flash next.
+
+Phew, that was a mouthful! If you like, here's a flowchart:
+
+[should I show console output in binary?]
 
 the
 extremely patient* person's
 guide to
-calculating algorithmic probability
+Solomonoff induction
 
-* actually, "extremely patient" is a big understatement
+* "Extremely patient" is like the biggest understatement ever.
 
   Start
     |
@@ -158,25 +162,23 @@ algorithmic probability = -----------------------------------------
 
 * counting duplicates
 
-Now that we've done the hard part, how can we use that to deal with the more practical question of predicting which colored flash you'll see next when you put yourself in a 2060-era virtual reality simulation? If you have unlimited computing power and patience, that's easy! First, write down a bitstring corresponding to the sequence of flashes you've seen so far (you can use 0 for red and 1 for green), followed by an extra 0 at the end. I'll call that bitstring R. Also write down a bitstring corresponding to the flashes you've seen so far, followed by an extra 1 at the end, which I'll call bitstring G. Then according to Solomonoff induction, the probability of seeing a red flash next is just the algorithmic probability of bitstring R, divided by the sum of the algorithmic probability of bitstring R and the algorithmic probability of bitstring G. The probability of seeing a green flash next is just one minus the probability of seeing a red flash next.
+[solomonoff induction formula]
 
-Take that, standard model and general relativity!
+Now that, folks, has been proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience. (Take that, standard model and general relativity!) Isn't that completely ridiculous?
 
-To learn more about Solomonoff induction and why it is so badass, see here, here, and here.
+If you want to learn more about Solomonoff induction and why it is so badass, see here, here, and here.
 [http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
 [http://scholarpedia.org/article/Algorithmic_probability]
 [http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist]
 
 Can we do better?
 
-Even though the procedure I just described uses the most badass learning algorithm ever invented, it still has some issues. One obvious issue is that it assumes you have unlimited computing power and patience, but if that is a problem, you can just use a different learning algorithm that has better performance than Solomonoff induction. (Machine learning researchers would know better than me about which learning algorithms might be good choices here. Perhaps your brain?)
+Even though the procedure I just described uses the most badass learning algorithm ever invented, it still has an important limitation. If you follow it precisely, you will only make predictions using knowledge of past flashes, ignoring knowledge of other stuff. Suppose that for some really weird reason, whenever you wave your arms and shout "I will see a red flash," it increases your chances of seeing a red flash next. (You never know when the flash colors are chosen by an unknown process.) That would be a good thing to know, but the procedure above would not learn to take that into account. Could we modify it to take into account information like that?
 
-But even ignoring that, there is another issue which is that the procedure only makes predictions using knowledge of past flashes, ignoring knowledge of other stuff. For example, suppose that for some really weird reason, whenever you raise your hands and shout "I will see a red flash," it increases your chances of seeing a red flash next. (You never know when the flash colors are chosen by an unknown process.) That would be a good thing to know, but the procedure above would not learn to take that into account. Could we modify it to take into account information like that?
+Yes we can! Instead of writing down a bitstring corresponding to the sequence of flashes so far and using Solomonoff induction to predict just the color of the next flash, you can record a video of everything you see and hear (and smell and touch and taste) and use Solomonoff induction to predict how the video will continue, including colors of future flashes. This is possible because videos are ultimately stored on your computer as 1's and 0's. In fact, there's an added bonus of doing it this way (if you can ignore the even worse performance issues). When the bitstring only contains the sequence of flashes, Solomonoff induction would not predict other things you will perceive in the simulation and you would need a separate way of doing that, such as knowing how the simulation is programmed. But if you use Solomonoff induction to predict *everything* you will sense in the future, you would no longer need to rely on someone telling you how the simulation behaves before you put yourself in the simulation.
 
-Yes we can! Instead of writing down a bitstring corresponding to the sequence of flashes so far and using Solomonoff induction to predict just the color of the next flash, you can write down a bitstring corresponding to everything you've seen, heard, or otherwise measured so far (kind of like how YouTube encodes videos so that it can send them to your computer, but encoding your senses instead) [maybe videotaping everything you see would be easier to explain], and use Solomonoff induction to try to predict everything you will see, hear, or otherwise measure in the future, including which colors future flashes will be. In fact, there's an added bonus of doing it this way (if you can ignore the even worse performance issues). When the bitstring only contains the sequence of flashes, Solomonoff induction would not predict other things you will perceive in the simulation and you would need a separate way of doing that, such as knowing how the simulation is programmed. But if you use Solomonoff induction to predict *everything* you will sense in the future, you would no longer need to rely on someone telling you how the simulation behaves before you put yourself in the simulation.
-
-Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Which raises the question of whether learning algorithms should be considered physics theories in their own right. (More on that in future blog posts.)
+Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Which raises the question of whether learning algorithms should be considered physics theories in their own right. (More on that in future blog posts, if I get the time to write them.)
 
 What's the point?
 
-I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this stuff matter?
+I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this impractical-sounding stuff about living in a 2060-era computer simulation matter?
