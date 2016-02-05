@@ -50,7 +50,7 @@ Applying the scientific method
 
 In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. Then, you figure out the consequences of the guess. Then, you check whether those consequences are correct by comparing them to experience or experiment. If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
 
-So let's say you're a budding scientist in the 2060s and you've just developed an awesome theory of what people perceive when they go in computer simulations. Everyone is so excited to find out whether it is correct, so they decide to put you in a computer simulation and do the red-green color flashing experiment described above.
+So let's say you're a budding scientist in the 2060s and you've just developed an awesome theory of what people perceive when they go in computer simulations. Everyone is excited to find out whether it is correct, so they decide to put you in a computer simulation and do the red-green color flashing experiment described above.
 
 By the end of the experiment, you will have experienced one of these four possible outcomes:
 
@@ -65,7 +65,9 @@ So the plan is once you know which outcome you experienced, you shout out what h
 [I saw a red flash]
 [I saw a green flash]
 
-[type here and delete stuff below]
+See what's happening here? If you survive in the virtual world when your real world body is destroyed, you would only see what is happening inside the simulation, and so from your perspective only one of the 4 outcomes will happen. But since everyone watching from outside can see the computers running the simulation, they will see every copy of the simulation that is spawned. So from their perspective, *all* of the 4 outcomes happen simultaneously, and watching the experiment won't help them verify your theory of what's perceived by people who try to put themselves into computer simulations!
+
+This means that the first time anyone will [type here and delete stuff below]
 
 If it is possible for people to put themselves in virtual reality worlds, then for people who do that, this appears to be a completely valid experiment. But what about for people who watch the computers from outside? Normally, after people do an experiment, they announce the result to the rest of the world so that everyone else can know whether their guesses about the universe are wrong. But in this case, people watching from outside will see both the person that "dies" in the original computer and the copy of the person that "lives on" in the second computer, and won't be able to tell which outcome a person in the simulation would perceive! So is this really an experiment?
 
