@@ -128,7 +128,8 @@ Phew, that was a mouthful! If you like, here's a flowchart:
 the
 extremely patient* person's
 guide to
-Solomonoff induction
+THE MOST BADASS LEARNING ALGORITHM
+EVER INVENTED
 
 * "Extremely patient" is like the biggest understatement ever.
 
@@ -164,7 +165,7 @@ algorithmic probability = -----------------------------------------
 
 [solomonoff induction formula]
 
-Now that, folks, has been proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience. (Take that, standard model and general relativity!) Isn't that completely ridiculous?
+Isn't that completely ridiculous? But that, folks, has been mathematically proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience. (Take that, standard model and general relativity!)
 
 If you want to learn more about Solomonoff induction and why it is so badass, see here, here, and here.
 [http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
