@@ -1,5 +1,13 @@
 What learning algorithms can predict that our physics theories might not
 
+There's this quote by Elon Musk [https://youtu.be/L-s_3b5fRd8?t=22m38s] that I really like:
+
+I think it's also important to reason from first principles rather than by analogy.
+
+So the normal way we conduct our lives is we reason by analogy. We are doing this because it's like something else that was done, or it's like what other people are doing. Slight iterations on a theme.
+
+And it's kind of mentally easier to reason by analogy rather than from first principles, but "first principles" is kind of a physics way of looking at the world. And what that really means is that you kind of boil things down to the most fundamental truths, and say "OK, what are we sure is true, or sure is possible is true?" and then reason up from there.
+
 Putting someone in virtual reality
 
 For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
