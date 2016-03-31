@@ -8,6 +8,16 @@ So the normal way we conduct our lives is we reason by analogy. We are doing thi
 
 And it's kind of mentally easier to reason by analogy rather than from first principles, but "first principles" is kind of a physics way of looking at the world. And what that really means is that you kind of boil things down to the most fundamental truths, and say "OK, what are we sure is true, or sure is possible is true?" and then reason up from there.
 
+I love this quote so much because if you think about it, there's no obvious reason for any truth to be more fundamental than any other truth, since they're all true anyway. But in practice it makes a huge difference which principles you use to derive ideas from.
+
+But then once you accept that some principles are "more first" principles than others, that raises an obvious question: which one should be the "firstest" principle? And does it even make sense to take the "first principles" idea that far, or does it start to break down at some point?
+
+Now obviously I can't answer that question, but if you look at math and physics, at first glance it looks like at least *those people* know what their firstest principles are. As in no one will argue with you if you say that the firstest principles in math are the ZFC axioms, and the firstest principles in physics for now are the standard model and general relativity (at least until someone comes up with the theory of quantum gravity). Right? [links]
+
+But dig a little deeper and you'll see that it's not that simple. We are actually living in a wonderful time where people are making huge discoveries in the most fundamental areas of math and physics, even where you might expect things to be mostly settled by now.
+
+There's so much to say about this that I can't cover it all in a single post, so for now I'll just give one example. [I was probably thinking of http://www.nature.com/news/the-quantum-source-of-space-time-1.18797 but that's not what this is about]
+
 Putting someone in virtual reality
 
 For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
