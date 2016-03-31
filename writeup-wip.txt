@@ -1,5 +1,23 @@
 What learning algorithms can predict that our physics theories might not
 
+There's this quote by Elon Musk [https://youtu.be/L-s_3b5fRd8?t=22m38s] that I really like:
+
+I think it's also important to reason from first principles rather than by analogy.
+
+So the normal way we conduct our lives is we reason by analogy. We are doing this because it's like something else that was done, or it's like what other people are doing. Slight iterations on a theme.
+
+And it's kind of mentally easier to reason by analogy rather than from first principles, but "first principles" is kind of a physics way of looking at the world. And what that really means is that you kind of boil things down to the most fundamental truths, and say "OK, what are we sure is true, or sure is possible is true?" and then reason up from there.
+
+I love this quote so much because if you think about it, there's no obvious reason for any truth to be more fundamental than any other truth, since they're all true anyway. But in practice it makes a huge difference which principles you use to derive ideas from.
+
+But then once you accept that some principles are "more first" principles than others, that raises an obvious question: which one should be the "firstest" principle? And does it even make sense to take the "first principles" idea that far, or does it start to break down at some point?
+
+Now obviously I can't answer that question, but if you look at math and physics, at first glance it looks like at least *those people* know what their firstest principles are. As in no one will argue with you if you say that the firstest principles in math are the ZFC axioms, and the firstest principles in physics for now are the standard model and general relativity (at least until someone comes up with the theory of quantum gravity). Right? [links]
+
+But dig a little deeper and you'll see that it's not that simple. We are actually living in a wonderful time where people are making huge discoveries in the most fundamental areas of math and physics, even where you might expect things to be mostly settled by now.
+
+There's so much to say about this that I can't cover it all in a single post, so for now I'll just give one example. [I was probably thinking of http://www.nature.com/news/the-quantum-source-of-space-time-1.18797 but that's not what this is about]
+
 Putting someone in virtual reality
 
 For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have tried to predict how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
@@ -44,17 +62,36 @@ Of course, he/she could predict that there's a 50% chance of seeing a red flash 
 
 So, then, how should the person predict the probability of seeing a red or green flash? The most fundamental physics theories we know of today are the standard model of particle physics and general relativity. But if it is possible for people to go into computer simulations (a very big if, of course), then even if the poor souls know both theories and could somehow calculate in real-time how the individual subatomic particles in the computers would behave, they still could only predict in advance what each of the computers would do, not which of the computers they would personally find themselves in. So if it turns out that the person "survives" when the original computer is destroyed, our state-of-the-art physics theories would provide no guidance on predicting the probabilities of seeing a red or green flash, since this would require predicting which computer his or her identity "jumps" to.
 
-As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so if they haven't predicted its outcome then they probably have a good reason for doing so. Off the top of my head, I can think of one potential reason: is it really an experiment?
+As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so there must be a good reason they haven't predicted its outcome.
 
-Is this really an experiment?
+Applying the scientific method
 
-In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. (In this case, it's that people inside virtual reality simulations can "jump" between computers that run the same simulation.) Then, you figure out the consequences of the guess. (In this case, it's that people who go in virtual reality simulations can "survive" in a second computer if the original computer they go in is destroyed.) Then, you check whether those consequences are correct by comparing them to experience or experiment. (In this case, by putting yourself in a virtual reality simulation, having some friends copy the simulation to a second computer and destroy the original computer, and seeing if you survive when this happens.) If the predictions aren't consistent with the real world then the guess is wrong.
+In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. Then, you figure out the consequences of the guess. Then, you check whether those consequences are correct by comparing them to experience or experiment. If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
+
+So let's say you're a budding scientist in the 2060s and you've just developed an awesome theory of what people perceive when they go in computer simulations. Everyone is excited to find out whether it is correct, so they decide to put you in a computer simulation and do the red-green color flashing experiment described above.
+
+By the end of the experiment, you will have experienced one of these four possible outcomes:
+
+1. You die when your real world body is destroyed.
+2. You survive in the virtual body when your real world body is destroyed, but you die when the original computer simulating the virtual body is destroyed.
+3. You survive both times and see a red flash.
+4. You survive both times and see a green flash.
+
+So the plan is once you know which outcome you experienced, you shout out what happened to the outside world. Sounds good? Here's what everyone watching outside will see at the end of the experiment:
+
+[2x I'm dead so I can't talk]
+[I saw a red flash]
+[I saw a green flash]
+
+See what's happening here? If you survive in the virtual world when your real world body is destroyed, you would only see what is happening inside the simulation, and so from your perspective only one of the 4 outcomes will happen. But since everyone watching from outside can see the computers running the simulation, they will see every copy of the simulation that is spawned. So from their perspective, *all* of the 4 outcomes happen simultaneously, and watching the experiment won't help them verify your theory of what's perceived by people who try to put themselves into computer simulations!
+
+This means that the first time anyone will be able to find out whether your theory is wrong is when they try to go into a virtual reality world themselves. [type here and delete stuff below]
 
 If it is possible for people to put themselves in virtual reality worlds, then for people who do that, this appears to be a completely valid experiment. But what about for people who watch the computers from outside? Normally, after people do an experiment, they announce the result to the rest of the world so that everyone else can know whether their guesses about the universe are wrong. But in this case, people watching from outside will see both the person that "dies" in the original computer and the copy of the person that "lives on" in the second computer, and won't be able to tell which outcome a person in the simulation would perceive! So is this really an experiment?
 
 There is a similar issue with the possibility of putting a person's identity in a virtual reality simulation in the first place. If we hook up your brain with a simulated person's brain then blow up your real world brain, it would be obvious to you whether you survived in the virtual world. Those of us watching from outside could then try to figure out whether you felt like you went from the real world to the virtual world by asking the simulated person if he or she is you. But does questioning the simulated person count as measuring the result of an experiment?
 
-I've had long discussions with friends about whether these should be considered experiments, but like many philosophical discussions, they tended to turn into meaningless debates about what words such as "you" and "identity" mean. I'd love to hear what physicists think of this, and I wouldn't be surprised if they have thought of these hypotheticals but don't consider them to be experiments. But even though people who don't try to put themselves in simulations may never be able to experimentally confirm the outcomes of these hypotheticals, I think that giving up on predicting them would be unfair to people who do try to put themselves in simulations. And if our technology progresses quickly enough that I find myself inside a simulation in my lifetime, then I really want to have at least an educated guess of what I'd sense happening to me!
+I've had long discussions with friends about whether these should be considered experiments, but like many philosophical discussions, they tended to turn into meaningless debates about what words such as "you" and "identity" mean. I'd love to hear what physicists think of this, and I wouldn't be surprised if they have thought of these hypotheticals but don't consider them to be experiments. [email link] But even though people who don't try to put themselves in simulations may never be able to experimentally confirm the outcomes of these hypotheticals, I think that giving up on predicting them would be unfair to people who do try to put themselves in simulations. And if our technology progresses quickly enough that I find myself inside a simulation in my lifetime, then I really want to have at least an educated guess of what I'd sense happening to me!
 
 Approaching the problem
 
@@ -103,6 +140,8 @@ Finally we can assign a probability to every bitstring. If you generate and run 
 Now that's cool, but what we really want to do is predict which colored flash you'll see *next*. To do that, first write down a bitstring corresponding to the sequence of flashes you've seen so far (you can use 0 for red and 1 for green), followed by an extra 0 at the end. I'll call that bitstring R. Also write down a bitstring corresponding to the flashes you've seen so far, followed by an extra 1 at the end, which I'll call bitstring G. Then according to *Solomonoff induction*, the probability of seeing a red flash next is just the algorithmic probability of bitstring R, divided by the sum of the algorithmic probability of bitstring R and the algorithmic probability of bitstring G. The probability of seeing a green flash next is just one minus the probability of seeing a red flash next.
 
 Phew, that was a mouthful! If you like, here's a flowchart:
+
+[should I show console output in binary?]
 
 the
 extremely patient* person's
@@ -161,4 +200,4 @@ Heck, in theory you could do that to predict what will happen to you right now i
 
 What's the point?
 
-[basically that if theory of everything answers these questions (by definition of theory of everything), then theory of everything must be a learning algorithm; but I need to point out the nuances]
+I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this impractical-sounding stuff about living in a 2060-era computer simulation matter?
