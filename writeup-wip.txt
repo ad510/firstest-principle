@@ -1,22 +1,16 @@
 What learning algorithms can predict that our physics theories might not
 
-There's this quote by Elon Musk [https://youtu.be/L-s_3b5fRd8?t=22m38s] that I really like:
+You may or may not have heard of this thing called "digital physics." If you have, you probably learned about it from press releases such as [this one] which make you wonder "is that really what the field of theoretical physics is up to these days?"
 
-I think it's also important to reason from first principles rather than by analogy.
+In case you're wondering, the answer is *most definitely not*. But here's the thing. Most physics researchers are too busy with their research to write good press releases. But the so-called researchers that are most outspoken about their research are often (but not always) too busy writing press releases to do good research. So we end up in a situation like this where most press releases that claim to be about physics research don't describe the research that is actually happening.
 
-So the normal way we conduct our lives is we reason by analogy. We are doing this because it's like something else that was done, or it's like what other people are doing. Slight iterations on a theme.
+Now I'm not a physics researcher myself, but I like learning about these sorts of things in my free time. And reading these press releases makes me shake my head in disbelief and think "we can do better." So in this post, I'm going to explain what digital physics is *really* about and why some people think something like this is necessary if we want to make a theory of everything. And I'll try to explain it as clearly as possible and with as little math as I can get away with.
 
-And it's kind of mentally easier to reason by analogy rather than from first principles, but "first principles" is kind of a physics way of looking at the world. And what that really means is that you kind of boil things down to the most fundamental truths, and say "OK, what are we sure is true, or sure is possible is true?" and then reason up from there.
+You see, there is in fact an active field of study called "digital physics." But it's not about the idea that we live in a computer simulation and our universe is just one of many universes in the "multiverse," as the press releases might lead you to believe.
 
-I love this quote so much because if you think about it, there's no obvious reason for any truth to be more fundamental than any other truth, since they're all true anyway. But in practice it makes a huge difference which principles you use to derive ideas from.
+Instead, it's about the idea that if it is possible to put ourselves inside computer simulations, it might be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so. (See the difference?)
 
-But then once you accept that some principles are "more first" principles than others, that raises an obvious question: which one should be the "firstest" principle? And does it even make sense to take the "first principles" idea that far, or does it start to break down at some point?
-
-Now obviously I can't answer that question, but if you look at math and physics, at first glance it looks like at least *those people* know what their firstest principles are. As in no one will argue with you if you say that the firstest principles in math are the ZFC axioms, and the firstest principles in physics for now are the standard model and general relativity (at least until someone comes up with the theory of quantum gravity). Right? [links]
-
-But dig a little deeper and you'll see that it's not that simple. We are actually living in a wonderful time where people are making huge discoveries in the most fundamental areas of math and physics, even where you might expect things to be mostly settled by now.
-
-There's so much to say about this that I can't cover it all in a single post, so for now I'll just give one example. [I was probably thinking of http://www.nature.com/news/the-quantum-source-of-space-time-1.18797 but that's not what this is about]
+So first question: how might we be able to put ourselves in a computer simulation?
 
 Putting someone in virtual reality
 
