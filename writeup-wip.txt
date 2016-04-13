@@ -141,49 +141,57 @@ Now that's cool, but what we really want to do is predict which colored flash yo
 
 Phew, that was a mouthful! If you like, here's a flowchart:
 
-[should I show console output in binary?]
-
 the
-extremely patient* person's
+extremely patient [1] person's
 guide to
 THE MOST BADASS LEARNING ALGORITHM
 EVER INVENTED
 
-* "Extremely patient" is like the biggest understatement ever.
-
   Start
     |
     v
-*Flip* 2 coins <---  <----------
-    |              |            |
-    v              |            |
-If first coin is:  |            |
-[heads] -> write 0 |            |
-[tails] -> write 1 |            |
-    |           ---             |
-    |    Second coin is [heads] |
-    | Second coin is [tails]    |
-    v                           | Do until the end of time
-Save bits as a *binary file*    |
-100101 -> random_program.py ------------------
-    |                                         | When time ends
-    v                                         |
-*Execute* it as a computer program            |
-(Use a Turing complete interpreter,           |
- and let it use unlimited time and memory)    |
-python random_program.py > console_output.txt |
-SyntaxError: invalid syntax                   |
-                                              v
+*Flip* 2 coins <---  <-------------------------
+    |              |                           |
+    v              |                           |
+If first coin is:  |                           |
+[heads] -> write 0 |                           |
+[tails] -> write 1 |                           |
+    |           ---                            |
+    |    Second coin is [heads]                |
+    | Second coin is [tails]                   |
+    v                                          |
+Save bits as a *binary file*                   |
+100101 -> random_program.bin                   |
+    |                                          |
+    v                                          |
+*Execute* it as a computer program [2]         |
+python random_program.bin > console_output.bin |
+    |                                          |
+    v                                          |
+When it starts executing,                      |
+get a new sheet of paper and...                |
+    |                        ------------------
+    |                   Do until the end of time
+    | When time ends
+    v
 Given a bitstring *B*:
-                          # of console outputs* that begin with *B*
-algorithmic probability = -----------------------------------------
-                          total # of console outputs*
+                                 # of console outputs (counting duplicates) that begin with *B*
+algorithmic probability of *B* = --------------------------------------------------------------
+                                 total # of console outputs (counting duplicates)
+    |
+    v
+Given a bitstring *C*:
+                                  algorithmic probability of *C* followed by 0
+probability that next bit is 0 = -----------------------------------------------
+                                 (algorithmic probability of *C* followed by 0 +
+                                  algorithmic probability of *C* followed by 1)
 
-* counting duplicates
+probability that next bit is 1 = 1 - probability that next bit is 0
 
-[solomonoff induction formula]
+[1] "Extremely patient" is like the biggest understatement ever.
+[2] Use the same deterministic Turing complete interpreter for every program, and let it use unlimited time and memory. In this example, I assume Python is running in a completely deterministic virtual machine.
 
-Isn't that completely ridiculous? But that, folks, has been mathematically proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience. (Take that, standard model and general relativity!)
+Isn't that completely ridiculous? But that, folks, has been mathematically proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience.
 
 If you want to learn more about Solomonoff induction and why it is so badass, see here, here, and here.
 [http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/]
