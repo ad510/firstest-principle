@@ -8,4 +8,7 @@ matter antimatter imbalance speculation from a few months ago that I should prob
     - pathological example is level on Plausible Deniability scenario branch where it looks like opponent only has 1 worker, but actually they are building base around you and hiding it by deleting units from history just before you'd see them
 - maybe model that by including amplitudes to account for possibility of particles that existed since big bang but you've never measured
   - as you more precisely measure inside a region, this amplitude would get very small because it's hard for particle to have existed since big bang w/o interacting with particles you've measured
+  - no obvious way to calculate this amplitude in QFT
 - if no natural way to do that, another way to model might be binary serializing a sequence of quantum states (as measured over time) and using solomonoff induction to guess how the sequence continues
+  - biggest theoretical problem preventing this from being serious proposal is if you're allowed to change your mind about how you binary serialize the sequence in the middle, how are you supposed to know how to interpret solomonoff induction predictions (which are just the bits and not what they mean)
+    - resolving this would need better understanding of relationship between info theory and category theory
