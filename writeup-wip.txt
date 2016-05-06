@@ -1,14 +1,28 @@
 What learning algorithms can predict that our physics theories might not
 
-You may or may not have heard of this thing called "digital physics." If you have, you probably learned about it from press releases such as [this one] which make you wonder "is that really what the field of theoretical physics is up to these days?"
+good example intro link: http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/
+"information physics" seems to get better results than "digital physics" but "do we live in computer sim" still gets publicity
+intro below has positive tone but feels sloppy
 
-In case you're wondering, the answer is *most definitely not*. But here's the thing. Most physics researchers are too busy with their research to write good press releases. But the so-called researchers that are most outspoken about their research are often (but not always) too busy writing press releases to do good research. So we end up in a situation like this where most press releases that claim to be about physics research don't describe the research that is actually happening.
+original notes for new intro:
+Instead of existing overviews are unrepresentative, maybe say they don't make it clear why it's important enough to be worth studying (since such an active field right now), and if you try to read research papers this is obfuscated in massive wall of formulas and jargon
+  Going to try to do for digital physics what ch 9 did for quantum mechanics
 
-Now I'm not a physics researcher myself, but I like learning about these sorts of things in my free time. And reading these press releases makes me shake my head in disbelief and think "we can do better." So in this post, I'm going to explain what digital physics is *really* about and why some people think something like this is necessary if we want to make a theory of everything. And I'll try to explain it as clearly as possible and with as little math as I can get away with.
+Implied in current (now previous) intro: I've never seen approachable first principles explanation of why some people think digital physics is needed, so here is my attempt to do that
 
-You see, there is in fact an active field of study called "digital physics." But it's not about the idea that we live in a computer simulation and our universe is just one of many universes in the "multiverse," as the press releases might lead you to believe.
 
-Instead, it's about the idea that if it is possible to put ourselves inside computer simulations, it might be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so. (See the difference?)
+If you've been following updates in physics, you may have noticed that a hot topic lately has been applying techniques from information theory to study physics. At the further end of the spectrum, there are hopes that it might even be possible to use information theory [machine learning algorithms?] to create a theory of everything that unifies the standard model and general relativity [explain better, maybe just explains all physical phenomena]. But for all the attention that this has gotten, I'm a bit surprised that in all this time, I've never seen an introduction to the subject that explains
+
+1. where *exactly* might you be able to use machine learning algorithms where you can't just use quantum mechanics or general relativity instead, and
+2. a hands on guide to applying learning algorithms in these situations, for people who don't know information theory jargon
+
+Now this may seem like a tall order, since physicists often make the basic ideas behind relativity and quantum mechanics sound way more complicated than they really are. [also b/c that would solve a major unsolved problem in physics] And if you don't understand relativity or quantum mechanics in the first place, how are you supposed to know how learning algorithms might supersede them? But people have in fact made really accessible introductions to both relativity and quantum mechanics [shortlist links] that explain both why previous theories were inadequate and how the newer theory works to address those issues. I'd argue that the basic principles of information theory and learning algorithms are even simpler, so who says we can't do this for "information physics" (or whatever you want to call it) too?
+
+People often introduce information physics or digital physics by saying it is something about the entropy of black holes, or worse, the idea that we might be living in a computer simulation. But I think this is a very misleading way to introduce it that is about as misleading as saying that quantum mechanics is fundamentally about the duality [fancy word] between waves and particles. (In case you're wondering, I agree with Scott Aaronson that a far better way to think of quantum mechanics is as a sort of generalized version of probability [link].) If you really want to understand why information physics has the potential to be a theory of everything, I think it's far better to start with the following idea:
+
+*If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
+
+But before we get into it, let me be very clear about something. Currently, information physics is just a *hypothesis* about how the universe works. In other words, we do not know if this is *actually* how the universe works, or even if something other than existing physics theories is needed to explain the situation hinted at above. (Note the emphasis on "if" and "might.") Determining that would likely require serious experimental evidence that is way beyond our capabilities today. But given how shockingly quickly our technology is improving, I wouldn't be surprised if it is possible in my lifetime.
 
 So first question: how might we be able to put ourselves in a computer simulation?
 
