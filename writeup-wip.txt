@@ -1,23 +1,27 @@
 What learning algorithms can predict that our physics theories might not
 
-If you've been following recent progress in physics, you may have noticed that a hot topic lately has been applying machine learning algorithms and techniques from information theory to better understand physics. There are even hopes that these techniques might develop into a theory of everything [wikipedia link] that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that all this time, I've never seen an introduction that explains
+A hot topic in physics right now is applying machine learning algorithms and techniques from information theory to better understand physics. There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
 
-1. where *exactly* might you be able to use machine learning algorithms where you can't just use existing [sm] physics [gr] theories instead, and
+1. where *exactly* might you be able to use machine learning algorithms where you can't just use [existing] [physics] theories instead, and
 2. a hands on guide to applying learning algorithms in these situations, for people who don't know information theory jargon
 
-After all, people have created really accessible introductions to relativity and quantum mechanics [shortlist links] that explain both why they're necessary and how they work without assuming prior physics knowledge. Given how much attention "information physics" (or whatever you want to call it) has gotten lately, shouldn't it have an introduction like that too?
+So I'm going to write one!
 
-People often explain information physics or digital physics by saying it is something about the entropy of black holes [http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/], or worse, the idea that we might be living in a computer simulation [http://www.wired.com/2002/12/holytech/]. I think this is a very misleading way to describe it, and saying that is about as misleading as saying that quantum mechanics is about the duality between waves and particles. (While technically correct, I think a much better way to think of quantum mechanics is as a sort of generalized version of probability [link], as Scott Aaronson wonderfully explains.) If you really want to understand why information physics has so much potential to become a widely accepted model of physics, I think it's far better to start with the following idea: [1]
+People often explain information physics or digital physics by saying it is something about the entropy of black holes [http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/], or worse, the idea that we might be living in a computer simulation [http://www.wired.com/2002/12/holytech/]. I think this does little to tell people what information physics is actually about, so I'm not going to do that. (So don't worry if you don't know what "entropy" means.) Instead, I think a better approach is to start with the following idea:
 
 *If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
-But before we get into it, let me be very clear about something. Currently, information physics is just a *hypothesis* about how the universe works. Unlike more established theories such as the standard model and general relativity, we do not know if this is *actually representative* of how the universe works, or even if a new physics theory is needed to explain the situation hinted at above. (Note the emphasis on "if" and "might.") Answering those questions would require serious experimental evidence that is way beyond our capabilities today. But given how quickly our technology is improving, I wouldn't be completely shocked if it is possible in my lifetime.
+But before we get into it, let me be very clear about something. Currently, information physics is just a *hypothesis* about how the universe works. Unlike more established theories such as the [standard model] and [general relativity], we do not know if this is *actually representative* of how the universe works, or even if a new physics theory is needed to explain the situation hinted at above. (Note the emphasis on "if" and "might.") Answering those questions would require serious experimental evidence that is way beyond our capabilities today. But given how quickly our technology is improving, I wouldn't be completely shocked if it is possible in my lifetime.
 
 So first question: how might we be able to put ourselves in a computer simulation?
 
 Putting someone in a computer simulation
 
-If you haven't been living under a rock, you've probably noticed that computers and software have gotten *way* better over the last several decades, and this trend shows no signs of stopping. So people have tried to predict how long it would take until computers become as smart as humans, making a ton of dubious assumptions in the process, but many people who've done that ended up with a prediction between 2020 and 2060. [http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15] [picture of graph? but that's not really about simulations] That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
+If you haven't been living under a rock, you've probably noticed that computers and software have gotten *way* better over the last several decades, and this trend shows no signs of stopping. So people have tried to predict how long it would take until computers become as smart as humans, making a ton of dubious assumptions in the process, but according to [one study], most so-called "experts" who've done that ended up with a prediction between 2020 and 2060.
+
+[http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15]
+
+If they're right, we might see super-smart computers in my lifetime! But even if they're wrong, it's fun to speculate about what really powerful computers would be capable of anyway.
 
 Virtual reality simulations are already pretty good these days. I'd imagine that virtual reality simulations around 2060 would be *really* good, possibly so good that to a virtual person living in one, it would look pretty convincingly like a real universe.
 
@@ -206,5 +210,3 @@ Heck, in theory you could do that to predict what will happen to you right now i
 What's the point?
 
 I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this impractical-sounding stuff about living in a 2060-era computer simulation matter?
-
-[1] I say this as a physics fanboy, not a researcher in the field, so please take everything I say with the appropriate grain of salt. I'm still nervous that I might be misunderstanding some of the things I'm reading or making incorrect inferences from them. [email link too?]
