@@ -1,28 +1,53 @@
 # What learning algorithms can predict that our physics theories might not
 
-## Putting someone in virtual reality
+A hot topic in physics right now is applying machine learning algorithms and techniques from information theory to better understand physics. There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
 
-For the last several decades, computing power has grown exponentially, and it always looked as if in about 10 years into the future we would run into some impossible problem that would prevent computing power from increasing much beyond that. But each time that prediction was made, sometime later people would find a solution to that! So people have [tried to predict](http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI) how long it would take until computers become as smart as every human on earth if this trend continued, making a ton of dubious assumptions in the process, but most people who've done that ended up with a number around a timeframe from about 2020 to 2060. That's probably within my lifetime! So it's fun to speculate about what these computers from around 2060 would be capable of. Even if those predictions are wrong and it takes much longer for computers to become that smart, it's fun to speculate about what really powerful computers would be capable of anyway.
+1. where *exactly* might you be able to use machine learning algorithms where you can't just use [existing](https://en.wikipedia.org/wiki/Standard_Model) [physics](https://en.wikipedia.org/wiki/General_relativity) theories instead, and
+2. a hands on guide to applying learning algorithms in these situations, for people who don't know information theory jargon
 
-Virtual reality simulations are already pretty good these days. I'd imagine that virtual reality simulations around 2060 would be *really* good, possibly so good that to a virtual person living in one, it would look pretty convincingly like a real universe.
+So I'm going to write one!
 
-Wouldn't it be fun to live in one of these simulations? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the Internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to suppose that by around 2060, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
+People often explain information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or worse, the idea that [we might be living in a computer simulation](http://www.wired.com/2002/12/holytech/). I think this does little to tell people what information physics is actually about, so I'm not going to do that. (So don't worry if you don't know what "entropy" means.) Instead, I think a better approach is to start with the following idea:
+
+> *If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
+
+But before we get into it, let me be very clear about something. Currently, information physics is just a *hypothesis* about how the universe works. Unlike more established theories such as the [standard model](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html), we do not know if this is *actually representative* of how the universe works, or even if a new physics theory is needed to explain the situation hinted at above. (Note the emphasis on "if" and "might.") Answering those questions would require serious experimental evidence that is way beyond our capabilities today. But given how quickly our technology is improving, I wouldn't be completely shocked if it is possible in my lifetime.
+
+So first question: how might we be able to put ourselves in a computer simulation?
+
+## Putting ourselves in a computer simulation
+
+If you haven't been living under a rock, you've probably noticed that computers and software have gotten *way* better over the last several decades, and this trend shows no signs of stopping. So people have tried to predict how long it would take until computers become as smart as humans, making a ton of dubious assumptions in the process, but according to [one study](http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI), most so-called "experts" who've done that ended up with a prediction between 2020 and 2060.
+
+![](learning/agi_sml.png)
+
+If they're right, we might see super-smart computers in my lifetime! But even if they're wrong, it's fun to speculate about what really powerful computers would be capable of anyway.
+
+Virtual reality simulations are already pretty good these days. If computers in 2060 might be smarter than humans, virtual reality simulations in 2060 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
+
+Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the Internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to suppose that several decades from now, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
 
 ![](learning/im_him_sml.png)
 
-Better yet, what if we hooked up one of our brains to the brain of someone in a computer simulation? Would we collectively feel like a single person then?
+Better yet, what if we hooked up one of our brains to the brain of someone in a computer simulation? Would we feel like we are also the person in the simulation?
 
 ![](learning/im_him2_sml.png)
 
-We won't know that until we actually try it. I think it is reasonable to suspect that the answer might be yes, and if the answer is no then the rest of this writeup is completely irrelevant. I hope we'll find out in the not too distant future!
+We won't know until we actually try it. If the answer is no then the rest of this blog post is completely irrelevant, but if the answer is yes then that would be really cool!
 
-So let's say someone does that and they are now a single person that lives in both the real world and a virtual reality world. And then the part of the person living in the real world gets into a tragic accident and gets their brain blasted into a million pieces, and no more nondeterministic data (such as what the real world side of the person is thinking) is fed into the simulation. How unfortunate. But now they completely live in a virtual reality world that doesn't have to behave anything like our own! How awesome is that? Of course, the part of the person that was in the real world also happened to program the virtual reality simulation, and they transferred their knowledge to the virtual reality part of their brain when they got hooked up. Since the computer running the simulation must obey the laws of physics, the remaining virtual reality part of the person can still ultimately predict what will happen to him or her in terms of physics theories such as the standard model and general relativity. So in a sense they still really live in our universe.
+So let's say you do that and you're now a single person that lives in both the real world and a virtual reality world. Then the real world part of you gets into a tragic accident and your brain is blasted into a million pieces. How sad.
 
 ![](learning/im_virtual_sml.png)
 
-By the way, I made another assumption there, which is that when the real world part of the brain got blasted into a million pieces, the person still lived on in the virtual reality world instead of just dying. I think this is a realistic assumption because people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. If this turns out not to hold true with part of the brain in the real world and part of the brain in a virtual reality world, then the rest of this writeup is completely irrelevant. I hope we'll find out about that in the not too distant future as well!
+But are you really dead? Because, you know, people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation?
 
-If these assumptions are correct, we now succeeded in getting someone from living completely in the real world to living to the greatest extent possible in a virtual reality world. If our technology progresses fast enough, that person may very well be you or me! And even though that person knows that they really live in a bigger universe that follows general relativity and the standard model, the virtual reality simulation sure *feels* convincing.
+If the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves inside a computer simulation!
+
+So what does this have to do with information physics? Oh right:
+
+> *If it is possible to put ourselves inside computer simulations*, it might be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
+
+So now I've explained the first part. But even if you can put yourself inside a simulation, the computers running the simulation must still follow the laws of physics. So if you know how the simulation is programmed to behave, you don't need machine learning algorithms to predict what will happen to you. And if you know the [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html), the [standard model](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/), and the state of every particle in the universe at the time your real world brain is blasted into a million pieces, then even if someone later decides to change the computer code of the simulation, then in theory you can predict that too. So what do you need learning algorithms for?
 
 ## The problem
 
