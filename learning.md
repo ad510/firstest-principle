@@ -109,7 +109,7 @@ If the scientists tell you a way to predict the probabilities of seeing a red fl
 
 But wait a moment! If the scientists' original way of predicting flashes is so likely to be wrong, then why even learn it in the first place? It almost seems like the most useful thing to teach you in this situation would not people's initial guesses of how you can predict whether you'll see a red or green flash, but rather how you can quickly learn from the results once you start measuring them.
 
-The most badass learning algorithm ever invented
+## The most badass learning algorithm ever invented
 
 Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Most of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. I think it is the most badass learning algorithm ever invented, and mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can be approximately compute using known physics.
 
