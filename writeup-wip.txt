@@ -1,13 +1,13 @@
 What learning algorithms can predict that our physics theories might not
 
-A hot topic in physics right now is applying machine learning algorithms and techniques from information theory to better understand physics. There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
+A hot topic in physics right now is applying machine learning algorithms and techniques from information theory [link?] to better understand physics. There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
 
 1. where *exactly* might you be able to use machine learning algorithms where you can't just use [existing] [physics] theories instead, and
 2. a hands on guide to applying learning algorithms in these situations, for people who don't know information theory jargon
 
 So I'm going to write one!
 
-People often explain information physics or digital physics by saying it is something about the entropy of black holes [http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/], or worse, the idea that we might be living in a computer simulation [http://www.wired.com/2002/12/holytech/]. I think this does little to tell people what information physics is actually about, so I'm not going to do that. (So don't worry if you don't know what "entropy" means.) Instead, I think a better approach is to start with the following idea:
+People often explain information physics or digital physics by saying it is something about the entropy of black holes [http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/], or worse, the idea that we might be living in a computer simulation [http://www.wired.com/2002/12/holytech/]. I think this does little to tell people what information physics is actually about, so I'm not going to do that. Instead, I think a better approach is to start with the following idea:
 
 > *If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
@@ -24,13 +24,13 @@ If you haven't been living under a rock, you've probably noticed that computers 
 
 If they're right, we might see super-smart computers in my lifetime! But even if they're wrong, it's fun to speculate about what really powerful computers would be capable of anyway.
 
-Virtual reality simulations are already pretty good these days. If computers in 2060 might be smarter than humans, virtual reality simulations in 2060 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
+Virtual reality simulations are already pretty good these days. If computers in 2060 might be smarter than humans, then virtual reality simulations in 2060 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
 
-Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the Internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to suppose that several decades from now, these brain-to-brain connections could have so much bandwidth that people hooked up this way would feel like a single person. After all, single celled organisms came before multicellular organisms, and you can think of multicellular organisms such as us as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together?
+Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. After all, multicellular organisms evolved from single-celled organisms, and you can think of ourselves as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together in year 2060?
 
 [I'm him!]
 
-Better yet, what if we hooked up one of our brains to the brain of someone in a computer simulation? Would we feel like we are also the person in the simulation?
+Better yet, what if we hooked up your brain to a simulated brain in a virtual reality world? Would you feel like you are also the person in the simulation?
 
 [I'm him!]
 
@@ -40,15 +40,15 @@ So let's say you do that and you're now a single person that lives in both the r
 
 [blowing up real world brain]
 
-But are you really dead? Because, you know, people have done surgeries where they removed half of someone's brain and they still lived on OK. [https://en.wikipedia.org/wiki/Hemispherectomy] So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation?
+But are you really dead? Because, you know, people have done surgeries where they removed half of someone's brain and they still lived on OK. [https://en.wikipedia.org/wiki/Hemispherectomy] So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation? [be careful with "you" here]
 
-If the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves inside a computer simulation!
+If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever?
 
 So what does this have to do with information physics? Oh right:
 
 > *If it is possible to put ourselves inside computer simulations*, it might be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
-So now I've explained the first part. But even if you can put yourself inside a simulation, the computers running the simulation must still follow the laws of physics. So if you know how the simulation is programmed to behave, you don't need machine learning algorithms to predict what will happen to you. And if you know the [general relativity], the [standard model], and the state of every particle in the universe at the time your real world brain is blasted into a million pieces, then even if someone later decides to change the computer code of the simulation, then in theory you can predict that too. So what do you need learning algorithms for?
+So now I've explained the first part. But even if you can live completely inside a simulation, the computers running the simulation must still follow the laws of physics. So if you know how the simulation is programmed to behave, you don't need machine learning algorithms to predict what will happen to you. And if you could somehow know [general relativity], the [standard model], and the state of every particle in the universe at the time your real world brain is blasted into a million pieces, then even if someone later decides to change the computer code of the simulation, then in theory you could predict that too. So what do you need learning algorithms for?
 
 The problem
 
