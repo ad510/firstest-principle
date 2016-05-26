@@ -1,6 +1,6 @@
 What learning algorithms can predict that our physics theories might not
 
-A hot topic in physics right now is applying machine learning algorithms and techniques from information theory [link?] to better understand physics. There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
+A [hot topic] in physics right now is applying machine learning algorithms and techniques from information theory to better understand physics. [http://fqxi.org/community/essay/winners/2013.1] There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
 
 1. where *exactly* might you be able to use machine learning algorithms where you can't just use [existing] [physics] theories instead, and
 2. a hands on guide to applying learning algorithms in these situations, for people who don't know information theory jargon
@@ -40,66 +40,52 @@ So let's say you do that and you're now a single person that lives in both the r
 
 [blowing up real world brain]
 
-But are you really dead? Because, you know, people have done surgeries where they removed half of someone's brain and they still lived on OK. [https://en.wikipedia.org/wiki/Hemispherectomy] So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation? [be careful with "you" here]
+But are you really dead? Because, you know, people have done surgeries where they removed half of someone's brain and they still lived on OK. [https://en.wikipedia.org/wiki/Hemispherectomy] So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation?
 
-If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever?
+If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever? (If you like this sort of thing, here's a Wait But Why post describing [more situations like these](https://waitbutwhy.com/2014/12/what-makes-you-you.html).)
 
 So what does this have to do with information physics? Oh right:
 
 > *If it is possible to put ourselves inside computer simulations*, it might be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
-So now I've explained the first part. But even if you can live completely inside a simulation, the computers running the simulation must still follow the laws of physics. So if you know how the simulation is programmed to behave, you don't need machine learning algorithms to predict what will happen to you. And if you could somehow know [general relativity], the [standard model], and the state of every particle in the universe at the time your real world brain is blasted into a million pieces, then even if someone later decides to change the computer code of the simulation, then in theory you could predict that too. So what do you need learning algorithms for?
+So now I've explained the first part. But even if you can live completely inside a simulation (and this is already a huge if), the computers running the simulation must still follow the laws of physics. So if you know how the simulation is programmed to behave, you don't need machine learning algorithms to predict what will happen to you. And if you could somehow know [general relativity], the [standard model], and the state of every particle in the universe at the time your real world brain is blasted into a million pieces, then even if someone later decides to change the computer code of the simulation, then in theory you could predict that too. So what do you need learning algorithms for?
 
-The problem
+What our physics theories can't predict
 
-Now there's something that you can do with virtual reality simulations that I find really fascinating. I don't know how computers will work in 2060, but computers right now have dedicated places where they store their current state, such as memory and hard disks. It's possible to hibernate the computer so that its current state is frozen onto disk, copy the data on the disk to a second computer with the same specs, then start up both computers. If both computers operate correctly and the simulation is completely deterministic, then when the simulation resumes, it will behave the same way on both computers.
+One really cool property of computer simulations is that you can make exact copies of them on different computers. If the simulation uses what's called a "deterministic algorithm," then it means that all copies of the simulation will output the same thing.
 
-So suppose we do the following in our 2060-era hypothetical. In the virtual reality world, we put a clock on the wall. After disconnecting the real world part of the person, we copy the simulation to the second computer, then wait until the clock in the virtual world hits a certain time communicated in advance to the person inside (say, 12:00 midnight). From the time that we copy the simulation to the second computer until 12:00 midnight in the virtual world, both computers run the same deterministic simulation. Then at that moment the simulated clock hits 12:00 midnight, we destroy the computer with the original copy of the simulation, but leave the simulation running in the second computer.
-
-[drawing]
-
-From the perspective of the person we put in the simulation, there are 2 obvious possibilities that could happen when the clock strikes 12. If the person's identity is somehow tied to which physical computer he or she is in, then he or she "dies" and won't be able to perceive anything after that moment. On the other hand, if the person's identity is somehow tied to which simulation he or she is in in a way that has nothing to do with which computer is running it, then there is a possibility that he or she continues to "live on" because the same simulation is still running in the second computer.
-
-If we do this and the person in the simulation "dies," then this doesn't raise any issues with our understanding of the universe. But the reason that I find this question so fascinating is the possibility that such people might "live on" in the second computer.
-
-Suppose we do things a little differently, and we copy the simulation state into 2 other computers (instead of just 1) before destroying the original computer. If the person still finds that he/she is still alive after the virtual clock passes 12 midnight, then the person will know that he/she is in one of the two remaining computers, but will not know which one they're in because both computers are running the same simulation. So at this point, we give the person a way to tell which computer they're in by flashing a color in the virtual world, flashing red in one computer and green in the other. [0 1 instead of red green?] (The choice of which computer flashes which color can be delayed as long as possible to ensure that both computers have the same simulation state until that point.) If the plan to do this is communicated in advance to the person in the simulation, then this raises a new question for that person: how can he/she predict the probabilities of seeing a red flash or a green flash before it occurs?
+Now let's suppose that after disconnecting your real world brain, the simulation you're living in becomes deterministic, and that 30 seconds from now, it's programmed to display a message to you saying "You're still alive!" But those of us controlling the simulation are evil pranksters, and we decide to play a trick on you. Once the simulation becomes deterministic, we copy it onto a second computer, and right before it displays the "You're still alive!" message, we blast the original computer into a million pieces. Now here's the question: do you get to see the message?
 
 [drawing]
 
-Of course, he/she could predict that there's a 50% chance of seeing a red flash and a 50% chance of seeing a green one, but just because there's two possibilities doesn't necessarily mean that each possibility has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
+Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Actually, by that definition, one can argue that you die much earlier, when your physical brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
 
-So, then, how should the person predict the probability of seeing a red or green flash? The most fundamental physics theories we know of today are the standard model of particle physics and general relativity. But if it is possible for people to go into computer simulations (a very big if, of course), then even if the poor souls know both theories and could somehow calculate in real-time how the individual subatomic particles in the computers would behave, they still could only predict in advance what each of the computers would do, not which of the computers they would personally find themselves in. So if it turns out that the person "survives" when the original computer is destroyed, our state-of-the-art physics theories would provide no guidance on predicting the probabilities of seeing a red or green flash, since this would require predicting which computer his or her identity "jumps" to.
+But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't get to find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
 
-As far as I am aware, as of 2016 there is not even a widely acknowledged guess inside the scientific community of what the outcome of this experiment would be from the perspective of the person in the simulation. Isn't that crazy? Of course, physicists are very smart and I'm sure they've thought of this experiment, so there must be a good reason they haven't predicted its outcome.
+I'm going to use the terminology of the [Wait But Why post] I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* see the message the "data theory."
 
-Applying the scientific method
+Let's say the data theory is right that if you do the experiment, you do in fact see the message. Well, that means we get to do an even crazier experiment! Suppose we do the same experiment as above, except for the following:
 
-In order to come up with a new rule for how the universe behaves, people use a process that works like this. First, you make a guess. Then, you figure out the consequences of the guess. Then, you check whether those consequences are correct by comparing them to experience or experiment. If the predictions aren't consistent with the real world then the guess is wrong. [character of physical law; this is common knowledge but feynman does the best job at explaining it]
+1. The evil pranksters copy the simulation onto 2 other computers, instead of just 1.
+2. The simulation is deterministic, except for one thing: if someone presses a key on the keyboard, you get to see what they pressed from inside the simulation.
+3. After the first computer is destroyed and the "You're still alive!" message appears, the evil pranksters press the `0` key on the second computer, and simultaneously press the `1` key on the third computer.
 
-So let's say you're a budding scientist in the 2060s and you've just developed an awesome theory of what people perceive when they go in computer simulations. Everyone is excited to find out whether it is correct, so they decide to put you in a computer simulation and do the red-green color flashing experiment described above.
+Do you see a `0` or a `1`?
 
-By the end of the experiment, you will have experienced one of these four possible outcomes:
+[drawing]
 
-1. You die when your real world body is destroyed.
-2. You survive in the virtual body when your real world body is destroyed, but you die when the original computer simulating the virtual body is destroyed.
-3. You survive both times and see a red flash.
-4. You survive both times and see a green flash.
+Easy, right? Isn't there just a 50% chance that you see `0` and a 50% chance that you see `1`? Not so fast. Just because there's 2 possibilities doesn't necessarily mean that each one has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
 
-So the plan is once you know which outcome you experienced, you shout out what happened to the outside world. Sounds good? Here's what everyone watching outside will see at the end of the experiment:
+Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are the [standard model of particle physics] and [general relativity]. And if you do the painstaking calculations, they'll tell you that the outcome of this experiment looks something like this:
 
-[2x I'm dead so I can't talk]
-[I saw a red flash]
-[I saw a green flash]
+[dead person]
+[dead person in computer]
+[person that sees 0]
+[person that sees 1]
 
-See what's happening here? If you survive in the virtual world when your real world body is destroyed, you would only see what is happening inside the simulation, and so from your perspective only one of the 4 outcomes will happen. But since everyone watching from outside can see the computers running the simulation, they will see every copy of the simulation that is spawned. So from their perspective, *all* of the 4 outcomes happen simultaneously, and watching the experiment won't help them verify your theory of what's perceived by people who try to put themselves into computer simulations!
+Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. The closest thing we have to that is the idea from quantum mechanics that you can't tell where a particle is until you measure it, but ironically, defining what exactly is a "measurement" is considered a [great unsolved problem in physics](https://en.wikipedia.org/wiki/Measurement_problem).
 
-This means that the first time anyone will be able to find out whether your theory is wrong is when they try to go into a virtual reality world themselves. [type here and delete stuff below; maybe try skipping "who are you" question and see how it reads]
-
-If it is possible for people to put themselves in virtual reality worlds, then for people who do that, this appears to be a completely valid experiment. But what about for people who watch the computers from outside? Normally, after people do an experiment, they announce the result to the rest of the world so that everyone else can know whether their guesses about the universe are wrong. But in this case, people watching from outside will see both the person that "dies" in the original computer and the copy of the person that "lives on" in the second computer, and won't be able to tell which outcome a person in the simulation would perceive! So is this really an experiment?
-
-There is a similar issue with the possibility of putting a person's identity in a virtual reality simulation in the first place. If we hook up your brain with a simulated person's brain then blow up your real world brain, it would be obvious to you whether you survived in the virtual world. Those of us watching from outside could then try to figure out whether you felt like you went from the real world to the virtual world by asking the simulated person if he or she is you. But does questioning the simulated person count as measuring the result of an experiment?
-
-I've had long discussions with friends about whether these should be considered experiments, but like many philosophical discussions, they tended to turn into meaningless debates about what words such as "you" and "identity" mean. I'd love to hear what physicists think of this, and I wouldn't be surprised if they have thought of these hypotheticals but don't consider them to be experiments. [email link] But even though people who don't try to put themselves in simulations may never be able to experimentally confirm the outcomes of these hypotheticals, I think that giving up on predicting them would be unfair to people who do try to put themselves in simulations. And if our technology progresses quickly enough that I find myself inside a simulation in my lifetime, then I really want to have at least an educated guess of what I'd sense happening to me!
+Of course, if the brain theory is right and you don't see the "You're still alive!" message in the first place, then none of this matters. But if the data theory is right and you *do* see the "You're still alive!" message, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probability of you seeing a `0` or a `1`*. In that case, we'd need a new physics theory to fill the gap.
 
 Approaching the problem
 
