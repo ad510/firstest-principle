@@ -184,8 +184,4 @@ Yes we can! Instead of directly writing down the bitstring displayed in the simu
 
 Heck, in theory you could do that to predict what will happen to you right now in the real world, even if you do not put yourself in a simulation. Which raises the question of whether learning algorithms should be considered physics theories in their own right. (More on that in future blog posts, if I get the time to write them.)
 
-What's the point?
-
-I've wanted to write this post since mid-2014 (it's now January 2016), but with everything else going on it took me longer than expected to learn how to approach the questions in this post, then to figure out how to explain this stuff to friends. So why does this impractical-sounding stuff about living in a 2060-era computer simulation matter?
-
 [email, CC0]
