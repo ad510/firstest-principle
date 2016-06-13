@@ -1,8 +1,8 @@
 What learning algorithms can predict that our physics theories might not
 
-A [hot topic] in physics right now is applying machine learning algorithms [reword?] and techniques from information theory to better understand physics. [http://fqxi.org/community/essay/winners/2013.1] There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
+A [hot topic] in physics right now is applying techniques from information theory and theoretical machine learning to better understand physics. [http://fqxi.org/community/essay/winners/2013.1] There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
 
-1. where *exactly* might you be able to use machine learning algorithms where you can't just use [existing] [physics] theories instead, and
+1. where *exactly* might you be able to use learning algorithms where you can't just use [existing] [physics] theories instead, and
 2. a hands on guide to applying learning algorithms in these situations, for people who don't know information theory jargon
 
 So I'm going to write one!
@@ -26,7 +26,7 @@ If they're right, we might see super-smart computers in my lifetime! But even if
 
 Virtual reality simulations are already pretty good these days. If computers in 2060 might be smarter than humans, then virtual reality simulations in 2060 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
 
-Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. After all, multicellular organisms evolved from single-celled organisms, and you can think of ourselves as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together in year 2060?
+Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. [better source than sci-fi movies?] After all, multicellular organisms evolved from single-celled organisms, and you can think of ourselves as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together in year 2060?
 
 [I'm him!]
 
@@ -58,23 +58,23 @@ Now let's suppose that after disconnecting your real world brain, the simulation
 
 [drawing]
 
-Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Actually, by that definition, one can argue that you die much earlier, when your physical brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
+Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Arguably, by that definition, you die even earlier, when your physical human brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
 
-[compare with what I told hardmath123, matthew (in conversations.txt); also this means def you says something about time; also check out jonl's links] But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
+But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
 
 I'm going to use the terminology of the [Wait But Why post] I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* see the message the "data theory."
 
-Let's say the data theory is right that if you do the experiment, you do in fact see the message. Well, that means we get to do an even crazier experiment! Suppose we do the same experiment as above, except for the following:
+As of today, we don't know which hypothesis is right. But think about what it would mean if the data theory is right that if you do the experiment, you do in fact see the message. Well, that would mean we get to do an even crazier experiment! Suppose we do the same experiment as above, except for the following:
 
 1. The evil pranksters copy the simulation onto 2 other computers, instead of just 1.
 2. The simulation is deterministic, except for one thing: if someone presses a key on the keyboard, you get to see what they pressed from inside the simulation.
-3. After the first computer is destroyed and the "You're still alive!" message appears, the evil pranksters press the `0` key on the second computer, and simultaneously press the `1` key on the third computer.
+3. After the first computer is destroyed and the "You're still alive!" message appears, someone presses the `0` key on the second computer, and simultaneously presses the `1` key on the third computer.
 
 Will you see a `0` or a `1`?
 
 [drawing]
 
-Easy, right? Isn't there just a 50% chance that you'll see a `0` and a 50% chance that you'll see a `1`? Not so fast. Just because there's 2 possibilities doesn't necessarily mean that each one has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
+Easy, right? Isn't there just a 50% chance that you'll see a 0 and a 50% chance that you'll see a 1? Not so fast. Just because there's 2 possibilities doesn't necessarily mean that each one has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
 
 Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are the [standard model of particle physics] and [general relativity]. And if you do the painstaking calculations, they'll tell you that the outcome of this experiment looks something like this:
 
@@ -83,11 +83,13 @@ Well, then, how about we do this the proper way, and use the fundamental laws of
 [person that sees 0]
 [person that sees 1]
 
-Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. The closest thing we have to that is the idea from quantum mechanics that you can't tell where a particle is until you measure it, but ironically, defining what exactly is a "measurement" is considered a [great unsolved problem in physics](https://en.wikipedia.org/wiki/Measurement_problem).
+Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. As a result, if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot tell you the probabilities that the "real you" will see a 0 or a 1!
 
-Of course, if the brain theory is right and you don't see the "You're still alive!" message in the first place, then none of this matters. But if the data theory is right and you *do* see the "You're still alive!" message, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of cannot predict the probability of you seeing a `0` or a `1`*. In that case, we'd need a new physics theory to fill the gap.
+Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1*! In that case, we'd need a new physics theory to fill the gap.
 
-Enter information physics [or the learning algorithms, or information theory]
+For more perspectives on what might be possible if someone could make an exact simulation of "you," I recommend Scott Aaronson's [lecture notes on free will](http://www.scottaaronson.com/democritus/lec18.html). (He describes different but related situations to the ones above, and he also makes it clear that they are an open problem [?] and an active area of research.)
+
+Enter the learning algorithms
 
 Remember that at the beginning of this post, I promised to tell you about...
 

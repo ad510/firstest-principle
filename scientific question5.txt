@@ -1,0 +1,7 @@
+- writeup as of 5/25/2016 frames problem as: definitions of you are experimentally testable, but current physics theories don't define you
+- I like better than previous ways I described it
+  - I asked Zach & Max "is it scientific to ask whether you can tell which computer you're in" but they correctly pointed out that you can only distinguish outcomes after sims diverge
+  - I started by telling hardmath123 that then corrected to "if you copy the simulation onto a 2nd computer then blow up the original computer, then you can tell something about whether your identity is tied to the physical computer or the virtual reality simulation, if you know what I mean" (like writeup before 5/25)
+  - I worded to Matthew as "your identity over time," but he prefers wording of "consciousnesses with identical past memories" (you can't tell which one you are) (from conversations.txt)
+- current explanation makes it clear that any definition of "you" that can distinguish who is the "same person" over time is making a statement about what you'll perceive happening over time, which is experimentally testable
+- note that Scott Aaronson's Newcomb's Paradox reasoning defines "you" to include future behavior (unlike me)
