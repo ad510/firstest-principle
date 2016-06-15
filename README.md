@@ -1,4 +1,4 @@
-The branch of Plausible Deniability in which my stupid, untrustworthy intuition proceeds to fool itself with not-even-wrong wild physics speculations.
+The branch of Plausible Deniability in which my stupid, untrustworthy intuition proceeds to [fool itself](https://www.lhup.edu/~DSIMANEK/cargocul.htm) with [not-even-wrong](http://rationalwiki.org/wiki/Not_even_wrong) wild physics speculations.
 
 I'm writing these notes to remind myself about what I've been thinking about rather than to make any sort of sense, so these notes will probably look like gibberish to anyone but me. If you insist on reading them anyway, writeup.txt is probably the best place to start.
 
