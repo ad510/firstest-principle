@@ -65,7 +65,9 @@ But here's the thing. The way science works is that you're supposed to do experi
 
 I'm going to use the terminology of the [Wait But Why post] I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* see the message the "data theory."
 
-As of today, we don't know which hypothesis is right. But think about what it would mean if the data theory is right that if you do the experiment, you do in fact see the message. Well, that would mean we get to do an even crazier experiment! Suppose we do the same experiment as above, except for the following:
+As of today, we don't know which hypothesis is right. But think about what it would mean if the data theory is right.
+
+Well, that would mean we get to do an even crazier experiment! Suppose we do the same experiment as above, except for the following:
 
 1. The evil pranksters copy the simulation onto 2 other computers, instead of just 1.
 2. The simulation is deterministic, except for one thing: if someone presses a key on the keyboard, you get to see what they pressed from inside the simulation.
