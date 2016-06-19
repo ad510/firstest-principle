@@ -73,7 +73,7 @@ Well, that would mean we get to do an even crazier experiment! Suppose we do the
 2. The simulation is deterministic, except for one thing: if someone presses a key on the keyboard, you get to see what they pressed from inside the simulation.
 3. After the first computer is destroyed and the "You're still alive!" message appears, someone presses the `0` key on the second computer, and simultaneously presses the `1` key on the third computer.
 
-Will you see a `0` or a `1`?
+Will you see a 0 or a 1?
 
 [drawing]
 
@@ -94,7 +94,7 @@ Of course, if the brain theory is right and you die before you would see either 
 
 Remember that at the beginning of this post, I promised to tell you about how people are "applying techniques from information theory and theoretical machine learning to better understand physics?" Well, now I get to tell you about that. But before we get into how you might figure out the probability of seeing a 0 or a 1 in the situation above, let's start with a slightly different question.
 
-Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'm going to assume from now on that the data theory is right, though this is still an open question.) But since those of us controlling the simulation are evil pranksters, we play the same trick again on both copies of "you" so that there are now 4 versions of "you:" a version that sees `00`, a version that sees `01`, a version that sees `10`, and a version that sees `11`.
+Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'm going to assume from now on that the data theory is right, though this is still an open question.) But since those of us controlling the simulation are evil pranksters, we play the same trick again on both copies of "you" so that there are now 4 versions of "you:" a version that sees 00, a version that sees 01, a version that sees 10, and a version that sees 11.
 
 [picture]
 
@@ -172,6 +172,7 @@ probability that next bit is 1 = 1 - probability that next bit is 0
 ```
 
 [1] "Extremely patient" is like the biggest understatement ever.
+
 [2] Use the same deterministic Turing complete interpreter for every program, and let it use unlimited time and memory. In this example, I assume Python is running in a completely deterministic virtual machine.
 
 Isn't that completely ridiculous? But that, folks, has been mathematically proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience.
