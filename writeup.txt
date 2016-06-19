@@ -90,8 +90,6 @@ Here's the thing. While these theories can give you a probability distribution o
 
 Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1*! (Take a moment to appreciate how crazy that would be.) In that case, we'd need a new physics theory to fill the gap.
 
-For more perspectives on what might be possible if someone could make an exact simulation of "you," I recommend Scott Aaronson's [lecture notes on free will](http://www.scottaaronson.com/democritus/lec18.html).
-
 Enter the learning algorithms
 
 Remember that at the beginning of this post, I promised to tell you about how people are "applying techniques from information theory and theoretical machine learning to better understand physics?" Well, now I get to tell you about that. But before we get into how you might figure out the probability of seeing a 0 or a 1 in the situation above, let's start with a slightly different question.
