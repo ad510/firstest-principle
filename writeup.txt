@@ -19,16 +19,15 @@ So first question: how might we be able to put ourselves in a computer simulatio
 
 Putting ourselves in a computer simulation
 
-If you haven't been living under a rock, you've probably noticed that computers and software have gotten *way* better over the last several decades, and this trend shows no signs of stopping. So people have tried to predict how long it would take until computers become as smart as humans, making a ton of dubious assumptions in the process, but according to [one study], most so-called "experts" who've done that ended up with a prediction between 2020 and 2060.
+If you haven't been living under a rock, you've probably noticed that computers and software have gotten *way* better over the last several decades, and this trend shows no signs of stopping. So [one study] asked a bunch of AI experts when they think computers will become as smart as humans, and more than half predicted that this will happen before 2050.
 
-[http://library.fora.tv/2012/10/14/Stuart_Armstrong_How_Were_Predicting_AI at 10:15]
-[there is a long tail but majority within 2060, see http://hplusmagazine.com/2010/02/05/how-long-till-human-level-ai/]
+[graph from http://hplusmagazine.com/2010/02/05/how-long-till-human-level-ai/]
 
-If they're right, we might see super-smart computers in my lifetime! But even if they're wrong, it's fun to speculate about what really powerful computers would be capable of anyway.
+If the optimists are right, we might see super-smart computers in my lifetime! But even if the pessimists are right, it's fun to speculate about what really powerful computers would be capable of anyway.
 
-Virtual reality simulations are already pretty good these days. If computers in 2060 might be smarter than humans, then virtual reality simulations in 2060 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
+Virtual reality simulations are already pretty good these days. If computers in 2050 might be smarter than humans, then virtual reality simulations in 2050 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
 
-Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. [better source than sci-fi movies?] After all, multicellular organisms evolved from single-celled organisms, and you can think of ourselves as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together in year 2060?
+Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used brain-to-brain interfaces to think to each other over the internet, and the technology to do things like this is improving quickly. [https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/] It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. [better source than sci-fi movies?] After all, multicellular organisms evolved from single-celled organisms, and you can think of ourselves as a bunch of single-celled organisms hooked up in such a way that they're dependent on each other. Despite that, we each still feel like a single person. So how would it feel if we hooked up two people's brains together in year 2050?
 
 [I'm him!]
 
@@ -99,7 +98,7 @@ Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'
 
 [picture]
 
-Then we play the same trick again, so that there's a version of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I'd imagine computers will be pretty cheap in year 2060.)
+Then we play the same trick again, so that there's a version of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I'd imagine computers will be pretty cheap in year 2050.)
 
 Now you can start to see a pattern. Inside the simulation, you see a sequence of 0's and 1's that keeps getting longer and longer. So considering the sequence that you've seen so far, how can you guess whether the next digit will be a 0 or a 1? Great question, and this sounds like a great time to talk about learning algorithms!
 
@@ -115,7 +114,7 @@ First we need a way to randomly generate computer programs that produces shorter
 
 Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps Python or JavaScript. (It doesn't matter which language, as long as it's Turing complete and has something like print or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text that the program prints to console (which can also be represented as a bitstring), how about we call it the *console output*.
 
-Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity). You can use this formula to calculate the probability that you will see any sequence of 0's and 1's when you put yourself in a 2060-era virtual reality simulation!
+Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity). You can use this formula to calculate the probability that you will see any sequence of 0's and 1's when you put yourself in a 2050-era virtual reality simulation!
 
 [are there any issues caused by finite console outputs?]
 
