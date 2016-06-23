@@ -57,7 +57,7 @@ One really cool property of computer simulations is that you can make exact copi
 
 Now let's suppose that after disconnecting your real world brain, the simulation you're living in becomes deterministic, and that 30 seconds from now, it's programmed to display a message to you saying "You're still alive!" But those of us controlling the simulation are evil pranksters, and we decide to play a trick on you. Once the simulation becomes deterministic, we copy it onto a second computer, and right before it displays the "You're still alive!" message, we blast the original computer into a million pieces. Now here's the question: do you get to see the message?
 
-[drawing]
+![](learning/youre_still_alive_sml.png)
 
 Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Arguably, by that definition, you die even earlier, when your physical human brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
 
@@ -71,24 +71,21 @@ Well, that would mean we get to do an even crazier experiment! Suppose we do the
 
 1. The evil pranksters copy the simulation onto 2 other computers, instead of just 1.
 2. The simulation is deterministic, except for one thing: if someone presses a key on the keyboard, you get to see what they pressed from inside the simulation.
-3. After the first computer is destroyed and the "You're still alive!" message appears, someone presses the `0` key on the second computer, and simultaneously presses the `1` key on the third computer.
+3. After the first computer is destroyed, someone presses the `0` key on the second computer, and simultaneously presses the `1` key on the third computer.
 
 Will you see a 0 or a 1?
 
-[drawing]
+![](learning/0_or_1_sml.png)
 
 Easy, right? Isn't there just a 50% chance that you'll see a 0 and a 50% chance that you'll see a 1? Not so fast. Just because there's 2 possibilities doesn't necessarily mean that each one has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
 
 Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are the [standard model of particle physics](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html). And if you do the painstaking calculations, they'll tell you that the outcome of this experiment looks something like this:
 
-[dead person]
-[dead person in computer]
-[person that sees 0]
-[person that sees 1]
+![](learning/outcome_sml.png)
 
 Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot tell you the probabilities that the "real you" will see a 0 or a 1!
 
-Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1*! (Take a moment to appreciate how crazy that would be.) In that case, we'd need a new physics theory to fill the gap.
+Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!* Isn't that crazy? In that case, we'd need a new physics theory to fill the gap.
 
 ## Enter the learning algorithms
 
@@ -96,7 +93,7 @@ Remember that at the beginning of this post, I promised to tell you about how pe
 
 Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'm going to assume from now on that the data theory is right, though this is still an open question.) But since those of us controlling the simulation are evil pranksters, we play the same trick again on both copies of "you" so that there are now 4 versions of "you:" a version that sees 00, a version that sees 01, a version that sees 10, and a version that sees 11.
 
-[picture]
+![](learning/0_or_1_again_sml.png)
 
 Then we play the same trick again, so that there's a version of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I'd imagine computers will be pretty cheap in year 2050.)
 
@@ -104,7 +101,7 @@ Now you can start to see a pattern. Inside the simulation, you see a sequence of
 
 ## The most badass learning algorithm ever invented
 
-Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Most of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. Mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can approximately compute using known physics, and I think it is the most badass learning algorithm ever invented. [delete last sentence?]
+Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Many of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. Mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can approximately compute using known physics, and I think it is the most badass learning algorithm ever invented. [delete last sentence?]
 
 Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating a sequence of 0's and 1's (also known as a "bitstring") and you want to guess the next digit (or "bit") in the sequence. (Sounds familiar?)
 
