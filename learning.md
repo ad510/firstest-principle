@@ -43,7 +43,7 @@ So let's say you do that and you're now a single person that lives in both the r
 
 But are you really dead? Because, you know, people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation?
 
-If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever? (If you like this sort of thing, here's a Wait But Why post describing [more situations like these](https://waitbutwhy.com/2014/12/what-makes-you-you.html).)
+If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever? (If you like this sort of thing, here's a [Wait But Why post](https://waitbutwhy.com/2014/12/what-makes-you-you.html) describing more situations like these.)
 
 So what does this have to do with information physics? Oh right:
 
@@ -53,7 +53,7 @@ So now I've explained the first part. But even if you can live completely inside
 
 ## What our physics theories can't predict
 
-One really cool property of computer simulations is that you can make exact copies of them on different computers. If the simulation uses what's called a "deterministic algorithm," then it means that all copies of the simulation will output the same thing.
+One really cool property of computer simulations is that you can make exact copies of them on different computers. If the simulation uses what's called a "[deterministic algorithm](https://en.wikipedia.org/wiki/Deterministic_algorithm)," then it means that all copies of the simulation will output the same thing.
 
 Now let's suppose that after disconnecting your real world brain, the simulation you're living in becomes deterministic, and that 30 seconds from now, it's programmed to display a message to you saying "You're still alive!" But those of us controlling the simulation are evil pranksters, and we decide to play a trick on you. Once the simulation becomes deterministic, we copy it onto a second computer, and right before it displays the "You're still alive!" message, we blast the original computer into a million pieces. Now here's the question: do you get to see the message?
 
@@ -85,7 +85,9 @@ Well, then, how about we do this the proper way, and use the fundamental laws of
 
 Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot tell you the probabilities that the "real you" will see a 0 or a 1!
 
-Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!* Isn't that crazy? In that case, we'd need a new physics theory to fill the gap.
+Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!* Isn't that crazy?
+
+In that case, we'd need a new physics theory to fill the gap.
 
 ## Enter the learning algorithms
 
@@ -93,9 +95,11 @@ Remember that at the beginning of this post, I promised to tell you about how pe
 
 Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'm going to assume from now on that the data theory is right, though this is still an open question.) But since those of us controlling the simulation are evil pranksters, we play the same trick again on both copies of "you" so that there are now 4 versions of "you:" a version that sees 00, a version that sees 01, a version that sees 10, and a version that sees 11.
 
-![](learning/0_or_1_again_sml.png)
+![](learning/again_sml.png)
 
 Then we play the same trick again, so that there's a version of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I'd imagine computers will be pretty cheap in year 2050.)
+
+![](learning/again2_sml.png)
 
 Now you can start to see a pattern. Inside the simulation, you see a sequence of 0's and 1's that keeps getting longer and longer. So considering the sequence that you've seen so far, how can you guess whether the next digit will be a 0 or a 1? Great question, and this sounds like a great time to talk about learning algorithms!
 
