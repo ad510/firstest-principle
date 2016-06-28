@@ -1,0 +1,73 @@
+Entropy=how much you know, energy=estimate of how much there is to know compared to how much you know
+  E.g. Black holes respond to different fundamental forces in complicated way
+Chicken egg vocabulary problem
+Write it for my past self
+nouns describe 1, verbs describe 2
+
+Proof takes proof and returns proof (like lambda calculus)
+Classic scientific method doesn't work with learning algorithms
+  Compare 50% heads always to 99% heads first time and 50% heads after that
+  Repeating experiment with same prior knowledge would be testing prior knowledge, not learning technique
+Travel -> speculation (not original, see wait but why)
+Lecture 11 flow theory
+What does it mean that subset of space same as possible past state? Or is it?
+  Does time direction determine momentum?
+  Related to learning/traveling that goes backwards in time?
+Put experiments of current theories in table, given that this type of question is separate category (+ scientific but I don't know which type category)
+  Mention experiment inside event horizon (in pure general relativity), quantum eraser
+  You can't tell if you're inside event horizon
+  Quantum mechanics provides no theoretical guarantee that what we measured will eventually be measurable by everyone in universe
+  Important thing isn't that probability is very low/miniscule, rather that it's non zero because technically speaking quantum experiments in second category and would need loophole in definition to put it in first
+  Also boundary of what is quantum erased is pretty subjective
+Probably possible to tweak what counts as experiment to close off loopholes, but let's take a step back here. Whether or not this is considered a "real" experiment, this doesn't change fact that I'd really like to be able to predict what would happen to me if put in simulation, even if rest of world never finds out. Fine to disagree (language meaning driven by consensus) but I think simplest and best thing to do is count this as scientific
+Choice between multiverse is scientific or accept that some experiments performed can't tell everyone the result?
+Alternate wording of is this a scientific question: is this question outside the scope of the scientific method
+I get same cache miss feeling when traveling as when browsing internet
+
+10/9/2015
+What looks like force from inside often looks like momentum from outside
+Conservation describes 1, symmetry describes 2?
+If light is stuck bouncing around in black hole then of course it won't go anywhere
+1=learn, 2=teach
+Evaporating black hole behaves like breaking apart nucleus (one with too many neutrons)
+
+How much knowledge am I assuming
+  Currently writing it for past self but past self had unusual amount of physics knowledge (compared to friends not physicists)
+If it makes you feel better, analogous situation in math
+(Programming) language connects idea and execution (like time?)
+How brain works (wait but why)
+General relativity infinitely many mass variables
+The way this is usually presented is these are separate concepts and these equivalence can translate between a subset of them (at least one person calls it a "Rosetta Stone")
+Most upstream researchers intuitively understand obscure corner of math but don't know how to communicate it yet
+Core of intuitively good mathematicians surrounded by curious patient people doing cool things
+  People who understand ideas and execution are intuitively good mathematicians
+  Cache misses (eg office hours) are good in moderation
+Over fitting thing is basically if you believe in Bayes theorem then this is guaranteed to get right conclusions at least as fast as scientific community (look at algorithmic probability properties better)
+Different vocabularies for the same thing
+Femtolisp?
+Matter antimatter balance goes from I don't know to probably more matter
+Infinitely many fundamental forces could allow mass gap=0 (no!)
+speculation4's entropy reduction should be entanglement
+If wormhole=entanglement, how to model mass going through wormhole?
+If forgetting is losing backward compatibility then it isn't necessarily a bad thing
+Things tend to be copies of first thing that worked, so you can guess what first thing was like by seeing what current things have in common
+If goal isn't max entropy then what is it?
+  Is it being close to a lot of places?
+Can you binary serialize mixed states
+Redefine time interval as min length program (or output?) to go from one Solomonoff inductor to another
+If infinitely many fundamental forces distributed using power law, should be possible to estimate fall off rate and strength of undiscovered forces
+Derive learning principle from doing principle by "performance optimizing your life"
+  e.g. copying stuff
+Category (type) theory lets you quickly understand what classes of programs do
+  Pick output to distinguish between shortest programs that vary by type (not just constant values)
+If you try to approximate Solomonoff induction using category theory then you'll always be a little bit off. Exact "approximation" would look like category theory with infinite fundamental forces
+Don't forget output prefix is a type
+Another example of idea-execution: learn less perfect thing from more perfect thing, build more perfect thing from less perfect thing
+Matter=learn, antimatter=forget
+  Describe startup mass using bouncy bounce story
+  Connections to entropy and expanding visible universe
+  What if you swap matter antimatter
+Infinite forces: what you get if you ask for vague naive vision of the most optimistic thing that could possibly happen, if you ask someone who doesn't know better
+Better: ever since stupid garbage n body sim, I have little voice in my head saying that is how gravity works, and I keep wanting to shut it up but I can't because I don't understand enough of the math
+Topics: teleportation, travel by wishful thinking
+1=hypothesis, 2=experiment
