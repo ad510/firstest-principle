@@ -18,6 +18,7 @@ more intuitive:
   - notice that ideas in math or programming are pretty much synonymous with conjectures or what you want a program to do, and executing an idea is pretty much synonymous with proving the conjecture or writing a program
   - people usually think of types as the ones in a programming language rather than "what you want a program to do," but in theoretical computer science, "type" is defined so broadly that this is basically what it means
   - also see http://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html (he even explains analogies to software and logic)
+- science: 1 = hypothesis, 2 = experiment
 - hiring: 1 = smart, 2 = gets stuff done
 - social: 1 = information, 2 = communication
 - education: 1 = learn, 2 = teach

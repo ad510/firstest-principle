@@ -5,7 +5,7 @@ In theory, a prior probability distribution of programs is that of fair coin fli
 In practice, we just use our brains.
 
 additionally:
-- experiment that Solomonoff induction answers that quantum mechanics & general relativity don't: see scientific question1.2
+- experiment that Solomonoff induction answers that quantum mechanics & general relativity don't: see writeup
 - more equivalences: see nutshell more
 - evaluating Solomonoff induction as theory of everything: http://arxiv.org/find/cs/1/au:+Ozkural_E/0/1/0/all/0/1
   - I independently wrote "wow, is that really TOE?" in speculation6 2015-02-04 but this guy analyzed it more rigorously
@@ -13,7 +13,9 @@ additionally:
 - perceived distance (between 2 types) = expected length of program (distributed using algorithmic probability) that transforms values from one type to another
 
 more speculative ideas:
-- I suspect speculation6 & speculation4 are onto something, though when I wrote "entropy reduction" I likely meant something else
-- energy: see speculation11
+- I suspect speculation6 & speculation4 are onto something, though when I wrote "entropy reduction" I likely was thinking of entanglement
+- perceived time translation: see speculation14
+- copying self: see speculation15
+- matter antimatter imbalance: see speculation16
 - gravity = sum of infinitely many fundamental forces
   - might want to model with superset of general relativity that doesn't obey equivalence principle in the general case
