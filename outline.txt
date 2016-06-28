@@ -1,50 +1,10 @@
 New sections:
-Enter the learning algorithms
-How to falsify (solve halting problem)
+How to falsify (solve halting problem in general case)
 Predicting first bit, theory of everything stuff
 
 Link to:
 free will
 Who proposes as toe? that guy, Max T, anyone mainstream?
-Elon musk suggests live in sin but not learning algorithms
-
-In disclaimer, mention good way to make sure you understand something is to try to teach it
-
-Neither has concept of who you are, so they can't predict which computer you'll find yourself in
-
-You see both isn't an option, one version of you sees 0, another version sees 1, which version are you
-
-For more examples of the kind of reasoning that can be used (other perspectives on what might be possible?) if it is possible to make an exact simulation of you, I recommend Scott A's lecture notes on free will (and paper link from book?)
-
-Explain how it is falsifiable (can we solve halting problem in general case)
+Elon musk suggests live in sim but not learning algorithms
 
 Proposing learning algorithms as toe used to be something that only cocky eyed people like Max T would do, but it seems to be starting to enter mainstream (?) I hope you learned something interesting from reading this, and if you happen to be a physicist who heard about this before but couldn't understand why anyone would study it, I hope this cleared up any confusions you may have had.
-
-Instead of existing overviews are unrepresentative, maybe say they don't make it clear why it's important enough to be worth studying (since such an active field right now), and if you try to read research papers this is obfuscated in massive wall of formulas and jargon
-  Going to try to do for digital physics what ch 9 did for quantum mechanics
-
-Implied in current intro: I've never seen approachable first principles explanation of why some people think digital physics is needed, so here is my attempt to do that
-
-Separate post: I'm starting a blog! If I get straight into it it'll probably confuse people who I am and what I'm doing, so first let me take a minute to explain that. First principle explanations either use jargon or are oversimplified wrong analogies, I'm enthusiast without formal background but I think we can do better
-
-You may have occasionally read in news about attempts to derive physics from info theory. I think it is really cool but news articles about digital physics get so many things wrong they make me embarrassed (people who talk to press are often the people not doing the most actual research). So let me explain what's actually happening
-
-Outline:
-Elon musk quote
-How do you tell which are first principles?
-...
-Some situations where you can't use physics theories to predict what will happen to you, but might be able to use learning algorithms
-Let me tell you about one of them
-
-why haven't we predicted this
-scientific method
-someone outside would see both
-first time you can see if wrong is when you go in
-3 cases
-conclusion? TOE would have to be a learning algorithm
-
-doesn't mean it's untestable, but does mean that first time you can see if wrong is when you go in
-what would be useful to tell you before you go in
-
-Some friends have suggested that outcome of this depends on definition of you, but the point is if you had a definition of you that would answer this, you could test whether it is wrong by performing this experiment. More in future posts
-  I think Feynman explains something like this
