@@ -7,11 +7,11 @@ A [hot topic](http://fqxi.org/community/essay/winners/2013.1) in physics right n
 
 So I'm going to write one!
 
-People often describe information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or worse (in my opinion), the idea that [we might be living in a computer simulation](http://www.amnh.org/2016-asimov-debate). While there's a lot of research along those lines, I think it's more important to understand why those ideas are worth studying in the first place. So instead, I'm going to start with the following idea:
+People often describe information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or worse (in my opinion [footnote linking to footnotes header, go back using js]), the idea that [we might be living in a computer simulation](http://www.amnh.org/2016-asimov-debate). While there's a lot of research along those lines, I think it's more important to understand why those ideas are worth studying in the first place. So instead, I'm going to start with the following idea:
 
 > *If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
-But before we get into it, I need to make a couple disclaimers. First, I'm not one of the people doing research in this area, and it's possible that my understanding of what these researchers are doing is completely and utterly wrong. I'm writing this anyway because I think this area is fascinating, and I want other people to be able to appreciate why it is so fascinating. So if you have any questions, comments, or corrections, please email me at [email].
+But before we get into it, I need to make a couple disclaimers. First, I'm not one of the people doing research in this area, and it's possible that my understanding of what these researchers are doing is completely and utterly wrong. I'm writing this anyway because I think this area is fascinating, and I want other people to be able to appreciate why it is so fascinating. So if you have any questions, comments, or corrections, please email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).
 
 Second, I want to make it very clear that information physics is currently just a *hypothesis* about how the universe works. Unlike more established theories such as the [standard model](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html), we do not know if this is *actually representative* of how the universe works, or even if a new physics theory is needed to explain the situation hinted at above (where I emphasized "if" and "might"). Answering those questions would require serious experimental evidence that is way beyond our capabilities today. But given how quickly our technology is improving, I wouldn't be completely shocked if it is possible in my lifetime.
 
@@ -25,7 +25,7 @@ If you haven't been living under a rock, you've probably noticed that computers 
 
 If the optimists are right, we might see super-smart computers in my lifetime! But even if the pessimists are right, it's fun to speculate about what really powerful computers would be capable of anyway.
 
-Virtual reality simulations are already pretty good these days. If computers in 2050 might be smarter than humans, then virtual reality simulations in 2050 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
+[move this down] Virtual reality simulations are already pretty good these days. If computers in 2050 might be smarter than humans, then virtual reality simulations in 2050 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
 
 Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. After all, our brains are really just [2 half-brains](https://www.youtube.com/watch?v=wfYbgdo8e-8) that communicate with each other, but we still each feel like a single person. So how would it feel if we hooked up two people's brains together in year 2050?
 
@@ -35,7 +35,7 @@ Better yet, what if we hooked up your brain to a simulated brain in a virtual re
 
 ![](learning/im_him2_sml.png)
 
-We won't know until we actually try it. If the answer is no then the rest of this blog post is completely irrelevant, but if the answer is yes then that would be really cool!
+We won't know until we actually try it. If the answer is no then the rest of this blog post is completely irrelevant, but if the answer is [ever] yes then that would be really cool!
 
 So let's say you do that and you're now a single person that lives in both the real world and a virtual reality world. Then the real world part of you gets into a tragic accident and your brain is blasted into a million pieces. How sad.
 
@@ -43,7 +43,7 @@ So let's say you do that and you're now a single person that lives in both the r
 
 But are you really dead? Because, you know, people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation?
 
-If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever? (If you like this sort of thing, here's a [Wait But Why post](https://waitbutwhy.com/2014/12/what-makes-you-you.html) describing more situations like these.)
+If you try it out and the answer is no, then the rest of this blog post is completely irrelevant. But if the answer is yes, then it means that it's possible to put ourselves completely inside a computer simulation! Isn't that like the coolest thing ever? (If you like this sort of thing, here's a Wait But Why post about [what makes you you](https://waitbutwhy.com/2014/12/what-makes-you-you.html).)
 
 So what does this have to do with information physics? Oh right:
 
@@ -61,9 +61,9 @@ Now let's suppose that after disconnecting your real world brain, the simulation
 
 Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Arguably, by that definition, you die even earlier, when your physical human brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
 
-But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
+But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. [simplify? the definitions -> definitions] If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
 
-I'm going to use the terminology of the [Wait But Why post](https://waitbutwhy.com/2014/12/what-makes-you-you.html) I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* see the message the "data theory."
+I'm going to use the terminology of the [Wait But Why post](https://waitbutwhy.com/2014/12/what-makes-you-you.html) I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* [is possible to] see the message the "data theory."
 
 As of today, we don't know which hypothesis is right. But think about what it would mean if the data theory is right.
 
@@ -83,9 +83,9 @@ Well, then, how about we do this the proper way, and use the fundamental laws of
 
 ![](learning/outcome_sml.png)
 
-Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot tell you the probabilities that the "real you" will see a 0 or a 1!
+Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot predict the probabilities of either version being the "real you!"
 
-Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!* Isn't that crazy?
+Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter. But if the data theory is right and you *do* get to see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!*
 
 In that case, we'd need a new physics theory to fill the gap.
 
@@ -97,7 +97,7 @@ Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'
 
 ![](learning/again_sml.png)
 
-Then we play the same trick again, so that there's a version of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I'd imagine computers will be pretty cheap in year 2050.)
+Then we play the same trick again, so that there's a version [not singular] of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I imagine computers will be pretty cheap in year 2050.)
 
 ![](learning/again2_sml.png)
 
