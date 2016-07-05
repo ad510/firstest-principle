@@ -109,17 +109,24 @@ Machine learning is a really big field, and there are way too many learning algo
 
 Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating a sequence of 0's and 1's (also known as a "bitstring") and you want to guess the next digit (or "bit") in the sequence. (Sounds familiar?)
 
-So how might you do that? Intuitively you'd think that the next bit will probably continue the same pattern as the previous bits, rather than being something "random." But how can you tell how "random" a bitstring is? A subjective but really effective way of doing that is by figuring out what are the lengths of the shortest computer programs that output that bitstring. [link?] So let's use this idea to assign a probability to every bitstring.
+So how might you do that? Intuitively you'd think that the next bit will probably continue the same pattern as the previous bits, rather than being something "random." But how can you tell how "random" a bitstring is? A subjective but really effective way of doing that is by figuring out what are the [lengths of the shortest computer programs](https://en.wikipedia.org/wiki/Kolmogorov_complexity) that output that bitstring. So let's use this idea to assign a probability to every bitstring.
 
 First we need a way to randomly generate computer programs that produces shorter programs more often than longer programs. Easy! Take 2 fair coins and flip them. If the first coin is heads then write a 0; otherwise write a 1. If the second coin is heads then flip both coins again; otherwise stop. The resulting bitstring is our *computer program*. (We normally read computer code as text, but it is stored on computers as a bitstring.)
 
-Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps Python or JavaScript. (It doesn't matter which language, as long as it's Turing complete and has something like print or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text that the program prints to console (which can also be represented as a bitstring), how about we call it the *console output*.
+Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps Python or JavaScript. (It doesn't matter which language, as long as it's [Turing complete](https://stackoverflow.com/questions/7284/what-is-turing-complete#7320) and has something like print or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text that the program prints to console (which can also be represented as a bitstring), how about we call it the *console output*.
 
-Finally we can assign a probability to every bitstring. If you generate and run random computer programs, over and over again for the rest of your life and a long time beyond, we can define the *algorithmic probability* of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (both of which approach infinity). You can use this formula to calculate the probability that you will see any sequence of 0's and 1's when you put yourself in a 2050-era virtual reality simulation!
+At this point, we can assign a probability to every bitstring you might see in the simulation. If you generate and run random computer programs, over and over again for the rest of your life and [a long time beyond](https://en.wikipedia.org/wiki/Heat_death_of_the_universe), we can define the [*algorithmic probability*](http://scholarpedia.org/article/Algorithmic_probability) of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (counting duplicates), as the number of programs that finish running approaches infinity.
 
-[are there any issues caused by finite console outputs?]
+Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([another link](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
 
-Now that's cool, but what we really want to do is predict the value of the bit you'll see *next*. To do that, first write down the bits you've seen so far, followed by an extra 0 at the end. I'll call that bitstring 0. Also write down the bits you've seen so far, followed by an extra 1 at the end, which I'll call bitstring 1. Then according to *Solomonoff induction*, the probability of seeing a 0 next is just the algorithmic probability of bitstring 0, divided by the sum of the algorithmic probability of bitstring 0 and the algorithmic probability of bitstring 1. The probability of seeing a 1 next is just one minus the probability of seeing a 0 next.
+```
+ algorithmic probability of the bitstring you've seen so far followed by 0
+----------------------------------------------------------------------------
+(algorithmic probability of the bitstring you've seen so far followed by 0 +
+ algorithmic probability of the bitstring you've seen so far followed by 1)
+```
+
+The probability of seeing a 1 next is just one minus the probability of seeing a 0 next.
 
 Phew, that was a mouthful! If you like, here's a flowchart:
 
@@ -174,11 +181,7 @@ probability that next bit is 1 = 1 - probability that next bit is 0
 
 [1] "Extremely patient" is like the biggest understatement ever.
 
-[2] Use the same deterministic Turing complete interpreter for every program, and let it use unlimited time and memory. In this example, I assume Python is running in a completely deterministic virtual machine.
-
-Isn't that completely ridiculous? But that, folks, has been mathematically proven to be the best general purpose learning algorithm theoretically possible, assuming you have unlimited computing power and patience.
-
-If you want to learn more about Solomonoff induction and why it is so badass, see [here](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/), [here](http://scholarpedia.org/article/Algorithmic_probability), and [here](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist).
+[2] Use the same deterministic Turing complete interpreter for every program, and let it use unlimited time and memory. In this example, all input to the Python interpreter is generated by a deterministic algorithm.
 
 ## Can we do better? [probably want to rewrite this]
 
