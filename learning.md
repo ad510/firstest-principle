@@ -7,7 +7,7 @@ A [hot topic](http://fqxi.org/community/essay/winners/2013.1) in physics right n
 
 So I'm going to write one!
 
-People often describe information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or worse (in my opinion [footnote linking to footnotes header, go back using js]), the idea that [we might be living in a computer simulation](http://www.amnh.org/2016-asimov-debate). While there's a lot of research along those lines, I think it's more important to understand why those ideas are worth studying in the first place. So instead, I'm going to start with the following idea:
+People often describe information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or worse (in my opinion), the idea that [we might be living in a computer simulation](http://www.amnh.org/2016-asimov-debate). While there's a lot of research along those lines, I think it's more important to understand why those ideas are worth studying in the first place. So instead, I'm going to start with the following idea:
 
 > *If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
@@ -35,7 +35,7 @@ Better yet, what if we hooked up your brain to a simulated brain in a virtual re
 
 ![](learning/im_him2_sml.png)
 
-We won't know until we actually try it. If the answer is no then the rest of this blog post is completely irrelevant, but if the answer is [ever] yes then that would be really cool!
+We won't know until we actually try it. If the answer is no [impossible] then the rest of this blog post is completely irrelevant, but if the answer is yes [possible] then that would be really cool!
 
 So let's say you do that and you're now a single person that lives in both the real world and a virtual reality world. Then the real world part of you gets into a tragic accident and your brain is blasted into a million pieces. How sad.
 
@@ -105,17 +105,17 @@ Now you can start to see a pattern. Inside the simulation, you see a sequence of
 
 ## The most badass learning algorithm ever invented
 
-Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Many of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these worldly problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. Mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can approximately compute using known physics, and I think it is the most badass learning algorithm ever invented. [delete last sentence?]
+Machine learning is a really big field, and there are way too many learning algorithms to cover them all here. Many of these algorithms exist either to address practical, real-life problems such as performance or perceived theoretical problems such as runtime complexity. But if you are a godlike being who is not concerned with either of these problems (and let's face it, we all wish we were), there is really only one learning algorithm you need to know, and it is called Solomonoff induction. Mathematicians have more or less proven that it is the best general purpose learning algorithm theoretically possible that we can approximately compute using known physics, and I think it is the most badass learning algorithm ever invented. [delete last sentence?]
 
 Here's the problem that Solomonoff induction is designed to solve: suppose there is some unknown process generating a sequence of 0's and 1's (also known as a "bitstring") and you want to guess the next digit (or "bit") in the sequence. (Sounds familiar?)
 
 So how might you do that? Intuitively you'd think that the next bit will probably continue the same pattern as the previous bits, rather than being something "random." But how can you tell how "random" a bitstring is? A subjective but really effective way of doing that is by figuring out what are the [lengths of the shortest computer programs](https://en.wikipedia.org/wiki/Kolmogorov_complexity) that output that bitstring. So let's use this idea to assign a probability to every bitstring.
 
-First we need a way to randomly generate computer programs that produces shorter programs more often than longer programs. Easy! Take 2 fair coins and flip them. If the first coin is heads then write a 0; otherwise write a 1. If the second coin is heads then flip both coins again; otherwise stop. The resulting bitstring is our *computer program*. (We normally read computer code as text, but it is stored on computers as a bitstring.)
+First we need a way to randomly generate computer programs that produces shorter programs more often than longer programs. Easy! Flip 2 coins. If the first coin lands heads then write a 0; otherwise write a 1. If the second coin lands heads then flip both coins again; otherwise stop. The resulting bitstring is our *computer program*. (We normally read computer code as text, but it is [stored on computers](https://en.wikipedia.org/wiki/Character_encoding) as a bitstring.)
 
-Now we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps Python or JavaScript. (It doesn't matter which language, as long as it's [Turing complete](https://stackoverflow.com/questions/7284/what-is-turing-complete#7320) and has something like print or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text that the program prints to console (which can also be represented as a bitstring), how about we call it the *console output*.
+Next we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps Python or JavaScript. (It doesn't matter which language, as long as it's [Turing complete](https://stackoverflow.com/questions/7284/what-is-turing-complete#7320) and has something like print or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text that the program prints to console (which can also be represented as a bitstring), how about we call it the *console output*.
 
-At this point, we can assign a probability to every bitstring you might see in the simulation. If you generate and run random computer programs, over and over again for the rest of your life and [a long time beyond](https://en.wikipedia.org/wiki/Heat_death_of_the_universe), we can define the [*algorithmic probability*](http://scholarpedia.org/article/Algorithmic_probability) of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (counting duplicates), as the number of programs that finish running approaches infinity.
+Now we can assign a probability to every bitstring you might see in the simulation. If you generate and run random computer programs, over and over again for the rest of your life and [a long time beyond](https://en.wikipedia.org/wiki/Heat_death_of_the_universe), we can define the [*algorithmic probability*](http://scholarpedia.org/article/Algorithmic_probability) of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (counting duplicates), as the number of programs that finish running approaches infinity.
 
 Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([alternate link](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
 
@@ -126,7 +126,7 @@ Finally, you can use these concepts to predict whether you'll see a 0 or 1 next.
  algorithmic probability of the bitstring you've seen so far followed by 1)
 ```
 
-The probability of seeing a 1 next is just one minus the probability of seeing a 0 next.
+And the probability of seeing a 1 next is just one minus the probability of seeing a 0 next.
 
 Phew, that was a mouthful! If you like, here's a flowchart:
 
@@ -151,7 +151,7 @@ If first coin is:  |                           |
     | Second coin is [tails]                   |
     v                                          |
 Save bits as a *binary file*                   |
-100101 -> random_program.bin                   |
+00001010 -> random_program.bin                 |
     |                                          |
     v                                          |
 *Execute* it as a computer program [2]         |
@@ -170,7 +170,7 @@ algorithmic probability of *B* = -----------------------------------------------
                                  total # of console outputs (counting duplicates)
     |
     v
-Given a bitstring *C*:
+Given a bitstring *C*: [put box or blue highlight around this]
                                   algorithmic probability of *C* followed by 0
 probability that next bit is 0 = -----------------------------------------------
                                  (algorithmic probability of *C* followed by 0 +
@@ -181,7 +181,7 @@ probability that next bit is 1 = 1 - probability that next bit is 0
 
 [1] "Extremely patient" is like the biggest understatement ever.
 
-[2] Use the same deterministic Turing complete interpreter for every program, and let it use unlimited time and memory. In this example, all input to the Python interpreter is generated by a deterministic algorithm.
+[2] Let the program use unlimited time and memory, and deterministically generate anything that could potentially be nondeterministic (such as user input).
 
 ## Can we do better? [probably want to rewrite this]
 
