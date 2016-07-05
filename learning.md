@@ -117,7 +117,7 @@ Now we need this computer program to output a bitstring. Simple! Save the comput
 
 At this point, we can assign a probability to every bitstring you might see in the simulation. If you generate and run random computer programs, over and over again for the rest of your life and [a long time beyond](https://en.wikipedia.org/wiki/Heat_death_of_the_universe), we can define the [*algorithmic probability*](http://scholarpedia.org/article/Algorithmic_probability) of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (counting duplicates), as the number of programs that finish running approaches infinity.
 
-Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([another link](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
+Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([alternate link](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
 
 ```
  algorithmic probability of the bitstring you've seen so far followed by 0
