@@ -197,7 +197,7 @@ In fact, who says we can't take this a step further and run Solomonoff induction
 
 So if Solomonoff induction is truly that badass, then what about taking this all the way and suggesting that it might in fact be the "theory of everything" that unifies and explains all aspects of the universe? Such a statement would imply deep things about the fundamental nature of the universe, and there is in fact an area of research along these lines. As of today it is quite a controversial idea, and it doesn't exactly help that some of its most visible proponents also advocate cocky-eyed ideas like the "level 4 multiverse." But the more general idea of applying information theory concepts to study physics has been a major area of research lately.
 
-So to wrap up, I hope you've learned something useful from this (quite long) blog post, and if you see something in the news about people studying physics from the perspective of information theory, I hope that now you would have at least some idea of what they're talking about. (I certainly didn't until I looked into the topic further!
+So to wrap up, I hope you've learned something useful from this (quite long) blog post, and if you see something in the news about people studying physics from the perspective of information theory, I hope that now you would have at least some idea of what they're talking about. (I certainly didn't until I looked into the topic further!)
 
 Questions? Comments? Found a mistake? Email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com)
 
