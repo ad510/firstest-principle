@@ -25,7 +25,7 @@ If you haven't been living under a rock, you've probably noticed that computers 
 
 If the optimists are right, we might see super-smart computers in my lifetime! But even if the pessimists are right, it's fun to speculate about what really powerful computers would be capable of anyway.
 
-[move this down] Virtual reality simulations are already pretty good these days. If computers in 2050 might be smarter than humans, then virtual reality simulations in 2050 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
+{move this down} Virtual reality simulations are already pretty good these days. If computers in 2050 might be smarter than humans, then virtual reality simulations in 2050 might be so good that to a simulated person living in one, it would look pretty convincingly like a real universe.
 
 Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth that people hooked up this way would feel like a single person. After all, our brains are really just [2 half-brains](https://www.youtube.com/watch?v=wfYbgdo8e-8) that communicate with each other, but we still each feel like a single person. So how would it feel if we hooked up two people's brains together in year 2050?
 
@@ -35,7 +35,7 @@ Better yet, what if we hooked up your brain to a simulated brain in a virtual re
 
 ![](learning/im_him2_sml.png)
 
-We won't know until we actually try it. If the answer is no [impossible] then the rest of this blog post is completely irrelevant, but if the answer is yes [possible] then that would be really cool!
+We won't know until we actually try it. If the answer is no {impossible} then the rest of this blog post is completely irrelevant, but if the answer is yes {possible} then that would be really cool!
 
 So let's say you do that and you're now a single person that lives in both the real world and a virtual reality world. Then the real world part of you gets into a tragic accident and your brain is blasted into a million pieces. How sad.
 
@@ -61,9 +61,9 @@ Now let's suppose that after disconnecting your real world brain, the simulation
 
 Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Arguably, by that definition, you die even earlier, when your physical human brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
 
-But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. [simplify? the definitions -> definitions] If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
+But here's the thing. The way science works is that you're supposed to do experiments to figure out what's right and what's wrong. And what we just described here is a way for you to *experimentally determine* which of these definitions of "you" is wrong! How? By using the procedure above to attempt to put yourself in a computer simulation, then having some friends do that trick so that only a copy of the simulated "you" gets to see the "You're still alive!" message. {simplify? the definitions -> definitions} If you die before you see the message, then the definitions of "you" predicting that you see the message are wrong. If you *do* get to see the message, then you know for a fact that the definitions of "you" predicting that you do *not* see the message are most definitely wrong! (One weird thing about this experiment is that people watching the computers from outside don't find out which definitions of "you" are wrong, but they can still reproduce the outcome for themselves by putting themselves inside a simulation.)
 
-I'm going to use the terminology of the [Wait But Why post](https://waitbutwhy.com/2014/12/what-makes-you-you.html) I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* [is possible to] see the message the "data theory."
+I'm going to use the terminology of the [Wait But Why post](https://waitbutwhy.com/2014/12/what-makes-you-you.html) I linked to earlier, and I'm going to call the hypothesis that you *do not* see the message the "brain theory." And I'm going to call the hypothesis that you *do* {is possible to} see the message the "data theory."
 
 As of today, we don't know which hypothesis is right. But think about what it would mean if the data theory is right.
 
@@ -97,7 +97,7 @@ Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'
 
 ![](learning/again_sml.png)
 
-Then we play the same trick again, so that there's a version [not singular] of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I imagine computers will be pretty cheap in year 2050.)
+Then we play the same trick again, so that there's a version {not singular} of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I imagine computers will be pretty cheap in year 2050.)
 
 ![](learning/again2_sml.png)
 
@@ -144,11 +144,11 @@ EVER INVENTED
     |              |                           |
     v              |                           |
 If first coin is:  |                           |
-[heads] -> write 0 |                           |
-[tails] -> write 1 |                           |
+{heads} -> write 0 |                           |
+{tails} -> write 1 |                           |
     |           ---                            |
-    |    Second coin is [heads]                |
-    | Second coin is [tails]                   |
+    |    Second coin is {heads}                |
+    | Second coin is {tails}                   |
     v                                          |
 Save bits as a *binary file*                   |
 00001010 -> random_program.bin                 |
@@ -170,7 +170,7 @@ algorithmic probability of *B* = -----------------------------------------------
                                  total # of console outputs (counting duplicates)
     |
     v
-Given a bitstring *C*: [put box or blue highlight around this]
+Given a bitstring *C*: {put box or blue highlight around this}
                                   algorithmic probability of *C* followed by 0
 probability that next bit is 0 = -----------------------------------------------
                                  (algorithmic probability of *C* followed by 0 +
@@ -197,10 +197,10 @@ In fact, instead of waiting until 2050 to run Solomonoff induction, how about us
 
 So if Solomonoff induction is truly that badass, then what about taking this all the way and suggesting that it might in fact be the ["theory of everything"](https://en.wikipedia.org/wiki/Theory_of_everything) that unifies and explains all aspects of the universe? Such a statement would imply deep things about the fundamental nature of the universe, and there is in fact an [area of research](https://en.wikipedia.org/wiki/Digital_physics) along these lines, though as of today it is quite a [controversial idea](https://en.wikipedia.org/wiki/Digital_physics#Criticism). But the more general idea of applying information theory concepts to study physics is a [major area of research](http://fqxi.org/community/essay/winners/2013.1) currently.
 
-[my personal thoughts on this, if I have any]
+{my personal thoughts on this, if I have any}
 
 So to wrap up, I hope you learned something useful from this (quite long) blog post, and if you see something in the news about people studying physics from the perspective of information theory, I hope that you now at least have some idea of what they're talking about. (I certainly didn't until I looked into the topic further!)
 
 Questions? Comments? Found a mistake? Email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).
 
-[email header, CC0]
+{email header, CC0}
