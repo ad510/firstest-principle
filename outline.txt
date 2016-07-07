@@ -1,14 +1,7 @@
-New sections:
-How it is falsifiable (solve halting problem in general case)
-Predicting first bit, theory of everything stuff
-  Explain why you shouldn't just use algorithmic probability
-
 Link to:
 free will
-Who proposes as toe? that guy, Max T, anyone mainstream?
+Who proposes as toe? Eray Ozkural, Max Tegmark, Juergen Schmidhuber, anyone else important?
 Elon musk suggests live in sim but not learning algorithms
-
-Proposing learning algorithms as toe used to be something that only cocky eyed people like Max T would do, but it seems to be starting to enter mainstream (?) I hope you learned something interesting from reading this, and if you happen to be a physicist who heard about this before but couldn't understand why anyone would study it, I hope this cleared up any confusions you may have had.
 
 Footnotes:
 In theoretical computer science, a computer is a universal Turing machine with unlimited memory and time to do calculations, but that cannot solve the halting problem. Everywhere else, a computer is an actual, physical machine that does calculations in real time and can run out of disk space and I don't care what "Turing degree" it has. When physicists informally say "we might be living in a computer simulation," they rarely make this distinction clear, which can easily cause confusion. Also, it's possible to study physics from an information theory perspective without assuming that the universe is fundamentally the output of a Turing machine.

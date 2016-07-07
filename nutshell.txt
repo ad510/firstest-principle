@@ -7,8 +7,8 @@ In practice, we just use our brains.
 additionally:
 - experiment that Solomonoff induction answers that quantum mechanics & general relativity don't: see writeup
 - more equivalences: see nutshell more
-- evaluating Solomonoff induction as theory of everything: http://arxiv.org/find/cs/1/au:+Ozkural_E/0/1/0/all/0/1
-  - I independently wrote "wow, is that really TOE?" in speculation6 2015-02-04 but this guy analyzed it more rigorously
+- evaluating Solomonoff induction as theory of everything: https://arxiv.org/abs/quant-ph/0011122 and https://arxiv.org/find/cs/1/au:+Ozkural_E/0/1/0/all/0/1
+  - I independently wrote "wow, is that really TOE?" in speculation6 2015-02-04 but these guys analyzed it more rigorously
 - perceived time = entropy = (approximately) length of program
 - perceived distance (between 2 types) = expected length of program (distributed using algorithmic probability) that transforms values from one type to another
 
