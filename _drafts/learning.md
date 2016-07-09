@@ -1,5 +1,7 @@
-# What learning algorithms can predict that our physics theories might not
-
+---
+layout: post
+title:  "What learning algorithms can predict that our physics theories might not"
+---
 A [hot topic](http://fqxi.org/community/essay/winners/2013.1) in physics right now is applying techniques from information theory and theoretical machine learning to better understand physics. There are even hopes that these techniques might develop into a so-called "theory of everything" that unifies and explains all aspects of the universe. But for all the attention this subject has gotten, I'm a bit disappointed that I've never seen an introduction that explains
 
 1. where *exactly* might you be able to use learning algorithms where you can't just use [existing](https://en.wikipedia.org/wiki/Standard_Model) [physics](https://en.wikipedia.org/wiki/General_relativity) theories instead, and
@@ -21,7 +23,7 @@ So first question: how might we be able to put ourselves in a computer simulatio
 
 If you haven't been living under a rock, you've probably noticed that computers and software have gotten *way* better over the last several decades, and this trend shows no signs of stopping. So [one study](http://hplusmagazine.com/2010/02/05/how-long-till-human-level-ai/) asked a bunch of AI experts when they think computers will become as smart as humans, and more than half predicted that this will happen before 2050.
 
-![](learning/agi.gif)
+![](/learning/agi.gif)
 
 If the optimists are right, we might see super-smart computers in my lifetime! But even if the pessimists are right, it's fun to speculate about what really powerful computers would be capable of anyway.
 
@@ -29,17 +31,17 @@ If the optimists are right, we might see super-smart computers in my lifetime! B
 
 Instead of speculating about it, could we see for ourselves if that is the case? Perhaps it could be done like this. People have used [brain-to-brain interfaces](https://www.washington.edu/news/2015/09/23/uw-team-links-two-human-brains-for-question-and-answer-experiment/) to think to each other over the internet, and the technology to do things like this is improving quickly. It wouldn't be too much of a stretch to imagine that several decades from now, these brain-to-brain connections might have so much bandwidth {reorder to put 2 half-brains here} that people hooked up this way would feel like a single person. After all, our brains are really just [2 half-brains](https://www.youtube.com/watch?v=wfYbgdo8e-8) that communicate with each other, but we still each feel like a single person. So how would it feel if we hooked up two people's brains together in year 2050?
 
-![](learning/im_him_sml.png)
+![](/learning/im_him_sml.png)
 
 Better yet, what if we hooked up your brain to a simulated brain in a virtual reality world? Would you feel like you are also the person in the simulation?
 
-![](learning/im_him2_sml.png)
+![](/learning/im_him2_sml.png)
 
 We won't know until we actually try it. If the answer is no {impossible} then the rest of this blog post is completely irrelevant, but if the answer is yes {possible} then that would be really cool!
 
 So let's say you do that and you're now a single person that lives in both the real world and a virtual reality world. Then the real world part of you gets into a tragic accident and your brain is blasted into a million pieces. How sad.
 
-![](learning/im_virtual_sml.png)
+![](/learning/im_virtual_sml.png)
 
 But are you really dead? Because, you know, people have done surgeries where they [removed half of someone's brain](https://en.wikipedia.org/wiki/Hemispherectomy) and they still lived on OK. So if half of your brain is in the real world and half of your brain is in a computer simulation and you lose the part of your brain in the real world, shouldn't you still live on in the simulation?
 
@@ -57,7 +59,7 @@ One really cool property of computer simulations is that you can make exact copi
 
 Now let's suppose that after disconnecting your real world brain, the simulation you're living in becomes deterministic, and that 30 seconds from now, it's programmed to display a message to you saying "You're still alive!" But those of us controlling the simulation are evil pranksters, and we decide to play a trick on you. Once the simulation becomes deterministic, we copy it onto a second computer, and right before it displays the "You're still alive!" message, we blast the original computer into a million pieces. Now here's the question: do you get to see the message?
 
-![](learning/youre_still_alive_sml.png)
+![](/learning/youre_still_alive_sml.png)
 
 Well, it depends on how we define "you," doesn't it? If we define "you" based on which physical body you're in, or which physical computer you're in, then you "die" in the original computer and don't get to see the message. (Arguably, by that definition, you die even earlier, when your physical human brain is blasted into a million pieces.) But if we instead define "you" in a different way where it doesn't matter which physical body or computer you're in, then maybe you do get to see the message.
 
@@ -75,13 +77,13 @@ Well, that would mean we get to do an even crazier experiment! Suppose we do the
 
 Will you see a 0 or a 1?
 
-![](learning/0_or_1_sml.png)
+![](/learning/0_or_1_sml.png)
 
 Easy, right? Isn't there just a 50% chance that you'll see a 0 and a 50% chance that you'll see a 1? Not so fast. Just because there's 2 possibilities doesn't necessarily mean that each one has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
 
 Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are the [standard model of particle physics](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html). And if you do the painstaking calculations, they'll tell you that the outcome of this experiment looks something like this:
 
-![](learning/outcome_sml.png)
+![](/learning/outcome_sml.png)
 
 Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot predict the probabilities of either version being the "real you!"
 
@@ -95,11 +97,11 @@ Remember that at the beginning of this post, I promised to tell you about how pe
 
 Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'm going to assume from now on that the data theory is right, though this is still an open question.) But since those of us controlling the simulation are evil pranksters, we play the same trick again on both copies of "you" so that there are now 4 versions of "you:" a version that sees 00, a version that sees 01, a version that sees 10, and a version that sees 11.
 
-![](learning/again_sml.png)
+![](/learning/again_sml.png)
 
 Then we play the same trick again, so that there's a version {not singular} of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I imagine computers will be pretty cheap in year 2050.)
 
-![](learning/again2_sml.png)
+![](/learning/again2_sml.png)
 
 Now you can start to see a pattern. Inside the simulation, you see a sequence of 0's and 1's that keeps getting longer and longer. So considering the sequence that you've seen so far, how can you guess whether the next digit will be a 0 or a 1? Great question, and this sounds like a great time to talk about learning algorithms!
 
@@ -213,7 +215,7 @@ Obviously, I think we need to do a lot more research to figure out what sorts of
 
 Remember the first stick figure drawing in this blog post, which speculated that if we connected 2 people's brains as effectively as the neural fibers that connect the 2 halves of our brains, they might feel like a single person?
 
-![](learning/im_him_sml.png)
+![](/learning/im_him_sml.png)
 
 What if instead of connecting just 2 people's brains together, we connected everyone's brains like that to the internet? Would that mean that every human being on Earth would feel like they are just one small body part of a single, greater being?
 
