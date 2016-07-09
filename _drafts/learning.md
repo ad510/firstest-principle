@@ -9,7 +9,7 @@ A [hot topic](http://fqxi.org/community/essay/winners/2013.1) in physics right n
 
 So I'm going to write one!
 
-People often describe information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or worse (in my opinion), the idea that [we might be living in a computer simulation](http://www.amnh.org/2016-asimov-debate). While there's a lot of research along those lines, I think it's more important to understand why those ideas are worth studying in the first place. So instead, I'm going to start with the following idea:
+People often describe information physics or digital physics by saying it is something about the [entropy of black holes](http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/), or the idea that [we might be living in a computer simulation](http://www.amnh.org/2016-asimov-debate). While there's a lot of important research along those lines, I think it's even more important to understand why those ideas are worth studying in the first place. So instead, I'm going to start with the following idea:
 
 > *If* it is possible to put ourselves inside computer simulations, it *might* be possible to put ourselves in a situation where we cannot use existing physics theories to predict what we'll perceive happening to us, but where we can use machine learning algorithms to do so.
 
