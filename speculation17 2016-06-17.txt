@@ -71,3 +71,5 @@ Infinite forces: what you get if you ask for vague naive vision of the most opti
 Better: ever since stupid garbage n body sim, I have little voice in my head saying that is how gravity works, and I keep wanting to shut it up but I can't because I don't understand enough of the math
 Topics: teleportation, travel by wishful thinking
 1=hypothesis, 2=experiment
+If boundary of visible universe is uncomputably complex and lambda CDM is a little bit wrong (doesn't have to be very wrong) then civilization can be a hyper computer
+  Church Turing thesis implies that studying Turing degrees is a complete waste of time, would be strange if that is true since all abstract math seems to find a practical use eventually

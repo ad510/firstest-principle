@@ -17,3 +17,7 @@ Technically not an algorithm
 Doesn't matter which language
 
 Algorithmic probability usually described in terms of Turing machines, there are many potential meanings and I give a different variation than the one in the link (checked with someone), important part is it converges
+
+If those Wikipedia articles make your head explode (don't worry, they do that to me too), here's a somewhat more accessible introduction to the [problems harder than halting problem].
+
+Solomonoff induction in real life
