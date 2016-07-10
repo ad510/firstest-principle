@@ -231,7 +231,7 @@ We won't know until we actually try it. But if the answer is yes, then it would 
 
 1. <a id="fn1"></a>{Why not define you to include future? While you can indeed define you this way, at fundamental level we don't know what our future behavior will be. Defining you this way does not solve this underlying problem but scientific method does} [&#8617;](#fnref1)
 2. <a id="fn2"></a>{Why does it matter which one is the real you if they are both you? You see both isn't an option, one version of you sees 0, another version sees 1, which version are you} [&#8617;](#fnref2)
-3. <a id="fn3"></a>{Technically not an algorithm} [&#8617;](#fnref3)
+3. <a id="fn3"></a>Technically speaking, Solomonoff induction is not an algorithm because it takes an infinite amount of time to return the final output, but I couldn't think of a better word to describe it. [&#8617;](#fnref3)
 4. <a id="fn4"></a>It doesn't matter which language, as long as it's [Turing complete](https://stackoverflow.com/a/7320) and has something like print or console.log that prints to the console. [&#8617;](#fnref4)
 5. <a id="fn5"></a>{Algorithmic probability usually described in terms of Turing machines, there are many potential meanings and I give a different variation than the one in the link (checked with someone), important part is it converges} [&#8617;](#fnref5)
 6. <a id="fn6"></a>If those Wikipedia articles make your head explode (don't worry, they do that to me too), here's a somewhat more accessible introduction to the [problems harder than halting problem](http://scottaaronson.com/democritus/lec4.html). [&#8617;](#fnref6)
