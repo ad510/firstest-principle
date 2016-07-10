@@ -117,15 +117,15 @@ First we need a way to randomly generate computer programs that produces shorter
 
 Next we need this computer program to output a bitstring. Simple! Save the computer program as a binary file and run it using a deterministic interpreter for your favorite programming language, perhaps Python or JavaScript. (It doesn't matter which language, as long as it's [Turing complete](https://stackoverflow.com/questions/7284/what-is-turing-complete#7320) and has something like print or console.log that prints to the console. Also you should let the program use unlimited time and memory.) Of course, almost all randomly generated computer programs will have a syntax error, but that's OK because there is still a chance that the program will run and print something. As for the text that the program prints to console (which can also be represented as a bitstring), how about we call it the *console output*.
 
-Now we can assign a probability to every bitstring you might see in the simulation. If you generate and run random computer programs, over and over again for the rest of your life and [a long time beyond](https://en.wikipedia.org/wiki/Heat_death_of_the_universe), we can define the [*algorithmic probability*](http://scholarpedia.org/article/Algorithmic_probability) of a bitstring to be the number of *console outputs* so far (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs so far (counting duplicates), as the number of programs that finish running approaches infinity.
+Now we can assign a probability to every bitstring you might see in the simulation. If you generate and run random computer programs, over and over again for the rest of your life and [a long time beyond](https://en.wikipedia.org/wiki/Heat_death_of_the_universe), we can define the [*algorithmic probability*](http://scholarpedia.org/article/Algorithmic_probability) of a bitstring to be the number of *console outputs* (counting duplicates) that *begin* with the bitstring in question, divided by *total* number of console outputs (counting duplicates), as the number of programs that finish running approaches infinity.
 
-Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([alternate link](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
+Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([another source](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
 
 ```
- algorithmic probability of the bitstring you've seen so far followed by 0
-----------------------------------------------------------------------------
-(algorithmic probability of the bitstring you've seen so far followed by 0 +
- algorithmic probability of the bitstring you've seen so far followed by 1)
+ algorithmic probability of the bitstring you see followed by 0
+-----------------------------------------------------------------
+(algorithmic probability of the bitstring you see followed by 0 +
+ algorithmic probability of the bitstring you see followed by 1)
 ```
 
 And the probability of seeing a 1 next is just one minus the probability of seeing a 0 next.
