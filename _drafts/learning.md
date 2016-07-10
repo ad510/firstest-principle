@@ -15,7 +15,7 @@ People often describe information physics or digital physics by saying it is som
 
 But before we get into it, let me be very clear about something. Currently, information physics is currently just a *hypothesis* about how the universe works. Unlike more established theories such as the [standard model](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html), we do not know if this is *actually representative* of how the universe works, or even if a new physics theory is needed to explain the situation hinted at above (where I emphasized "if" and "might"). Answering those questions would require serious experimental evidence that is way beyond our capabilities today. But given how quickly our technology is improving, I wouldn't be completely shocked if it is possible in my lifetime.
 
-Also, I should mention that I'm not one of the people doing research in this area, and despite my best efforts, it's possible that I'm completely misunderstanding what these researchers are doing. So if you have any questions, comments, or corrections, please email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).
+Also, I should mention that I'm not one of the people doing research in this area, and despite my best efforts, it's possible that I'm misunderstanding what these researchers are doing. So if you have any questions, comments, or corrections, please email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).
 
 So first question: how might we be able to put ourselves in a computer simulation?
 
