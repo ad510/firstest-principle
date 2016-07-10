@@ -83,7 +83,7 @@ Easy, right? Isn't there just a 50% chance that you'll see a 0 and a 50% chance 
 
 Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are the [standard model of particle physics](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html). And if you do the painstaking calculations, they'll tell you that the outcome of this experiment looks something like this:
 
-<img src="/learning/outcome_25.png" width="540"/>
+<img src="/learning/outcome_25.png" width="652"/>
 
 Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, neither of them has a concept of who "you" are. So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot predict the probabilities of either version being the "real you!" <a id="fnref2" href="#fn2">[2]</a>
 
