@@ -121,69 +121,17 @@ Now we can assign a probability to every bitstring you might see in the simulati
 
 Finally, you can use these concepts to predict whether you'll see a 0 or 1 next. According to [*Solomonoff induction*](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/) ([another source](http://twistedoakstudios.com/blog/Post5623_solomonoffs-mad-scientist)), the probability of seeing a 0 next is:
 
-```
- algorithmic probability of the bitstring you see followed by 0
------------------------------------------------------------------
-(algorithmic probability of the bitstring you see followed by 0 +
- algorithmic probability of the bitstring you see followed by 1)
-```
+<img src="/learning/solomonoff.png" width="442"/>
 
 And the probability of seeing a 1 next is just one minus the probability of seeing a 0 next.
 
 Phew, that was a mouthful! If you like, here's a flowchart:
 
-```
-the
-extremely patient [1] person's
-guide to
-THE MOST BADASS LEARNING ALGORITHM
-EVER INVENTED
+&nbsp;
 
-  Start
-    |
-    v
-*Flip* 2 coins <---  <-------------------------
-    |              |                           |
-    v              |                           |
-If first coin is:  |                           |
-{heads} -> write 0 |                           |
-{tails} -> write 1 |                           |
-    |           ---                            |
-    |    Second coin is {heads}                |
-    | Second coin is {tails}                   |
-    v                                          |
-Save bits as a *binary file*                   |
-00001010 -> random_program.bin                 |
-    |                                          |
-    v                                          |
-*Execute* it as a computer program [2]         |
-python random_program.bin > console_output.bin |
-    |                                          |
-    v                                          |
-When it starts executing,                      |
-get a new sheet of paper and...                |
-    |                        ------------------
-    |                   Do until the end of time
-    | When time ends
-    v
-Given a bitstring *B*:
-                                 # of console outputs (counting duplicates) that begin with *B*
-algorithmic probability of *B* = --------------------------------------------------------------
-                                 total # of console outputs (counting duplicates)
-    |
-    v
-Given a bitstring *C*: {put box or blue highlight around this}
-                                  algorithmic probability of *C* followed by 0
-probability that next bit is 0 = -----------------------------------------------
-                                 (algorithmic probability of *C* followed by 0 +
-                                  algorithmic probability of *C* followed by 1)
+<img src="/learning/algorithm.png" width="726"/>
 
-probability that next bit is 1 = 1 - probability that next bit is 0
-```
-
-[1] "Extremely patient" is like the biggest understatement ever.
-
-[2] Let the program use unlimited time and memory, and deterministically generate anything that could potentially be nondeterministic (such as user input).
+&nbsp;
 
 ## Why is Solomonoff induction badass?
 
