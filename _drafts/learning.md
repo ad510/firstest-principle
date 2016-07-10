@@ -205,7 +205,7 @@ Heck, in theory this is something you can do to predict the future today, withou
 
 ## The technological singularity
 
-Let's get back to the big picture. Our technology has improved a lot in the last few decades. And not only has our technology improved, but that the rate of improvement is [accelerating](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html). So what if this keeps happening? If we take this to the logical conclusion, doesn't it mean that our technology would eventually improve so quickly that we'd rapidly evolve into a completely new, super-smart species?
+Let's get back to the big picture. Our technology has improved a lot in the last few decades. And not only has our technology improved, but the rate of improvement is [accelerating](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html). So what if this keeps happening? If we take this to the logical conclusion, doesn't it mean that our technology would eventually improve so quickly that we'd rapidly evolve into a completely new, super-smart species?
 
 People call this hypothetical event the [technological singularity](https://www-rohan.sdsu.edu/faculty/vinge/misc/singularity.html), and the only thing we know for sure about it is that we don't have a BLEEPing clue what will happen when it occurs. I think these recent physics developments demonstrate the extent to which this is true. We don't just not know what would happen socially, biologically, or technologically. We don't even know what could happen on the level of fundamental physics!
 
@@ -221,6 +221,6 @@ We won't know until we actually try it. But if the answer is yes, then it would 
 
 <img src="/learning/im_superhuman.png" width="430"/>
 
-Questions? Comments? Found a mistake? Email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).
+**Questions? Comments? Found a mistake? Email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).**
 
-{email header, CC0}
+
