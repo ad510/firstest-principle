@@ -221,7 +221,7 @@ What if instead of connecting just 2 people's brains together, we connected ever
 
 We won't know until we actually try it. But if the answer is yes, then it would mean that we'd finally be able to say "I am superhuman."
 
-{I'm superhuman!}
+<img src="/learning/im_superhuman.png" width="430" height="429"/>
 
 Questions? Comments? Found a mistake? Email me at [firstestprinciple@gmail.com](mailto:firstestprinciple@gmail.com).
 
