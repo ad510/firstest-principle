@@ -99,7 +99,7 @@ Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'
 
 <img src="/learning/again_20.png" width="515"/>
 
-Then we play the same trick again, so that there's a version {not singular} of "you" that sees every 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I imagine computers will be pretty cheap in year 2050.)
+Then we play the same trick again, so that there's a version of "you" seeing each 3-digit sequence of 0's and 1's. Then we play the same trick again, and again, and so on, until we run out of money to buy more computers. (I imagine computers will be pretty cheap in year 2050.)
 
 <img src="/learning/again2_20.png" width="674"/>
 
