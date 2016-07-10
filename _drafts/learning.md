@@ -205,13 +205,11 @@ Heck, in theory this is something you can do to predict the future today, withou
 
 ## The technological singularity
 
-Let's get back to the big picture. Our technology has improved a lot in the last few decades. But haven't you noticed that not only has our technology improved, but that the rate of improvement is accelerating?
+Let's get back to the big picture. Our technology has improved a lot in the last few decades. And not only has our technology improved, but that the rate of improvement is [accelerating](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html). So what if this keeps happening? If we take this to the logical conclusion, doesn't it mean that our technology would eventually improve so quickly that we'd rapidly evolve into a completely new, super-smart species?
 
-Why is that? It's because we find ways to make our technology better. Then we use the new technology to make our technology even better, faster than we did the first time. Then we use *that* new technology to make our technology even *more* better, faster than we did it the *second* time. And so on. So what if this keeps happening? If we take this to the logical conclusion, doesn't it mean that our technology would eventually improve so quickly that we'd rapidly evolve into a completely new, super-smart species?
+People call this hypothetical event the [technological singularity](https://www-rohan.sdsu.edu/faculty/vinge/misc/singularity.html), and the only thing we know for sure about it is that we don't have a BLEEPing clue what will happen when it occurs. I think these recent physics developments demonstrate the extent to which this is true. We don't just not know what would happen socially, biologically, or technologically. We don't even know what could happen on the level of fundamental physics!
 
-People call this hypothetical event the *technological singularity* {link}, and the only thing we know for sure about it is that we don't have a BLEEPing clue what will happen when it occurs. I think these recent physics developments demonstrate the extent to which this is true. We don't just not know what will happen socially, biologically, or technologically. We don't even know what could happen on the level of fundamental physics!
-
-Obviously, I think we need to do a lot more research to figure out what sorts of things will be possible when the technological singularity occurs, so we will be better prepared when it happens. But here's what I hope will happen:
+Obviously, I think we need to do a lot more research to figure out what sorts of things will be possible when the technological singularity occurs, so we will be better prepared if it happens. But here's what I hope will happen:
 
 Remember the first stick figure drawing in this blog post, which speculated that if we connected 2 people's brains as effectively as the neural fibers that connect the 2 halves of our brains, they might feel like a single person?
 
