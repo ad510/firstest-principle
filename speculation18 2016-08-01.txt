@@ -1,14 +1,14 @@
 how maximize entropy = make lots of copies of yourself:
 - fast approximation of entropy-maximizing AIXI using type systems
   - known part of bitstring -> type of current universe
-  - unknown part of bitstring -> type of desired universe
+  - unknown part of bitstring -> type of future universe
   - reward function -> estimation of reward function based on types
-    - maximize entropy -> maximize out degree from type of current universe
-      - more accurate measure would account for different types having different expected entropy
-- make lots of copies of yourself = maximize out degree from type of current universe = maximize entropy
+    - maximize entropy -> maximize entropy of type of future universe, after incorporating future actions
+      - by def entropy, this really means to maximize # types of most likely future universes
+- make lots of copies of yourself = maximize # types of most likely future universes = maximize entropy
 
 - real life AGI might work similarly to this fast approximation of entropy-maximizing AIXI
-- dying = out degree from current universe is 0 = unknown part of bitstring has 0 entropy
+- dying = past+future has same entropy as past = past->future forms closed loop of types
   - so in theory entropy-maximizing AIXI tries to avoid dying
   - is that true in practice?
   - relationship to black holes?
