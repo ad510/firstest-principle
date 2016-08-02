@@ -15,7 +15,7 @@ additionally:
 more speculative ideas:
 - I suspect speculation6 & speculation4 are onto something, though when I wrote "entropy reduction" I likely was thinking of entanglement
 - perceived time translation: see speculation14
-- copying self: see speculation15
+- copying self: see speculation15 & speculation18
 - matter antimatter imbalance: see speculation16
 - gravity = sum of infinitely many fundamental forces
   - might want to model with superset of general relativity that doesn't obey equivalence principle in the general case
