@@ -1,17 +1,19 @@
 how maximize entropy = make lots of copies of yourself:
 - fast approximation of entropy-maximizing AIXI using type systems
-  - known part of bitstring -> type of current universe
-  - unknown part of bitstring -> type of future universe
+  - bitstring -> type of programming language
+    - programming language = function from program to unknown part of output
+    - program = either AND-ed axioms (simpler) or probability distribution over all possible axioms (more accurate)
+    - observations, actions, etc become types
   - reward function -> estimation of reward function based on types
-    - maximize entropy -> maximize entropy of type of future universe, after incorporating future actions
-      - by def entropy, this really means to maximize # types of most likely future universes
-- make lots of copies of yourself = maximize # types of most likely future universes = maximize entropy
+    - maximize entropy -> recursively maximize # possible future actions
+      - # possible actions can vary in consistent proof system, unlike turing complete programming language
+- make lots of copies of yourself = recursively maximize # possible future actions (maximize out degree) = maximize entropy
+- caching = making copies of things that may potentially become "you" in the near future (maximize in degree)
 
 - real life AGI might work similarly to this fast approximation of entropy-maximizing AIXI
-- dying = past+future has same entropy as past = past->future forms closed loop of types
-  - so in theory entropy-maximizing AIXI tries to avoid dying
+- lifetime = algorithmic probability expects output to have finite entropy = some type systems have finite # types
+  - in theory entropy-maximizing AIXI tries to avoid dying
   - is that true in practice?
   - relationship to black holes?
 - self-improvement = improve the type system and/or entropy estimation over time
   - but how?
-- this should help understand why caching is important, but first need to precisely define caching
