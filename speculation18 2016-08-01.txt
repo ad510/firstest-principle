@@ -1,12 +1,13 @@
 how maximize entropy = make lots of copies of yourself:
 - fast approximation of entropy-maximizing AIXI using type systems
-  - bitstring -> type of programming language
+  - output bitstring -> type of programming language
     - programming language = function from program to unknown part of output
-    - program = either AND-ed axioms (simpler) or probability distribution over all possible axioms (more accurate)
+      - type of program = either AND-ed axioms (simpler) or probability distribution over all possible axioms (more accurate)
+      - function = graph of atomic steps between types (A ^ B ^ C takes 2 steps) [intersection type isn't a function call]
     - observations, actions, etc become types
+[how does solomonoff induction work at this point? maybe bayes thm or quantum something on axioms? I suspect you still need to estimate entropy of type, and not clear how that relates to copying stuff]
   - reward function -> estimation of reward function based on types
-    - maximize entropy -> recursively maximize # possible future actions
-      - # possible actions can vary in consistent proof system, unlike turing complete programming language
+    - maximize entropy -> recursively maximize # possible future actions [wrong or vague]
 - make lots of copies of yourself = recursively maximize # possible future actions (maximize out degree) = maximize entropy
 - caching = making copies of things that may potentially become "you" in the near future (maximize in degree)
 
