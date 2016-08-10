@@ -1,3 +1,23 @@
+Hedge this:
+The only way I can think of to do X is to y
+To the best of my understanding, you have to...
+Decoherence math techniques might help here (I am confused by their math), but this question is so sensitive to who "you" are that I don't know whether they would be enough
+  Seem like workarounds rather than solutions to the underlying problem
+If you know of a way to predict this with standard model, please email me
+  Remove confident sounding conclusion
+
+Note to self: standard model fields are amplitudes for finding particle of each type at each point
+
+How do you experimentally determine partition between you and not you? By definition you cannot experimentally determine what quantum state of not you is (but you can measure it by becoming entangled with it) and no one else can experimentally determine partition of you and not you
+
+If you try to predict, run into free will question that quantum doesn't answer
+
+Alternate footnote: according to Scott A, it is an unsolved problem whether you are made out of classical or quantum information. But if you are made out of classical information, that would mean you can't even model you as a quantum state and the [no cloning theorem] would not prevent making unlimited [copies of you inside different simulations](mind uploading). In that case we'd definitely need a new physics theory to predict which simulation you'd find yourself in! Perhaps I should check with him if that is really what he meant...
+Check: can classical information be made out of quantum bits?
+
+One thing about a question like "who are you" is that the answer is different for everyone, and if "you" are a quantum state entangled with the larger quantum state of the universe, standard model doesn't give you a way to figure out which parts of the quantum state of the universe are "you" vs "not you". This is a real issue when you want to try to answer questions like these (wait but why). Some proposed theories of everything like digital physics are a lot less sensitive to how you answer this question, which is why I think they are promising.
+
+
 Link to:
 free will
 Who proposes as toe? Eray Ozkural, Max Tegmark, Juergen Schmidhuber, anyone else important?

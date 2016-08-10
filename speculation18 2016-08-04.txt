@@ -1,0 +1,17 @@
+(Most of this is wrong, but I'm working on blog post update with my actual current thoughts)
+
+Solomonoff induction is less wrong than the standard model
+
+Standard model prediction is that you can't copy an existing consciousness to a classical computer
+  Not that you can't simulate consciousness on a classical computer
+Solomonoff induction prediction is that knowing whether you can copy an existing consciousness to a classical computer will not help you make better predictions in the long run
+Solomonoff induction is right, and this can be shown using logic without needing to do an experiment
+
+If "you" are fundamentally quantum information then it means exact underlying probabilities (or more accurately, the complex number amplitudes that determine the probabilities) of everything you might do is needed to make exact copy ... No, prediction is about copying not knowing
+
+Understand what moving quantum state is
+
+See bottom of answer1.1
+
+If you are quantum state, you can't be copied, you can be moved, what happens if you are entangled?
+  Can we determine % of entangled state that is you?
