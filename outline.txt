@@ -1,3 +1,22 @@
+start with pure quantum state of you, approximate as mixed quantum state of you in future, entropy of entanglement cutoff
+	entropy on pure states?
+some subjectivity on how to approximate as mixed state so probably more rigorous procedure to do this, if you know please email me
+
+partial traces, cptp maps meant to work on quantum state of universe
+but if we do this calculation where "you" is quantum state of universe, predicts you'll see both 0 or 1 (like outside observers)
+doesn't match with intuition
+what we really need is quantum state of you specifically
+not trivial (free will lecture), completely subjective, SM won't tell you how to do this
+even if we ignore philosophical questions about what is quantum state of you such as free will, you still have to partition quantum state of universe so accurately that...
+
+
+Partial trace and c map work great when you are trying to model particles moving through a predictable environment, such as an alpha particle moving through the air or a qubit in a quantum computer. But in this case, you essentially have to (3 things I already wrote)
+
+Like saying the answer to your question is f(x) and not providing any way to determine what x is. This is about as unhelpful as not answering the question at all.
+
+For a physicists take on how little we know about what it means to be "you", see here. (Footnote: He went even further than me and suggested that we don't even know if we can predict our actions using classical or quantum information. If we are fundamentally made out of classical information, then the standard model definitely cannot answer the 0 or 1 question!)
+
+
 Hedge this:
 The only way I can think of to do X is to y
 To the best of my understanding, you have to...
