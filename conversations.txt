@@ -1,3 +1,23 @@
+Taylor 2016-09-09:
+- Taylor's (and I think TheThirdOne's) point is that probabilities inside simulation are metaphysical/not real because you could always tell simulated people who saw seemingly unlikely outcome that they were "lucky"
+- walk through old "proof by contradiction" confusing because complicated and not obvious which intermediate consequences I think are false
+- my reply is that if that is scientifically ok thing to do, it would also be ok to say that any probability distribution of future events in real world (e.g. struck by lightning) is also the "right" distribution and we are just lucky when we observe all experiments that say otherwise
+  - real world seems to have continuous probability distribution, simulation outcomes seem discrete, so why not just say all discrete outcomes equally likely?
+  - partitioning possibilities as specific events is arbitrary, there is no "fundamental" way to do it where all outcomes equally likely
+    - e.g. probability that you see 0 wider than what simulation should say, probability of dying, brain splitting experiment
+- set of questions that can be experimentally answered = set of questions that answer who you are (measurement as entangle with brain), so probabilities inside experiment are just as "real" as probabilities in real world
+  - theory that everything outside your body completely different from what you see is unfalsifiable
+  - standard model can only predict probabilities (without using learning algorithm) when people eventually agree on outcomes due to experiment, so these cases where different perspectives don't agree on outcome should still have theory to predict these probabilities
+- even if people in black hole can't say outcome to people outside until black hole evaporates, everyone agrees it's still an experiment
+  - not best comparison to in sim because once hook up simulated people again, seems to destroy information about probabilities (unlike current thinking about black hole evaporation)
+  - experiment justifies standard model justifies conservation of information, so if case that standard model can't answer that doesn't conserve information, doesn't necessarily mean we still have to believe conservation of information
+- Solomonoff induction has obvious problems (can only bound probabilities from below and nice properties often only apply to exact values not approximations), but people in information theory spent long time trying to come up with something better and haven't
+  - challenge in science is not poking holes but coming up with replacement
+- real biggest unsolved problem in physics isn't coming up with quantum gravity theory but having way to experimentally distinguish from current theories
+  - at current rate of progress, not unreasonable to think sufficiently good BCI could happen in my lifetime (unlike measure inside black holes), and physicists would then have responsibility to tell people what would happen to them
+  - so shouldn't this be considered a big deal?
+- note to self: in follow up post, may want to do different order where start with experiment = learn who you are then lead up to probabilities in sim are not metaphysical but empirically answerable
+
 matthew next topics 2015-12-13:
 - firstest principle isn't original (it's actually kind of obvious once you know what it means), what I haven't seen before is how I think it can be used in science
 - whether consciousness works that way is also example of experiment, not just an assumption I'm making
