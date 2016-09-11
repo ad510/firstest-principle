@@ -1,0 +1,4 @@
+- Category theory is rather than storing your knowledge as probability distribution over possible programs, let's say you know with 100% probability that what you're modeling behaves like a program with certain properties (and you don't care which precise program best models it). Then what other properties would the program (and hence the thing you're modeling) have?
+  - Learning comes from updating knowledge when type is true or false
+  - In Solomonoff induction, type is program output
+  - Why know this? You subconsciously understand analogies in terms of category theory (wait but why examples)

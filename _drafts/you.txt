@@ -1,0 +1,20 @@
+- how does universe work? summarize scientific method
+- who you will be in future?
+  - deep question in philosophy, but generally not considered part of science
+  - definitely right answer to it (e.g. 10 sec from now you'll still be in your body, not someone else's body)
+  - but in some cases not obvious
+    - if brain split in half, who you are afterwards will seem just as real to you as who you are now
+  - what kind of procedure could you use to predict who you'll be in future
+    - describe it, it sounds similar to scientific method
+- I'm going to suggest crazy idea: that not only do these procedures sound similar, but that procedure you'd use to figure out who you'll be in future is exactly the same procedure that scientists use to learn how universe works
+  - why is this crazy idea? if it's right, would mean that asking that "given who you are now, who will you be in future" is a scientific question and we ought to have a physics theory that answers it
+
+...
+
+- can't tell people inside that probabilities are metaphysical (see Taylor conversation notes)
+- so would this mean we have to accept we live in "multiverse" where different people see different laws of physics? actually no b/c all of them could use same procedure to learn who they'll be in future by using learning algorithm
+- Solomonoff induction is falsifiable b/c it's wrong if we solve halting problem
+
+- not just academic thing to ponder about, this will become extremely important once we make sufficiently good BCI
+
+- make sure I understand people's concerns before writing so I don't answer wrong question
