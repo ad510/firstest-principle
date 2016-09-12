@@ -9,10 +9,29 @@
 - I'm going to suggest crazy idea: that not only do these procedures sound similar, but that procedure you'd use to figure out who you'll be in future is exactly the same procedure that scientists use to learn how universe works
   - why is this crazy idea? if it's right, would mean that asking that "given who you are now, who will you be in future" is a scientific question and we ought to have a physics theory that answers it
 
-...
+What kind of argument would you have to make to people inside (who never saw outside world) that probabilities they predict are metaphysical
+Hi everyone!
+Hello there!
+I have something very special to tell you. I never told you this before, but part of me comes from a bigger, greater universe and I am here to tell you that all you guys live in a simulation
+Wow that's so cool! Tell us more!
+It is deterministic except whenever it's time to display next 0 or 1, they fork off 2 simulations so one version sees 0 and other version sees 1
+Do you know what are probabilities that we see 0 or 1? We saw 60% 0s and 40% 1s, so we think there is 60% probability of seeing 0
+There are many other versions of you that see otherwise and just because you saw something in past does not necessarily mean it will continue that way in future, so probabilities of seeing 0/1 are metaphysical and cannot be determined by experiment
+When the next number appears, what do you think are chances that it's 0
+If I had to guess I'd say 50% because that's what most versions of you will see, but it really doesn't matter what I guess because these probabilities cannot be determined by experiment
+We ruled that out to 5 sigmas. Do you think this is a statistical fluctuation? How many sigmas would it need to convince you that 50% is wrong?
+Infinite because that question doesn't make sense. Other versions of you see very differently and you don't have a privileged perspective over them
+Can I talk to the other versions of me and get this settled with them?
+Only if the great outside overlords let you. Last time I heard they didn't have any plans to do that
+If 0/1 probabilities cannot be determined by experiment, what about everything else we see?
+Those *can* be determined by experiment. While you do not have a privileged perspective, the great outside overlords do because they can observe the wave function of the entire universe. They programmed this to be a deterministic simulation (except for 0/1 which is never decided) so they can predict exactly what you will do, and if the computer has an error they can see that for themselves.
+Wow! They can observe the entire wave function of the universe? Even the parts of it that are outside the what you guys call the "visible universe?"
+No, they cannot observe those parts of it, at least not yet. But at least they can *directly* observe the wave function of the universe. You cannot unless they let you see outside
+The great outside overlords must be some very strange people
+Yeah, you won't believe how crazy some of them are. There are actually some people who claim that we all live in a computer simulation, then make these silly metaphysical arguments to justify that without being able to back up their claims with experimental evidence. But they are crazy people and not real physicists
 
-- can't tell people inside that probabilities are metaphysical (see Taylor conversation notes)
-- so would this mean we have to accept we live in "multiverse" where different people see different laws of physics? actually no b/c all of them could use same procedure to learn who they'll be in future by using learning algorithm
+- More reasonable conclusion is you can't prove to people whether or not they are living in someone else's simulation (or that those probabilities are metaphysical), short of great outside observers showing the outside world
+- so would this mean we have to accept we live in "multiverse" where different people see different laws of physics based on which simulation they are in? No, as long as you can come up with a theory that can be used by everyone that lives in any simulation no matter which one
 - Solomonoff induction is falsifiable b/c it's wrong if we solve halting problem
 
 - not just academic thing to ponder about, this will become extremely important once we make sufficiently good BCI
