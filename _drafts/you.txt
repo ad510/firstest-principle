@@ -16,7 +16,7 @@ I have something very special to tell you. I never told you this before, but par
 Wow that's so cool! Tell us more!
 It is deterministic except whenever it's time to display next 0 or 1, they fork off 2 simulations so one version sees 0 and other version sees 1
 Do you know what are probabilities that we see 0 or 1? We saw 60% 0s and 40% 1s, so we think there is 60% probability of seeing 0
-There are many other versions of you that see otherwise and just because you saw something in past does not necessarily mean it will continue that way in future, so probabilities of seeing 0/1 are metaphysical and cannot be determined by experiment
+There are many other versions of you that see otherwise and you can only do science when everyone else can verify your results, so probabilities of seeing 0/1 are metaphysical and cannot be determined by experiment
 When the next number appears, what do you think are chances that it's 0
 If I had to guess I'd say 50% because that's closest to what most versions of you will see, but it really doesn't matter what I guess because these probabilities cannot be determined by experiment
 We ruled that out to 5 sigmas. Do you think this is a statistical fluctuation? How many sigmas would it need to convince you that 50% is wrong?
@@ -24,7 +24,9 @@ Infinite because that question doesn't make sense. Other versions of you see ver
 Can I talk to the other versions of me and get this settled with them?
 Only if the great outside overlords let you. Last time I heard they didn't have any plans to do that
 If 0/1 probabilities cannot be determined by experiment, what about everything else we see?
-Those *can* be determined by experiment. While you do not have a privileged perspective, the great outside overlords do because they can observe the wave function of the entire universe. They programmed this to be a deterministic simulation (except for 0/1 which is never decided) so they can predict exactly what you will do, and if the computer has an error they can see that for themselves.
+Those *can* be determined by experiment because everyone else can verify the same results.
+How can I verify that the other versions of me exist when I can't see them?
+Because while you do not have a privileged perspective, the great outside overlords do since they can observe the wave function of the entire universe. They programmed this to be a deterministic simulation (except for 0/1 which is never decided) so they can predict exactly what you will do, and if the computer has an error they can see that for themselves.
 Actually, we think it is we who have a privileged perspective and the great outside overlords (and the other versions of us, for that matter) who are metaphysical, because you never told us how to do an experiment to prove that they exist
 Yeah, you won't believe how crazy some of those overlords are. Some of them even go around telling the other overlords that they all live in a computer simulation run by even greater outside overlords, then make these silly metaphysical arguments to justify that without being able to back up their claims with experimental evidence. But they are crazy people and not real physicists
 
