@@ -1,0 +1,34 @@
+define time-dependent states:
+|M> = observer
+|M0> = observer entangled with computer displaying 0
+|M1> = observer entangled with computer not displaying 0
+|M'> = observer not entangled with computer
+|A> = computer A, initially equal to |A0> + |A1>
+|A0> = computer A displays 0 (~100% probability)
+|A1> = computer A doesn't display 0 (~0% probability)
+similar for computer B
+
+computer outcome states are not basis states, but before entanglement I could alternately write them as basis states with a constant factor (just would take more space to write)
+
+combined state:
+before interaction	= |M>|A>|B>
+			= |M>(|A0> + |A1>)|B>
+interact with A		= (|M0>|A0> + |M1>|A1> + |M'>(|A0> + |A1>))|B>
+			= (|M0>|A0> + |M1>|A1> + |M'>(|A0> + |A1>))(|B0> + |B1>)
+interact with B		= |M00>|A0>|B0> + |M10>|A1>|B0> + |M'0>(|A0> + |A1>)|B0> +
+			  |M01>|A0>|B1> + |M11>|A1>|B1> + |M'1>(|A0> + |A1>)|B1> +
+			  |M0'>|A0>(|B0> + |B1>) + |M1'>|A1>(|B0> + |B1>) + |M''>(|A0> + |A1>)(|B0> + |B1>)
+
+all observers:
+amplitudes of |A0>, |B1> ~= 1
+amplitudes of |A1>, |B0> ~= 0
+
+outside observer:
+amplitudes of |M'> variants ~= 0, so all terms cancel out except |M01>|A0>|B1> which occurs with ~100% probability
+
+inside observer:
+amplitudes of |M##> variants, |M''> ~= 0, so all terms cancel out except
+	  |M0'>|A0>(|B0> + |B1>) + |M'1>(|A0> + |A1>)|B1>
+	= |M0'>|A0>|B1> + |M'1>|A0>|B1>
+	= (|M0'> + |M'1>)|A0>|B1>
+there's 2 outcomes, but probabilities solely depend on |M0'> and |M'1>, which are EXTREMELY SENSITIVE to how |M> is originally partitioned from quantum state of universe
