@@ -85,29 +85,61 @@ Will you see a 0 or a 1?
 
 Easy, right? Isn't there just a 50% chance that you'll see a 0 and a 50% chance that you'll see a 1? Not so fast. Just because there's 2 possibilities doesn't necessarily mean that each one has a 50% chance of occurring. For example, if you consider the possibilities of whether or not you'll be struck by lightning within the next 10 seconds, it is far more likely that you will not be struck by lightning.
 
-Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are the [standard model of particle physics](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/) and [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html). And if you do the painstaking calculations, they'll tell you that the outcome of this experiment looks something like this:
+<a id="update-quantum"></a>**UPDATE 8/6/2016**: I belatedly rewrote the section below due to reader feedback. Thanks guys! (Here's the [original version](https://github.com/ad510/firstest-principle/blob/daa34b2e94f8d508b8a4141b58217c8f5445d798/_posts/2016-07-10-learning.md#what-our-physics-theories-cant-predict).)
+
+Well, then, how about we do this the proper way, and use the fundamental laws of physics to derive what's going to happen? Well, the most fundamental physics theories we know of today are [general relativity](http://www.feynmanlectures.caltech.edu/II_42.html) and the [standard model of particle physics](http://www.quantumdiaries.org/2010/12/08/known-knowns-of-the-standard-model/). General relativity won't be of much use here because it doesn't have a concept of who "you" are. But the standard model has a concept called a [quantum state](http://scottaaronson.com/democritus/lec9.html) that can be used as a representation of "you."
+
+The way measurement works in quantum mechanics is that when you measure something, the quantum state of "you" becomes *entangled*, or correlated with, the quantum state of the thing you measured. For example, if the quantum state of "your thoughts about a kitten" is entangled with the quantum state of an actual kitten standing in front of you, the plain English translation is that what you *think* the kitten is doing probably has something to do with what the kitten is *actually* doing.
+
+{obvious approach would involve defining quantum states of "you", effects of evil prankster pressing 0, effects of evil prankster pressing 1, calculating how they entangle with each other}
+So if you want to use the standard model to predict what you'll see in the simulation, you'd need to calculate how "you" will become entangled with the 2 versions of the simulation. And to do this, you'd have to partition the quantum state of the universe into the subsystem that is "you" and the subsystem that is "not you." But even if you are a godlike being who knows the quantum state of the universe, partitioning the quantum state of "you" from the rest of the universe is *extremely* hard. What's more, the standard model will *not* give you any guidance on how to do it!
+
+Defining the quantum state of "you" is a famous unsolved problem in physics called the [measurement problem](https://en.wikipedia.org/wiki/Measurement_problem). And solving it isn't as simple as defining "you" as the quantum state of every particle in your brain, or as the quantum state being simulated in a quantum mechanics simulation. (If you want to understand why, go to Scott Aaronson's [lecture on free will](http://scottaaronson.com/democritus/lec18.html) and search "Mars Express." In that section, he lists several unsolved questions about its feasibility and says, "These are not metaphysical questions. They are, in principle, empirically answerable ones." You can think of this blog post as proposing one way to empirically answer some of these questions.)
+
+So if predicting what you will measure is an unsolved problem in physics, why have we gotten away with it for so long? Thanks to something called [decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence), in every experiment we've done in practice, the quantum state of the universe quickly reached a state where everyone agreed on what the outcome of the experiment was. In other words, even if everyone measured different things, at least what each person measured was *consistent* with what every other person measured. {to account for decoherence into unknown environment in these situations, you can use techniques in quora link}
+
+But once we create sufficiently good brain-computer interfaces, we may create situations where different people will *not* agree on the outcome. For example, in the "0 or 1" experiment, you would either die, see a 0, or see a 1, but everyone watching the computers from outside will see all 3 outcomes simultaneously, like in the drawing below. {math of those techniques is way too complicated for me to understand, but they seem to be workarounds to not knowing quantum state of "you" rather than solving the underlying problem, and I'd be really surprised if they can model "you" accurately enough to model the case where you can only see 1 of these outcomes instead of all 3 simultaneously. If I'm right about that,} In that case, decoherence would no longer be a valid excuse for not knowing what the quantum state of "you" is.
 
 <img src="/learning/outcome_25.png" width="652"/>
 
-Here's the thing. While these theories can give you a probability distribution over what every atom in those computers is going to do, ~~neither of them has a concept of who "you" are.~~ *See update below.* So if you happen to know that "you" are a person being simulated in 2 computers (but you don't know which computer you're in because both copies of you have identical memories), and one version of "you" is going to see a 0 and the other version of "you" is going to see a 1, these theories cannot predict the probabilities of either version being the "real you!" <a id="fnref2" href="#fn2">[2]</a>
+{to the best of my understanding,} What this means is that in order to correctly predict the probabilities of you seeing a 0 or a 1, you have to take a wild guess at how to partition the quantum state of the universe into the subsystem that is "you" and the subsystem that is "not you," and it has to be accurate enough to correctly predict:
 
-Of course, if the brain theory is right and you die before you would see either the 0 or the 1, then this doesn't matter and our existing physics theories would still be valid. But if the data theory is right and there's a nonzero chance that you *do* see either the 0 or the 1, then that would mean *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!*
+1. How "you" move over a brain-computer interface from a brain into a simulation
+2. What happens to "you" when the classical bits of the simulation are copied into 2 other computers {copy classical bits != copy quantum state of computers. Cannot copy quantum state of subatomic particles in computer. Even if simulating quantum mechanics (which may not necessarily be the case), no cloning theorem predicts that simulated quantum state cannot be the quantum state of you, only a quantum state that may or may not be entangled with you}
+3. How strongly "you" entangle with the simulation when it displays either a 0 or a 1
 
+If your wild guess isn't *that* accurate, then even if you have unlimited computational resources, the standard model will likely make a *very* wrong prediction. {if I'm misunderstanding something and you know of a way to predict this with standard model, please email me. Since my current understanding is} In other words, *it's possible to do an experiment in which the most fundamental physics theories we know of today cannot predict the probabilities of you seeing a 0 or a 1!* {I think it is very likely current understanding is wrong}
+
+{digital physics is TOE that's much less sensitive to who you are}
 In that case, we'd need a new physics theory to fill the gap.
 
----
+```
+current best guess of defining events: after converting pure state of you now to mixed state of you when displaying 0/1, what is probability that entropy of entanglement between computer & pure state of "real you" is greater than cutoff
+some subjectivity on how to approximate as mixed state so probably more rigorous procedure to do this
 
-<a id="update-quantum"></a>**UPDATE**: A couple people suggested that this can be described by using the [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation) of quantum mechanics, so let's do that. Quantum mechanics says you [can't copy an unknown quantum state](https://en.wikipedia.org/wiki/No-cloning_theorem) but you *can* move it, so it may seem like you can predict whether you'll see a 0 or a 1 if you know which computer the quantum state of "you" will be moved to. But to [move a quantum state](https://en.wikipedia.org/wiki/Quantum_teleportation) without moving the original particles, you have to create an entangled pair of qubits plus 2 classical bits for every subatomic-scale qubit you want to move, and copying the classical bits of the simulation would not do that. Classical computers can't even preserve quantum information, let alone move it in a controlled way! So *if* you are fundamentally made out of quantum information, the standard model predicts that no matter how we try to move "you" to a *classical* computer, you cannot live on in the simulation when your original human brain dies. And if we instead move the quantum state of "you" into a *quantum* computer, we wouldn't be able to copy the simulation onto another computer to play the "0 or 1" trick. Take note, neuroscientists!
+intuitive understanding of von neumann entropy
+- discrete shannon entropy = sum(p[i] * log2(1 / p[i]) for i = 1 to n)
+  - min # yes or no questions you'd expect to ask to learn outcome (https://www.youtube.com/watch?v=2s3aJfRr9gE)
 
-So problem solved? Actually no. The *real* problem is that no one knows whether the information that uniquely determines who you are is quantum information, classical information, or something else that can't be described with either model of information. And if it turns out that a standard model quantum state is *not* a good way to model your identity, we'd need a new physics theory to describe what happens to "you" when we hook up that awesome brain-computer interface in year 2050.
+one specific situation where you'd use partial trace/cptp map (to understand assumptions they make)
+- https://en.wikipedia.org/wiki/Quantum_decoherence#Density_matrix_approach
 
-For a physicist's take on this, go to Scott Aaronson's [lecture on free will](http://scottaaronson.com/democritus/lec18.html) and search "Mars Express." In one part, he lists several unsolved questions about its feasibility and says, "These are not metaphysical questions. They are, in principle, empirically answerable ones." You can think of this blog post as proposing one way to empirically answer some of these questions.
+- https://en.wikipedia.org/wiki/Quantum_decoherence
+  - "Decoherence shows how a macroscopic system interacting with a lot of microscopic systems (e.g. collisions with air molecules or photons) moves from being in a pure quantum state—which in general will be a coherent superposition (see Schrödinger's cat)—to being in an incoherent mixture of these states. The weighting of each outcome in the mixture in case of measurement is exactly that which gives the probabilities of the different results of such a measurement."
+  - "Moreover, our observation tells us that this mixture looks like a proper quantum ensemble in a measurement situation, as we observe that measurements lead to the "realization" of precisely one state in the "ensemble"."
+- quantum ensemble = mixed state (https://en.wikipedia.org/wiki/Density_matrix), so this basically says decoherence describes how pure state turns into mixed state, where mixed state probabilities are probabilities of alternative events happening
+  - so maybe what I want is probability of all events in mixed state of "you" whose entropy with version of sim is greater than cutoff value
 
----
+https://www.quora.com/How-is-quantum-entanglement-related-to-decoherence
+http://www.academia.edu/7100280/Partial_traces_in_decoherence_and_in_interpretation_What_do_reduced_states_refer_to
+
+delete footnote 2?
+check update date
+```
 
 ## Enter the learning algorithms
 
-Remember that at the beginning of this post, I promised to tell you about how people are "applying techniques from information theory and theoretical machine learning to better understand physics?" Well, now I get to tell you about that. But before we get into how you might figure out the probability of seeing a 0 or a 1 in the situation above, let's start with a slightly different question.
+Remember that at the beginning of this post, I promised to tell you about how people are "applying techniques from information theory and theoretical machine learning to better understand physics?" Well, now I get to tell you about that. But before we get into how you might use [digital physics](https://en.wikipedia.org/wiki/Digital_physics) to figure out the probability of seeing a 0 or a 1 in the situation above, let's start with a slightly different question.
 
 Suppose we do the experiment above, and you end up seeing either a 0 or a 1. (I'm going to assume from now on that the data theory is right, though this is still an open question.) But since those of us controlling the simulation are evil pranksters, we play the same trick again on both copies of "you" so that there are now 4 versions of "you:" a version that sees 00, a version that sees 01, a version that sees 10, and a version that sees 11.
 
