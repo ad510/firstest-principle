@@ -1,0 +1,21 @@
+find link explaining problems if can put observer in superposition?
+
+        > The most challenging part of defining the quantum state of "you" in this problem is picking a quantum ...
+
+entangle strongly with one not both
+word this carefully b/c "probability of being entangled with something" doesn't make sense w/o context
+many-worlds wikipedia describes how "relative state" of you works
+	many-worlds says you have to partition QS of universe into QS of you, but doesn't say precisely where to draw the partition
+	usually doesn't matter b/c decoherence usually ensures you'll eventually get entangled with everything anyway
+	but in this case you get entangled with one not both and need to know probability of getting entangled with each one, so to answer it you need to know very precisely what quantum state of you is
+	(current update makes fact you need partitioning sound surprising, but actual surprise is you need to know where to do it)
+
+https://www.quora.com/What-constitutes-observation-in-quantum-mechanics
+"But with an observing state that can distinguish the two states, you end up futzing everything up..."
+	same math as other quora answer but with observer instead of environment
+how do I describe case where both obs1 & obs2 observe both <- and -> (which is what wants to happen in my case)
+
+Tegmark's interpretation: https://physics.stackexchange.com/questions/4841/what-is-the-wavefunction-of-the-observer-himself
+
+compare to 2 slit experiment with imperfect sensor?
+can find probabilities by squaring factors in front of terms (http://plato.stanford.edu/entries/qm-everett/#3)
