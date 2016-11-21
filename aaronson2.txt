@@ -1,0 +1,19 @@
+- based on Scott Aaronson's reply, he seems to think this is a valid experiment, but if you can be uploaded to classical computer then outcome only matters to you not everyone
+- i.e. he seems to put experiments in 3 categories: experiments, experiments but only for some people, not experiments
+- I had somehow convinced myself previously that all experiments are actually in the "experiments but only for some people" category, but not for any reason that I could explain effectively
+  - what does he mean by "operational meaning" and "universal validity"
+- I mainly disagree with him on this on a philosophical/ethical standpoint and not an empirical or logical one, so it'll be hard to show that either of these positions is objectively wrong. But I think almost everyone is going to agree with my position by the time we actually develop mind uploading technologies.
+  - consumers will hold physicists accountable for being able to predict what they'll perceive, whether physicists think they should be responsible for that or not
+
+Also, assuming a positive cosmological constant, sufficiently far parts of the universe would be forever out of causal contact with us—leading to philosophical debate about whether those parts should figure into scientific explanations, or even be considered to “exist.” (64)
+
+- our perspective: person in sim's claims don't have universal validity
+- sim perspective: person outside's theory doesn't explain my situation, but it has universal validity?
+  - not if person in sim's experiences can be solely (not partially) determined by simulation splits, but not clear that's possible due to cosmic rays and other random events
+
+- more to it than that, since I thought probability of body you wake up in tomorrow is also scientific question
+- does "universal validity" apply to measurement or hypothesis
+  - if hypothesis then our current physics theories wouldn't have universal validity
+  - if measurement then nonzero probability that it'll be reversed by quantum fluctuations (can I think of something better than that?)
+- what definition of "universal validity" would imply that physical measurements have universal validity despite cosmological horizon, but measuring result of simulation split doesn't
+- I still want to follow up on corpus collosum question

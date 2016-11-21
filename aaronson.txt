@@ -1,0 +1,24 @@
+paradoxes of personal identity
+
+If it's possible to upload your mind to a classical computer, you've mentioned that this would cause paradoxes because you wouldn't be able to come up with probabilities that each copy of you is the "real you" using known physics theories. If it turns out that against all odds, it is in fact possible to upload your mind to a classical computer, and the speculation about the technological singularity is right that we'll be able to do this in several decades, could this be a practical experimental test of physics beyond the standard model (which presumably would then have to resolve those paradoxes)?
+
+follow-up responses:
+- how would you falsify a physics theory in that case
+  - experimental evidence would be uncopyable, but other people could still reproduce the experiment by performing it on themselves
+  - if positive cosmological constant, then every experiment would be like this
+- he technically didn't say "using known physics theories" so what if he meant "at all"
+  - what should person in sim do in that case? (follow up with next bullet point)
+- there was actually a blog post from a few months ago at (link) that suggested that you could try to predict outcome of those paradoxes using the "universal predictor" from algorithmic information theory
+  - "Briefly, a predictor using the universal prior can be thought of as a superintelligent entity that figures out the right probabilities almost as fast as is information-theoretically possible. But that’s conceptually very different from an entity that already knows the probabilities." (33)
+    - I agree that's not the same as knowing the probabilities in advance, but that'd still be better than giving up on "science as something agents can use to predict their future experiences," wouldn't it?
+  - "Appendix: Prediction and Kolmogorov Complexity" says
+    - can easily defeat "universal predictor" using diagonalization, but he thinks it's unlikely church turing thesis is false
+      - I say this also makes this hypothesis falsifiable
+    - "the number of serious mistakes that the predictor makes before converging on the correct Q could in general be as large as Q’s bit-length. Worse yet, there’s no finite time after which the predictor can know that it’s converged on the correct Q. ... For me, the issue is simply that the relevant bounds [before can make perfect predictions, assuming church turing thesis is true] seem too large to be of any practical interest."
+      - I agree it won't necessarily avoid making mistakes in predictions, but that's better than any other way I could think of to try to predict the outcome of that kind of situation. If you know of any (computable) alternative that could more reliably predict the correct outcome in that kind of situation, I'm interested in learning about it.
+
+follow-up questions:
+- as a follow-up question so that I can understand your "Knightian freedom" proposal better, do you think whether you end up on left or right side of brain something that can be predicted probabilistically, or is this an example of Knightian uncertainty that you can't even reliably quantify using probability distributions
+  - "Brain-Uploading: Who Cares?" says if we could do brain uploading, questions about personal identity would no longer be metaphysical and start to have practical consequences. But if escaping those problems by saying an outside observer could calculate probabilities of your behavior would be giving up on "science as something agents can use to predict their future experiences," why is it ok for someone to give up on predicting their future experiences if they know their brain will be split in half?
+  - if he just says it's 50%
+    - hmm, do you know of a way to derive that from first principles? Also, would you give the same answer if instead of splitting brain in half, half of your brain is slowly poisoned to death and the other half is left intact? (losing half of brain is survivable, see hemispherectomy)
