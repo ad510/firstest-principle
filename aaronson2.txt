@@ -15,5 +15,22 @@ Also, assuming a positive cosmological constant, sufficiently far parts of the u
 - does "universal validity" apply to measurement or hypothesis
   - if hypothesis then our current physics theories wouldn't have universal validity
   - if measurement then nonzero probability that it'll be reversed by quantum fluctuations (can I think of something better than that?)
-- what definition of "universal validity" would imply that physical measurements have universal validity despite cosmological horizon, but measuring result of simulation split doesn't
+- what definition of "universal validity" would imply that physical measurements have universal validity, but measuring result of simulation split doesn't
+  - measurement => you don't know outcome before measuring, but you do after measuring
+  - everyone would measure the same outcome
+    - who is everyone? if includes people outside cosmological horizon or all branches of many-worlds then physical measurements aren't UV
+    - everyone = everyone you can communicate to
+      - naively this includes invisible ghosts listening to us but who are selectively deaf when we tell them about measurement outcomes (then those physical measurements aren't UV), need more specific definition to clarify ghosts don't exist
+    - everyone = everyone who can communicate to you
+      - if there are aliens who were inside our cosmologial horizon in the past but not anymore, then physical measurements aren't UV
+      - if people have free will, then this includes invisible, deaf ghosts who know about you but choose not to communicate with you, if they exist then physical measurements aren't UV
+    - everyone = everyone who you've communicated with (in both directions) in the past and you can still communicate with (in both directions), assuming people have free will
+      - (doesn't work if other people don't have free will b/c if you go in sim and no one outside communicates with you afterward, then measuring simulation split has UV)
+      - works with cosmological horizon b/c you can no longer communicate with those aliens
+      - works when you put yourself in sim b/c simulation split is a measurement to you but not to people outside
+        - if your experiences in sim can be solely (not partially) determined by simulation splits then people outside can no longer communicate to you, but not clear that's possible due to cosmic rays and other random events
+      - works when we don't know whether our universe is simulation b/c if there's people in outer universe, they haven't communicated to us
+      - I think this actually works! this still allows humanlike AI characters to have a different TOE than us, but no longer allows you to travel between different "universes" with different TOEs like in scientific question1.2, which would be ridiculous
+        - unless you forget about the people you communicated with in the past (hee hee hee)
 - I still want to follow up on corpus collosum question
+  - he could just say that isn't universally valid either, but I could reply that would be giving up on science

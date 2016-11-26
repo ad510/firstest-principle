@@ -1,0 +1,27 @@
+If you have 2 hypotheses: one that is Solomonoff induction and the other that is deterministic but uncomputable, and the uncomputable hypothesis is correct, is that something you could even demonstrate with a computable statistical test? Usually
+
+Incompleteness theorem of science: for every scientific community that is a strict superset of you, there's a wrong hypothesis that you can experimentally disprove for yourself but cannot experimentally disprove to the wider scientific community
+  Naturally follows from set of scientific questions = set of questions about who you will be in the future
+  Whether you can put yourself in simulation, unless the entire scientific community comes with you
+  If positive cosmological constant and there are aliens that we can observe but cannot share experimental results with, would already imply weaker version with "there exists" instead of "for every"
+
+People say quantum mechanics has nothing to do with consciousness because before people understood how decoherence works, they came up with interpretations that sometimes sounded like they were talking about consciousness but they were really just trying to understand things like the double slit experiment, and it was important to make that clear to non-physicists. I don't think people anticipated at the time that we may soon develop the technology to probe how consciousness actually works at a fundamental level, and if that actually happens, it would suddenly become very important to build a theoretical framework of how consciousness works (and I agree that the standard model cannot be that framework).
+
+Separate from whether scientific, current blog post makes argument that trying to put self in classical computer could distinguish standard model from digital physics, but doesn't (yet) make argument that standard model makes wrong prediction, apart from 2 sentences in Scott Aaronson section
+
+only things that are truly copyable are immutable values
+  You can have (copyable) reference to mutable place, but then the reference itself is immutable
+
+Kinds of people who think we can make good BCI in next few decades tend to be same kind of people who can already figure out to use learning algorithms in that situation
+
+In split brain experiment, quantum state of you either must suddenly confine itself to half of your brain (contradicting what you'd expect to happen due to decoherence) or could be made to depend on the outcome of arbitrarily microscopic *future* events (e.g. if you use quantum mechanically random event to decide whether to split brain left-right or front-back)
+Reply would be that this does not have underlying probability because this is not repeatable experiment because quantum state of you is unknown, and if it was repeatable you could create a time loop
+My reply would be this is fundamentally true of all experiments, and in practice we just get arbitrarily close to repeating the experiment and come up with a probability based on that
+
+Classical bits are not you != you die in original computer
+Not clear what quantum mechanics predicts *would* happen when they get entangled
+
+You're not allowed to say you're the real you any more than they are
+We're trying to understand how the universe works, not have a metaphysical argument about whether I'm the real me!
+
+Update: I got a [bunch of comments] that Solomonoff induction would be an extremely impractical algorithm to use in this situation (or any situation, for that matter). Obviously, if you are actually in this situation, you'd want to use a different learning algorithm that would not take until past the heat death of the universe for you to compute, but that would take you down the giant rat-hole that is [machine learning]. I describe Solomonoff induction here because it is *the* gold standard of predictive ability for learning algorithms, and because it is a very simple algorithm that I think captures the essence of what the wider field of machine learning tries to do.
