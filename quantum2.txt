@@ -1,0 +1,7 @@
+Ask if consistent histories branch structure is only of observable universe
+If yes, can finding center be used to reconstruct where (who) you are (scientific question3)
+If no, could be infinitely many observable universes similar to ours and we wouldn't have a way to know which one is ours (even probabilistically), so how could you still make probabilistic predictions when you don't know which of them is the one you're in
+
+Quantum state of you:
+Countable list of observables, you check off as you observe them
+Use Solomonoff induction to predict what you observe next for finite amount of time
