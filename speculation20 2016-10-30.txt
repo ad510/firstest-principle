@@ -3,6 +3,7 @@ If you have 2 hypotheses: one that is Solomonoff induction and the other that is
 incompleteness theorem of science (Scott Aaronson's version): for every physics theory, there exist true facts about the universe that you can't predict using that physics theory, not even probabilistically
   closely related to free will
   e.g. standard model can't predict edge of observable universe
+  can 2nd law of thermodynamics be true while this is false?
 
 Incompleteness theorem of science: for every scientific community that is a strict superset of you, there's a wrong hypothesis that you can experimentally disprove for yourself but cannot experimentally disprove to the wider scientific community
   Naturally follows from set of scientific questions = set of questions about who you will be in the future
