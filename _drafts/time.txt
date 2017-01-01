@@ -1,0 +1,33 @@
+The perception of time when living in a simulation
+
+First blog post: so what
+Let's raise stakes, repeatedly split simulation 2^n ways where n is number of bits of memory
+What the hell would you perceive then?
+Deeper question: is everything we will ever perceive the result of super intelligent aliens doing that to us?
+Digital physics answer is not yes or no, but that there is no experiment we could perform that would tell us the answer
+I consider that to be most fundamental proposition of digital physics
+
+Info box: if proposition is false, how could we figure that out?
+Communicate uncountably large set
+You: hey, can you tell me every real number between 0 and 1?
+A friend: sure! (Lists every real number between 0 and 1)
+You: wow, I totally heard all of that, and you actually did list out every real number between 0 and 1! I guess digital physics cannot fundamentally be the right model of the universe!
+Possibly relevant: I suspect this would be even harder than proving you have a halting oracle: http://math.stackexchange.com/questions/63961/could-someone-prove-they-had-a-halting-oracle
+
+Actually, proposition just as important is the bit string you'll perceive is computable
+does Solomonoff induction work here? https://en.wikipedia.org/wiki/Omega-regular_language
+
+Back to first question, what would you perceive?
+Cannot use SI definitions of distance and time. Does that mean that at most fundamental level of physics, distance and time don't exist?
+That may sound like a deeply profound question, but really there is not an objectively wrong answer to that because words are a social construct, so however we answer that, no one can do an experiment that would prove us wrong
+So let's come up with convenient definitions of time and distance to use here
+You can't necessarily bring atomic clock into your simulation, but you can still ask yourself how long it *feels* like events took
+Neuroscientists (?) have done experiments where they asked people that, and it turns out how we perceive time passing is very interesting
+Examples: sit on hot stove, how long was vacation, wake up in hospital
+What these all have in common is the more information people felt like they remembered about the event, the longer it felt
+We have a good mathematical measure for that called entropy
+Define perceived time = information gain, perceived distance = information gain had something else happened
+
+Reasonable and unreasonable situations in simulation and how much you remember about them: see speculation 6
+  Does entropy math actually work there?
+Virtual particles, and is this actually happening to us in every moment of our lives?
