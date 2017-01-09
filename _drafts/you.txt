@@ -1,6 +1,6 @@
 - better idea: propose defining "personal identity" as the study of the set of questions you can answer using the scientific method, then explain why this fits our intuitive notion of what personal identity is
   - avoids ambiguity of "who you will be in future"
-  - title: personal identity and the scientific method
+  - title: the science of personal identity
 
 - how does universe work? summarize scientific method
 - who you will be in future?
