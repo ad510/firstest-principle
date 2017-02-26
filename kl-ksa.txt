@@ -1,0 +1,51 @@
+prob_dis(pi, v).prob(h) = P_pi_v(h)
+alg_prob(v) = w_v
+
+sum = f -> this.map(f).reduce(+)
+d = (a, b) -> a * log(a / b)
+
+optimal_policy = h ->
+  arg_max(p ->
+    # value of policy p = expected discounted info gain
+    environments.sum(v ->
+      let t = len(h) + 1 in
+      # P(v|h) * discounted info gain from [t, infinity)
+      alg_prob(v|h) * range(t, infinity).sum(k -> # future timestep
+        0.99999^k * histories_of_length(k - t).sum(h' -> # possible history from [t, k)
+          # P(h'|pv) * info gain at step k
+          prob_dis(p, v).prob(h'|h) * histories.sum(h'' -> # possible history at k
+            d(prob_dis(p, v).prob(h''|hh'),
+              # P(h''|p) at step k
+              environments.sum(v' -> alg_prob(v') * prob_dis(p, v').prob(h''|hh'))))))))
+
+How is w_v stochastic
+Echo chamber question
+What would stop it from hooking up outputs to inputs
+
+What environment would make it "happiest"?
+My guess: most complicated environment that it believes it can predict with high probability given what it has learned about how the universe works
+
+Why would using set of stochastic computable environments make it pick different actions than set of deterministic computable environments?
+Taylor and I hypothesize that having random number oracle doesn't make a difference for passive learning, but it affects what value of relative entropy will be calculated which makes a difference for picking actions
+Look at AIXI paper or email authors to confirm
+
+P_pi_E = probability distribution over possible environments (hence the weighted sum over possible environments)
+	vs P_pi_v assumes a given environment
+w_v is prior
+w_v(h) = Bayes rule for P(v|h) = probability we'd have assigned to environment v if we'd known then what we know after measuring h
+	must be separate from w_v because w_v is in the same defining equation
+
+theorem 3 says can't learn more about environment than amount of info in environment
+
+"choosing M and w" says w_v is algorithmic probability, set of environments is defined in AIXI book
+AIXI environment = output of universal monotone Turing machine executing deterministic program given past actions as input (http://hutter1.net/ai/uaibook.htm)
+but agent still eventually picks correct environment if it is in set of environments even if not algorithmic probability, it just takes longer
+
+random variable ~= observable with a probability distribution (cs170 10/30)
+relative entropy = information gain = Kullback-Leibler (KL) divergence (http://math.ucr.edu/home/baez/thermo.pdf)
+	if your data really comes from probability distribution P, but you use a compression scheme optimised for Q, the divergence D(P||Q) is the number of extra bits you'll require to store a record of each sample from P (https://www.quora.com/What-is-a-good-laymans-explanation-for-the-Kullback-Leibler-Divergence)
+discounted relative entropy: http://larspeterhansen.org/wp-content/uploads/2016/12/HStenuous_14_lars3.pdf section 3 "Measuring statistical discrepancy" under "relative entropy appropriate for stochastic processes"
+mixture models: https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch20.pdf
+	"weights depend on the parameters we are trying to estimate" but use EM algorithm to iteratively calculate value of weights
+sup = supremum = least upper bound
+MDP = markov decision process
