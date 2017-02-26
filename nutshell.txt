@@ -18,4 +18,5 @@ more speculative ideas:
 - copying self: see speculation15
 - matter antimatter imbalance: see speculation16
 - gravity = sum of infinitely many fundamental forces
+  - fundamental force strengths have lopsided distribution, think power law
   - might want to model with superset of general relativity that doesn't obey equivalence principle in the general case
