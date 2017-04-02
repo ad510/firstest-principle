@@ -18,7 +18,8 @@ optimal_policy = h ->
               # P(h''|p) at step k
               environments.sum(v' -> alg_prob(v') * prob_dis(p, v').prob(h''|hh'))))))))
 
-How is w_v stochastic
+How are environments (!= prior probability) stochastic
+http://aslanides.io/aixijs
 Echo chamber question
 What would stop it from hooking up outputs to inputs
 
