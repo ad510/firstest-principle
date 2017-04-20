@@ -21,7 +21,6 @@ optimal_policy = h ->
 How are environments (!= prior probability) stochastic
 http://aslanides.io/aixijs
 Echo chamber question
-What would stop it from hooking up outputs to inputs
 
 What environment would make it "happiest"?
 My guess: most complicated environment that it believes it can predict with high probability given what it has learned about how the universe works
@@ -40,6 +39,7 @@ theorem 3 says can't learn more about environment than amount of info in environ
 
 "choosing M and w" says w_v is algorithmic probability, set of environments is defined in AIXI book
 AIXI environment = output of universal monotone Turing machine executing deterministic program given past actions as input (http://hutter1.net/ai/uaibook.htm)
+	shortest program that echoes input to output is very short, so KL-KSA won't be happy with hooking up outputs to inputs like Solomonoff's mad scientist would
 but agent still eventually picks correct environment if it is in set of environments even if not algorithmic probability, it just takes longer
 
 random variable ~= observable with a probability distribution (cs170 10/30)
