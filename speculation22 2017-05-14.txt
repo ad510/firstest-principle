@@ -1,0 +1,2 @@
+Scientists like Turing complete proof systems because it means everything is possible
+Mathematicians like non Turing complete proof systems so that way you can say some things are impossible

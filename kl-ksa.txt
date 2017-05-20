@@ -5,25 +5,44 @@ sum = f -> this.map(f).reduce(+)
 d = (a, b) -> a * log(a / b)
 
 optimal_policy = h ->
-  arg_max(p ->
+  arg_max(p -> # is policy at next step, or all future steps, or something else?
     # value of policy p = expected discounted info gain
     environments.sum(v ->
       let t = len(h) + 1 in
       # P(v|h) * discounted info gain from [t, infinity)
       alg_prob(v|h) * range(t, infinity).sum(k -> # future timestep
         0.99999^k * histories_of_length(k - t).sum(h' -> # possible history from [t, k)
-          # P(h'|pv) * info gain at step k
+          # P(h'|pv) * info gain (reward?) at step k
           prob_dis(p, v).prob(h'|h) * histories.sum(h'' -> # possible history at k
             d(prob_dis(p, v).prob(h''|hh'),
               # P(h''|p) at step k
               environments.sum(v' -> alg_prob(v') * prob_dis(p, v').prob(h''|hh'))))))))
 
+Sum from y = 0 to delta t of a^y * a * e
+
+I think I know enough to code KL-KSA, but should work through examples of edge cases I'm wondering about
+What is equivalent of reward at step k in KL-KSA
+Write down Shannon KSA pseudocode, compare them
 How are environments (!= prior probability) stochastic
+  Is prior with N stochastic environments equivalent to a prior with >N deterministic environments?
+https://github.com/gkassel/pyaixi
 http://aslanides.io/aixijs
 Echo chamber question
 
-What environment would make it "happiest"?
-My guess: most complicated environment that it believes it can predict with high probability given what it has learned about how the universe works
+Shannon wants to maximize entropy of all input, KL wants to maximize relative entropy of future input considering what it learned from past input
+Try again: KL wants to maximize information gain (how wrong it was) going from current probability distribution of input (given no actions?) to probability distribution of input after having taken actions
+Re reading slides: KL maximizes expected information gain going from predicted probability distribution of input to what it will actually observe
+  Shannon maximizes information gain going from uniform distribution (?) to predicted probability distribution of input
+  I should watch khan academy and try to visualize information gain formula
+Shannon wants expected input to match a certain probability distribution, KL wants expected probability distribution of input to change over time as much as possible
+
+Matthew asked why doesn't it try to minimize information gain (so it would make better predictions), I said because it can only measure through inputs and it is using best possible learning algorithm, so that makes it explore parts of universe it has not explored yet
+Similarly if probability distribution becomes randomness, then it won't learn anything
+
+Order to explain:
+it tries to pick actions to explore part of Solomonoff induction predictions that it least understands or are worst
+Entropy and information gain
+From outer to inner loops so we can use information gain formula
 
 Why would using set of stochastic computable environments make it pick different actions than set of deterministic computable environments?
 Taylor and I hypothesize that having random number oracle doesn't make a difference for passive learning, but it affects what value of relative entropy will be calculated which makes a difference for picking actions
@@ -40,6 +59,7 @@ theorem 3 says can't learn more about environment than amount of info in environ
 "choosing M and w" says w_v is algorithmic probability, set of environments is defined in AIXI book
 AIXI environment = output of universal monotone Turing machine executing deterministic program given past actions as input (http://hutter1.net/ai/uaibook.htm)
 	shortest program that echoes input to output is very short, so KL-KSA won't be happy with hooking up outputs to inputs like Solomonoff's mad scientist would
+	actually Solomonoff mad scientist wouldn't do that either because entropy is a measure of probability distribution not bitstring
 but agent still eventually picks correct environment if it is in set of environments even if not algorithmic probability, it just takes longer
 
 random variable ~= observable with a probability distribution (cs170 10/30)
@@ -50,3 +70,5 @@ mixture models: https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch20.pdf
 	"weights depend on the parameters we are trying to estimate" but use EM algorithm to iteratively calculate value of weights
 sup = supremum = least upper bound
 MDP = markov decision process
+
+Steven Mould made entropy video
