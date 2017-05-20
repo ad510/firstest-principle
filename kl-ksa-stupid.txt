@@ -1,7 +1,0 @@
-Entropy: If you randomly pick programs until you find one that outputs that bitstring, how long would you expect program to be
-  Wrong because of compression, see algorithmic thermodynamics paper, though I think you can do (uncomputable) linear transformation from this to that
-Relative entropy: subtract entropy of bitstring[:-1]?
-  Previously wrote "sampling only from programs that output bitstring beginning with bitstring[:-1]" (wrong)
-Take sum of relative entropies at each future step multiplied by 0.99999^step so it doesn't add up to infinity
-Pick input to programs that maximizes that sum
-

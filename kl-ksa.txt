@@ -18,26 +18,22 @@ optimal_policy = h ->
               # P(h''|p) at step k
               environments.sum(v' -> alg_prob(v') * prob_dis(p, v').prob(h''|hh'))))))))
 
-Sum from y = 0 to delta t of a^y * a * e
-
 I think I know enough to code KL-KSA, but should work through examples of edge cases I'm wondering about
 What is equivalent of reward at step k in KL-KSA
 Write down Shannon KSA pseudocode, compare them
 How are environments (!= prior probability) stochastic
-  Is prior with N stochastic environments equivalent to a prior with >N deterministic environments?
+	Is prior with N stochastic environments equivalent to a prior with >N deterministic environments?
 https://github.com/gkassel/pyaixi
 http://aslanides.io/aixijs
 Echo chamber question
 
-Shannon wants to maximize entropy of all input, KL wants to maximize relative entropy of future input considering what it learned from past input
-Try again: KL wants to maximize information gain (how wrong it was) going from current probability distribution of input (given no actions?) to probability distribution of input after having taken actions
-Re reading slides: KL maximizes expected information gain going from predicted probability distribution of input to what it will actually observe
-  Shannon maximizes information gain going from uniform distribution (?) to predicted probability distribution of input
-  I should watch khan academy and try to visualize information gain formula
-Shannon wants expected input to match a certain probability distribution, KL wants expected probability distribution of input to change over time as much as possible
+KL-KSA maximizes expected information gain going from predicted probability distribution of input to what it will actually observe
+Shannon-KSA maximizes information gain going from uniform distribution (?) to predicted probability distribution of input
+	I should watch khan academy and try to visualize information gain formula
+Shannon-KSA wants expected input to match a certain probability distribution, KL-KSA wants expected probability distribution of input to change over time as much as possible
 
 Matthew asked why doesn't it try to minimize information gain (so it would make better predictions), I said because it can only measure through inputs and it is using best possible learning algorithm, so that makes it explore parts of universe it has not explored yet
-Similarly if probability distribution becomes randomness, then it won't learn anything
+Similarly if probability distribution becomes randomness, then it won't learn anything (wrong b/c observations are deterministic in hindsight)
 
 Order to explain:
 it tries to pick actions to explore part of Solomonoff induction predictions that it least understands or are worst
@@ -65,10 +61,5 @@ but agent still eventually picks correct environment if it is in set of environm
 random variable ~= observable with a probability distribution (cs170 10/30)
 relative entropy = information gain = Kullback-Leibler (KL) divergence (http://math.ucr.edu/home/baez/thermo.pdf)
 	if your data really comes from probability distribution P, but you use a compression scheme optimised for Q, the divergence D(P||Q) is the number of extra bits you'll require to store a record of each sample from P (https://www.quora.com/What-is-a-good-laymans-explanation-for-the-Kullback-Leibler-Divergence)
-discounted relative entropy: http://larspeterhansen.org/wp-content/uploads/2016/12/HStenuous_14_lars3.pdf section 3 "Measuring statistical discrepancy" under "relative entropy appropriate for stochastic processes"
-mixture models: https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch20.pdf
-	"weights depend on the parameters we are trying to estimate" but use EM algorithm to iteratively calculate value of weights
 sup = supremum = least upper bound
 MDP = markov decision process
-
-Steven Mould made entropy video
