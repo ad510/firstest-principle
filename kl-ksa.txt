@@ -5,7 +5,7 @@ sum = f -> this.map(f).reduce(+)
 d = (a, b) -> a * log(a / b)
 
 optimal_policy = h ->
-  arg_max(p -> # is policy at next step, or all future steps, or something else?
+  arg_max(p -> # policy at all future steps
     # value of policy p = expected discounted info gain
     environments.sum(v ->
       let t = len(h) + 1 in
@@ -19,6 +19,7 @@ optimal_policy = h ->
               environments.sum(v' -> alg_prob(v') * prob_dis(p, v').prob(h''|hh'))))))))
 
 I think I know enough to code KL-KSA, but should work through examples of edge cases I'm wondering about
+many deterministic environments vs 1 stochastic environment
 What is equivalent of reward at step k in KL-KSA
 Write down Shannon KSA pseudocode, compare them
 How are environments (!= prior probability) stochastic
