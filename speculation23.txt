@@ -1,0 +1,2 @@
+what you'll observe and do in the future is predicted by Solomonoff induction
+perceived time is measured by the value function in "Universal Knowledge-Seeking Agents for Stochastic Environments" https://www.hutter1.net/publ/ksaprob.pdf
